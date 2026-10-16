@@ -1,0 +1,316 @@
+{
+  "seed": 1000066,
+  "evaluation_case": "insert_HDMI",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 22,
+  "decisions": 5,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_HDMI_insert_HDMI_1000066_vision",
+  "task_id": "UniVTAC_insert_HDMI",
+  "benchmark": "UniVTAC",
+  "task": "insert_HDMI",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "2.200000",
+    "nb_frames": "22"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 22,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/5eed6ff8ae3acd48c054e5fe.mp4",
+  "poster": "media/5eed6ff8ae3acd48c054e5fe.jpg",
+  "usage": {
+    "attempts": 5,
+    "requests_with_tokens": 5,
+    "prompt_tokens": 112630,
+    "completion_tokens": 2819,
+    "total_tokens": 115449,
+    "cached_tokens": 63665,
+    "reasoning_tokens": 2022,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Bring the retained plug toward the socket center in the image while lowering partway; make a small tilt correction and preserve grip.",
+      "actions": [
+        [
+          0,
+          0.00055,
+          -0.0007,
+          0.002,
+          -0.001,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0.00055,
+          -0.0007,
+          0.002,
+          -0.001,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0.00055,
+          -0.0007,
+          0.002,
+          -0.001,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0.00055,
+          -0.0007,
+          0.002,
+          -0.001,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0.00055,
+          -0.0007,
+          0.002,
+          -0.001,
+          0,
+          0.09572
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "The plug moved with the hand and is nearly centered over the mouth. Trim the small rightward offset and descend toward the socket without changing grip.",
+      "actions": [
+        [
+          0,
+          -0.0002,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          -0.0002,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          -0.0002,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          -0.0002,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          -0.0002,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.09572
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "The tip is centered in the image and just above the slot. Lower in submillimeter steps to engage, watching for deflection or blocked insertion.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09572
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "The plug reaches the visible mouth with no lateral deflection. Continue a shallow straight insertion while preserving orientation and grip.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09572
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Continue the centered insertion in small downward steps; the visible tip is at the socket surface, so monitor for any sideways motion.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.09572
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.09572
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

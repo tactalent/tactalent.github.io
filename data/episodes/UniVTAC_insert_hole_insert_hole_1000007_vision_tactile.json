@@ -1,0 +1,794 @@
+{
+  "seed": 1000007,
+  "evaluation_case": "insert_hole",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 70,
+  "decisions": 14,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_hole_insert_hole_1000007_vision_tactile",
+  "task_id": "UniVTAC_insert_hole",
+  "benchmark": "UniVTAC",
+  "task": "insert_hole",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "7.000000",
+    "nb_frames": "70"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 70,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/cb77d7f3e2e8a06214020b1c.mp4",
+  "poster": "media/cb77d7f3e2e8a06214020b1c.jpg",
+  "usage": {
+    "attempts": 14,
+    "requests_with_tokens": 14,
+    "prompt_tokens": 460013,
+    "completion_tokens": 3491,
+    "total_tokens": 463504,
+    "cached_tokens": 401893,
+    "reasoning_tokens": 1348,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Lower the held stick gently toward the entrance; keep the existing grip and watch for contact-induced tilt.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue the slow vertical contact approach, preserving the grasp.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Approach deeper in small vertical steps; the stick remains centered at the visible entrance.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Continue gentle descent; slight opposing tactile slopes suggest contact is beginning.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Contact tilts the tactile bands in opposite directions. Test a small positive-X accommodation while lowering slowly.",
+      "actions": [
+        [
+          0.0003,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0004,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0004,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0005,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0005,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "The contact-induced lean agrees with positive-X motion of the upper stick. Increase that lean gently without rotating the hand.",
+      "actions": [
+        [
+          0.0008,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.001,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.001,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.001,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.001,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Continue the positive-X pivot, using a shallow downward arc and monitoring the retained stick and tactile angle.",
+      "actions": [
+        [
+          0.0013,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "The stick remains seated at the entrance and tilts smoothly. Continue the pivot toward the slanted channel.",
+      "actions": [
+        [
+          0.0016,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0016,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0016,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0016,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0016,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Increase the upper-stick offset gradually; tactile and head views show a stable lean but not yet the full channel angle.",
+      "actions": [
+        [
+          0.0016,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0016,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0016,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Approach the roughly 30-degree lean with smaller positive-X steps, maintaining contact at the entrance.",
+      "actions": [
+        [
+          0.0012,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0012,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0012,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0011,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          0.0011,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "The retained tube is near the 60-degree channel direction. Test insertion down and negative X while watching that its tilt stays stable.",
+      "actions": [
+        [
+          -0.0004,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0005,
+          0,
+          -0.000866,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0005,
+          0,
+          -0.000866,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0005,
+          0,
+          -0.000866,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0005,
+          0,
+          -0.000866,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "The tilt remains stable during the insertion test. Advance gently along the same down-and-negative-X channel axis.",
+      "actions": [
+        [
+          -0.0007,
+          0,
+          -0.001212,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0008,
+          0,
+          -0.001386,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0008,
+          0,
+          -0.001386,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0008,
+          0,
+          -0.001386,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0008,
+          0,
+          -0.001386,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Continue along the inferred slanted hole; the exposed stick is shortening while its tactile angle stays consistent.",
+      "actions": [
+        [
+          -0.0009,
+          0,
+          -0.001559,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0009,
+          0,
+          -0.001559,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0009,
+          0,
+          -0.001559,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0009,
+          0,
+          -0.001559,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.0009,
+          0,
+          -0.001559,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "Advance another short distance along the same channel direction, retaining the stick and watching the remaining exposed length.",
+      "actions": [
+        [
+          -0.000866,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.000866,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.000866,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.000866,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146743
+        ],
+        [
+          -0.000866,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146743
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

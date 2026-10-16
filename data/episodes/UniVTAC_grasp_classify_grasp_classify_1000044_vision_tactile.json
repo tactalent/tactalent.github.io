@@ -1,0 +1,195 @@
+{
+  "seed": 1000044,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 12,
+  "decisions": 3,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000044_vision_tactile",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "1.100000",
+    "nb_frames": "11"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 11,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/422f40a3d47d90b4c04332bc.mp4",
+  "poster": "media/422f40a3d47d90b4c04332bc.jpg",
+  "usage": {
+    "attempts": 3,
+    "requests_with_tokens": 3,
+    "prompt_tokens": 74376,
+    "completion_tokens": 848,
+    "total_tokens": 75224,
+    "cached_tokens": 47923,
+    "reasoning_tokens": 422,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Contact images show uniform bands without rough ridges, indicating smooth. Carry the retained cylinder toward the green pad while keeping the grasp closed.",
+      "actions": [
+        [
+          0.003,
+          0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.003,
+          0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.003,
+          0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.003,
+          0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.181417
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "The cylinder is visibly retained and the tactile pattern remains smooth. Continue diagonally toward the green pad with gradual lowering.",
+      "actions": [
+        [
+          0.004,
+          0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.004,
+          0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.004,
+          0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.004,
+          0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.181417
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "Approach the green pad with the smooth cylinder still held upright; keep the base clear until lateral alignment is complete.",
+      "actions": [
+        [
+          0.0035,
+          0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.0035,
+          0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.0035,
+          0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.0035,
+          0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

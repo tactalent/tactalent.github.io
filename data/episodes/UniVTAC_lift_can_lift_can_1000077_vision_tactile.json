@@ -1,0 +1,1267 @@
+{
+  "seed": 1000077,
+  "evaluation_case": "lift_can",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 111,
+  "decisions": 23,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_lift_can_lift_can_1000077_vision_tactile",
+  "task_id": "UniVTAC_lift_can",
+  "benchmark": "UniVTAC",
+  "task": "lift_can",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "11.000000",
+    "nb_frames": "110"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ],
+    "wrist": [
+      640,
+      360
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 110,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/377d0ebc390c9fb50b6aaa93.mp4",
+  "poster": "media/377d0ebc390c9fb50b6aaa93.jpg",
+  "usage": {
+    "attempts": 23,
+    "requests_with_tokens": 23,
+    "prompt_tokens": 997853,
+    "completion_tokens": 8393,
+    "total_tokens": 1006246,
+    "cached_tokens": 826001,
+    "reasoning_tokens": 4855,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Close gradually around the near end of the horizontal can; keep the initial hand alignment while checking contact.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.94
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.89
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.84
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.79
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.74
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue a measured closure, watching for bilateral tactile contact before lifting.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.7
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.66
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.62
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.59
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.56
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "One tactile pad is beginning to contact. Close slightly further and allow the can to seat between both fingers.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.55
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.54
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.53
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Both tactile pads now show contact. Begin a slow lift of the held end, retaining the current grip and watching for slip.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Continue lifting gently with a small motion toward the far end, letting the can begin to pivot while maintaining bilateral contact.",
+      "actions": [
+        [
+          0.0001,
+          0,
+          0.0012,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.0001,
+          0,
+          0.0014,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.0001,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.0001,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.0001,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Can is retained but remains nearly horizontal. Slow the lift and slightly relax the opening target to permit controlled pivoting, not release.",
+      "actions": [
+        [
+          0.0002,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.523
+        ],
+        [
+          0.0002,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.526
+        ],
+        [
+          0.0002,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.529
+        ],
+        [
+          0.0002,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.532
+        ],
+        [
+          0.0002,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Lift the held end another 5 mm with the established contact, monitoring the can’s orientation and its lower end.",
+      "actions": [
+        [
+          0.00025,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.00025,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.00025,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.00025,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.00025,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Maintain the grip and a slow rising arc; assess whether the can pivots under gravity before adding wrist rotation.",
+      "actions": [
+        [
+          0.0003,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.0003,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.0003,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.0003,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.0003,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "The can remains mostly horizontal. Add a small controlled wrist pitch while raising and compensating the finger position to start turning it upright.",
+      "actions": [
+        [
+          0.0017,
+          0,
+          0.002,
+          0,
+          0.015,
+          0,
+          0.535
+        ],
+        [
+          0.0017,
+          0,
+          0.002,
+          0,
+          0.015,
+          0,
+          0.535
+        ],
+        [
+          0.0017,
+          0,
+          0.002,
+          0,
+          0.015,
+          0,
+          0.535
+        ],
+        [
+          0.0017,
+          0,
+          0.002,
+          0,
+          0.015,
+          0,
+          0.535
+        ],
+        [
+          0.0017,
+          0,
+          0.002,
+          0,
+          0.015,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Retained contact and visible tilt are stable. Continue a gentle pitch-and-lift, keeping the lower end clear of the surface.",
+      "actions": [
+        [
+          0.0021,
+          0,
+          0.0022,
+          0,
+          0.02,
+          0,
+          0.535
+        ],
+        [
+          0.0021,
+          0,
+          0.0022,
+          0,
+          0.02,
+          0,
+          0.535
+        ],
+        [
+          0.0021,
+          0,
+          0.0022,
+          0,
+          0.02,
+          0,
+          0.535
+        ],
+        [
+          0.0021,
+          0,
+          0.0022,
+          0,
+          0.02,
+          0,
+          0.535
+        ],
+        [
+          0.0021,
+          0,
+          0.0022,
+          0,
+          0.02,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "Rotate the securely held can further toward vertical, translating the hand to offset the finger arc and maintain bottom clearance.",
+      "actions": [
+        [
+          0.0037,
+          0,
+          0.0024,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0037,
+          0,
+          0.0024,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0037,
+          0,
+          0.0023,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0037,
+          0,
+          0.0022,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0037,
+          0,
+          0.0021,
+          0,
+          0.03,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Continue the controlled upright rotation; both contact patches remain present and the can follows the hand.",
+      "actions": [
+        [
+          0.0041,
+          0,
+          0.0019,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0041,
+          0,
+          0.0018,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0041,
+          0,
+          0.0017,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0041,
+          0,
+          0.0016,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0041,
+          0,
+          0.0015,
+          0,
+          0.03,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Advance the slow rotation toward upright while compensating the fingertip arc; monitor reach and preserve the grasp.",
+      "actions": [
+        [
+          0.0042,
+          0,
+          0.0014,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0042,
+          0,
+          0.0013,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0042,
+          0,
+          0.0012,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0042,
+          0,
+          0.0011,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0042,
+          0,
+          0.001,
+          0,
+          0.03,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "Continue pitching the can toward vertical, now reducing hand height to compensate for the rising finger arc and avoid unnecessary reach.",
+      "actions": [
+        [
+          0.0032,
+          0,
+          -0.0002,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0032,
+          0,
+          -0.0003,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0031,
+          0,
+          -0.0004,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0031,
+          0,
+          -0.0005,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.003,
+          0,
+          -0.0006,
+          0,
+          0.03,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 70,
+      "text": "Keep rotating with a compensated hand arc. The can remains retained; aim to align its cylinder axis vertically before placing it.",
+      "actions": [
+        [
+          0.003,
+          0,
+          -0.0009,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0029,
+          0,
+          -0.001,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0029,
+          0,
+          -0.0011,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0028,
+          0,
+          -0.0012,
+          0,
+          0.03,
+          0,
+          0.535
+        ],
+        [
+          0.0028,
+          0,
+          -0.0013,
+          0,
+          0.03,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 75,
+      "text": "Approach vertical in smaller increments, compensating the grip-point arc and maintaining the existing contact.",
+      "actions": [
+        [
+          0.0025,
+          0,
+          -0.0012,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          0.0025,
+          0,
+          -0.0013,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          0.0024,
+          0,
+          -0.0014,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          0.0024,
+          0,
+          -0.0014,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          0.0023,
+          0,
+          -0.0015,
+          0,
+          0.025,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 79,
+      "text": "The last rotation step was rejected near extended reach. Replan from the executed pose and bring the retained can inward to regain joint margin.",
+      "actions": [
+        [
+          -0.004,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          -0.004,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          -0.004,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          -0.004,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          -0.004,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 84,
+      "text": "Resume a smaller pitch toward upright without extending farther outward; allow the grip point to move inward while maintaining clearance.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0.025,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 89,
+      "text": "Can is close to upright. Bring the hand inward during a small additional pitch, preserving joint margin and the grasp.",
+      "actions": [
+        [
+          -0.0025,
+          0,
+          -0.0012,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          -0.0025,
+          0,
+          -0.0012,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          -0.0025,
+          0,
+          -0.0012,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          -0.0025,
+          0,
+          -0.0012,
+          0,
+          0.025,
+          0,
+          0.535
+        ],
+        [
+          -0.0025,
+          0,
+          -0.0012,
+          0,
+          0.025,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 94,
+      "text": "Make the final small pitch toward a vertical can axis, moving inward to avoid the extended-arm limit.",
+      "actions": [
+        [
+          -0.002,
+          0,
+          -0.0015,
+          0,
+          0.02,
+          0,
+          0.535
+        ],
+        [
+          -0.002,
+          0,
+          -0.0015,
+          0,
+          0.02,
+          0,
+          0.535
+        ],
+        [
+          -0.002,
+          0,
+          -0.0015,
+          0,
+          0.02,
+          0,
+          0.535
+        ],
+        [
+          -0.002,
+          0,
+          -0.0015,
+          0,
+          0.02,
+          0,
+          0.535
+        ],
+        [
+          -0.002,
+          0,
+          -0.0015,
+          0,
+          0.02,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 99,
+      "text": "The can now appears vertical. Lower it toward the support surface with a slight inward translation, retaining the grip until its base is supported.",
+      "actions": [
+        [
+          -0.002,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          -0.002,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          -0.002,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          -0.002,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          -0.002,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 104,
+      "text": "Lower the remaining gap while correcting the small residual lean. Keep the can secured until the base approaches the tabletop.",
+      "actions": [
+        [
+          -0.0005,
+          0,
+          -0.003,
+          0,
+          0.01,
+          0,
+          0.535
+        ],
+        [
+          -0.0005,
+          0,
+          -0.003,
+          0,
+          0.01,
+          0,
+          0.535
+        ],
+        [
+          -0.0005,
+          0,
+          -0.003,
+          0,
+          0.01,
+          0,
+          0.535
+        ],
+        [
+          -0.0005,
+          0,
+          -0.003,
+          0,
+          0.01,
+          0,
+          0.535
+        ],
+        [
+          -0.0005,
+          0,
+          -0.003,
+          0,
+          0.01,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 109,
+      "text": "The can is visually upright and very close to the surface. Lower gently another 9 mm while holding its orientation.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0018,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          -0.0018,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          -0.0018,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          -0.0018,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          -0.0018,
+          0,
+          0,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

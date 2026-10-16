@@ -1,0 +1,593 @@
+{
+  "seed": 10025,
+  "evaluation_case": "weight_classify_light",
+  "conditions": {
+    "weight_label": "light"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 48,
+  "decisions": 10,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_weight_classify_weight_classify_light_10025_vision_tactile",
+  "task_id": "OpenViTac_weight_classify",
+  "benchmark": "OpenViTac",
+  "task": "weight_classify",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "4.800000",
+    "nb_frames": "48"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      320,
+      240
+    ],
+    "tactile_right": [
+      320,
+      240
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 48,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/b43ca20d6979f09707134c6b.mp4",
+  "poster": "media/b43ca20d6979f09707134c6b.jpg",
+  "usage": {
+    "attempts": 10,
+    "requests_with_tokens": 10,
+    "prompt_tokens": 316190,
+    "completion_tokens": 3662,
+    "total_tokens": 319852,
+    "cached_tokens": 264580,
+    "reasoning_tokens": 2107,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible upright block with open fingers, using the head view to align before touch.",
+      "actions": [
+        [
+          -0.008,
+          0.001,
+          -0.006,
+          -0.002156,
+          -0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.001,
+          -0.006,
+          -0.002156,
+          -0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.001,
+          -0.006,
+          -0.002156,
+          -0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.001,
+          -0.006,
+          -0.002156,
+          -0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.001,
+          -0.006,
+          -0.002156,
+          -0.002764,
+          -0.000568,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue the open-finger descent, straightening the hand and aligning to the block center.",
+      "actions": [
+        [
+          -0.008,
+          0.001,
+          -0.008,
+          -0.002156,
+          -0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.001,
+          -0.008,
+          -0.002156,
+          -0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.001,
+          -0.008,
+          -0.002156,
+          -0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.001,
+          -0.008,
+          -0.002156,
+          -0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.001,
+          -0.008,
+          -0.002156,
+          -0.002764,
+          -0.000568,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Finish positioning the fingers around the upright block without closing yet.",
+      "actions": [
+        [
+          -0.0051,
+          0.0008,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0051,
+          0.0008,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0051,
+          0.0008,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0051,
+          0.0008,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0051,
+          0.0008,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Close gradually around the block, then inspect tactile contact before a small weight-sensing lift.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.43
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.34
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.25
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.16
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.101
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Lift slightly while maintaining the grasp; compare contact deformation and verify that the block rises with the fingers.",
+      "actions": [
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.101
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Raise the retained block clear of the table and inspect the loaded tactile pattern before selecting a plate.",
+      "actions": [
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.101
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "The block remains securely retained with little visible tactile shear during lifting; tentatively classify it as light and begin moving toward blue.",
+      "actions": [
+        [
+          0.003,
+          0.003,
+          0.003,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.003,
+          0.003,
+          0.003,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.003,
+          0.003,
+          0.003,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.003,
+          0.003,
+          0.003,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.003,
+          0.003,
+          0.003,
+          0,
+          0,
+          0,
+          0.101
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Carry the retained, tentatively light block toward the blue plate while maintaining clearance.",
+      "actions": [
+        [
+          0.006,
+          0.006,
+          0,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.006,
+          0.006,
+          0,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.006,
+          0.006,
+          0,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.006,
+          0.006,
+          0,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.006,
+          0.006,
+          0,
+          0,
+          0,
+          0,
+          0.101
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Align above the blue plate and begin a controlled descent, keeping the block upright and grasped.",
+      "actions": [
+        [
+          0.0046,
+          0.0062,
+          -0.004,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.0046,
+          0.0062,
+          -0.004,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.0046,
+          0.0062,
+          -0.004,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.0046,
+          0.0062,
+          -0.004,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0.0046,
+          0.0062,
+          -0.004,
+          0,
+          0,
+          0,
+          0.101
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Lower the retained block toward the center of the blue plate; inspect clearance before releasing.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0044,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          -0.0044,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          -0.0044,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          -0.0044,
+          0,
+          0,
+          0,
+          0.101
+        ],
+        [
+          0,
+          0,
+          -0.0044,
+          0,
+          0,
+          0,
+          0.101
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

@@ -1,0 +1,271 @@
+{
+  "seed": 1000002,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 20,
+  "decisions": 5,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000002_vision",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "1.900000",
+    "nb_frames": "19"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 19,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/b38cae6e86c0256dddecff37.mp4",
+  "poster": "media/b38cae6e86c0256dddecff37.jpg",
+  "usage": {
+    "attempts": 5,
+    "requests_with_tokens": 5,
+    "prompt_tokens": 96477,
+    "completion_tokens": 2476,
+    "total_tokens": 98953,
+    "cached_tokens": 72578,
+    "reasoning_tokens": 1804,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Apply a small upward contact probe while preserving the initial grip; watch object motion relative to the fingers for slip.",
+      "actions": [
+        [
+          0,
+          0.001,
+          0.002,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0,
+          -0.001,
+          0.002,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0,
+          0.001,
+          0.002,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0,
+          -0.001,
+          0.002,
+          0,
+          0,
+          0,
+          0.171354
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "The object followed the first probe. Slightly increase the opening target during another small lift/twist to look for friction-dependent slip; keep the test over the table.",
+      "actions": [
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0.01,
+          0.2
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          -0.01,
+          0.22
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0.01,
+          0.24
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          -0.01,
+          0.24
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "The cylinder slipped downward relative to the rising fingers at the wider opening. Restore a secure opening target and verify retention; this response provisionally favors smooth/green.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.003,
+          0,
+          0,
+          0,
+          0.15
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.15
+        ],
+        [
+          0.001,
+          0.002,
+          0.001,
+          0,
+          0,
+          0,
+          0.15
+        ],
+        [
+          0.001,
+          0.002,
+          0.001,
+          0,
+          0,
+          0,
+          0.15
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 12,
+      "text": "Retention is visible after re-closing. Carry the provisionally smooth cylinder toward the green pad with conservative translation and gradual lowering.",
+      "actions": [
+        [
+          0.004,
+          0.006,
+          -0.004,
+          0,
+          0,
+          0,
+          0.15
+        ],
+        [
+          0.004,
+          0.006,
+          -0.004,
+          0,
+          0,
+          0,
+          0.15
+        ],
+        [
+          0.004,
+          0.006,
+          -0.004,
+          0,
+          0,
+          0,
+          0.15
+        ],
+        [
+          0.004,
+          0.006,
+          -0.004,
+          0,
+          0,
+          0,
+          0.15
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 16,
+      "text": "The cylinder is tracking the fingers without further visible slip. Continue toward green, keeping its base just above pad height.",
+      "actions": [
+        [
+          0.006,
+          0.01,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.15
+        ],
+        [
+          0.006,
+          0.01,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.15
+        ],
+        [
+          0.006,
+          0.01,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.15
+        ],
+        [
+          0.006,
+          0.01,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.15
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

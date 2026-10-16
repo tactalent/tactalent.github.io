@@ -1,0 +1,437 @@
+{
+  "seed": 10032,
+  "evaluation_case": "hardness_classify_soft",
+  "conditions": {
+    "hardness_label": "soft"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 34,
+  "decisions": 7,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_hardness_classify_hardness_classify_soft_10032_vision_tactile",
+  "task_id": "OpenViTac_hardness_classify",
+  "benchmark": "OpenViTac",
+  "task": "hardness_classify",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "3.400000",
+    "nb_frames": "34"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      320,
+      240
+    ],
+    "tactile_right": [
+      320,
+      240
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 34,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/6ce29c6ed81b050b228cc784.mp4",
+  "poster": "media/6ce29c6ed81b050b228cc784.jpg",
+  "usage": {
+    "attempts": 7,
+    "requests_with_tokens": 7,
+    "prompt_tokens": 218380,
+    "completion_tokens": 2829,
+    "total_tokens": 221209,
+    "cached_tokens": 175496,
+    "reasoning_tokens": 1709,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible red block with fingers open, leveling the hand before touch.",
+      "actions": [
+        [
+          -0.01,
+          -0.0006,
+          -0.007,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.01,
+          -0.0006,
+          -0.007,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.01,
+          -0.0006,
+          -0.007,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.01,
+          -0.0006,
+          -0.007,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.01,
+          -0.0006,
+          -0.007,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Lower and center the open fingers around the upper part of the block.",
+      "actions": [
+        [
+          -0.009,
+          -0.0002,
+          -0.009,
+          -0.008625,
+          2.4e-05,
+          -0.000118,
+          0.512821
+        ],
+        [
+          -0.009,
+          -0.0002,
+          -0.009,
+          -0.008625,
+          2.4e-05,
+          -0.000118,
+          0.512821
+        ],
+        [
+          -0.009,
+          -0.0002,
+          -0.009,
+          -0.008625,
+          2.4e-05,
+          -0.000118,
+          0.512821
+        ],
+        [
+          -0.009,
+          -0.0002,
+          -0.009,
+          -0.008625,
+          2.4e-05,
+          -0.000118,
+          0.512821
+        ],
+        [
+          -0.009,
+          -0.0002,
+          -0.009,
+          -0.008625,
+          2.4e-05,
+          -0.000118,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Close gradually onto the red block to obtain tactile deformation cues; hardness is not yet determined.",
+      "actions": [
+        [
+          -0.001,
+          -0.0002,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.43
+        ],
+        [
+          -0.001,
+          -0.0002,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.35
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.27
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.19
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Maintain a light squeeze and lift slightly to check retention and the contact pattern; current deformation appears soft-like.",
+      "actions": [
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The retained block shows the soft-like diffuse tactile pattern. Carry it with clearance toward the blue plate.",
+      "actions": [
+        [
+          0.005,
+          0.007,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.005,
+          0.007,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.005,
+          0.007,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.005,
+          0.007,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.005,
+          0.007,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Move the visibly retained soft block over the center of the blue plate, maintaining height and grip.",
+      "actions": [
+        [
+          0.008277,
+          0.011302,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008277,
+          0.011302,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008277,
+          0.011302,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008277,
+          0.011302,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008277,
+          0.011302,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Lower the soft block vertically toward the blue plate while keeping it centered and retained.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.008,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.008,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.008,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.007,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.007,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

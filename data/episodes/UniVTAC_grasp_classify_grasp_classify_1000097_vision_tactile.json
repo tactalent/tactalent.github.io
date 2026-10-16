@@ -1,0 +1,238 @@
+{
+  "seed": 1000097,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 14,
+  "decisions": 4,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000097_vision_tactile",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "1.300000",
+    "nb_frames": "13"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 13,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/88e52664df1550fb9f6dbc61.mp4",
+  "poster": "media/88e52664df1550fb9f6dbc61.jpg",
+  "usage": {
+    "attempts": 4,
+    "requests_with_tokens": 4,
+    "prompt_tokens": 101590,
+    "completion_tokens": 1154,
+    "total_tokens": 102744,
+    "cached_tokens": 72680,
+    "reasoning_tokens": 596,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Tactile contact shows broad untextured bands, consistent with smooth. Carry toward the green pad while preserving the existing grasp.",
+      "actions": [
+        [
+          0.0025,
+          0.004,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.0025,
+          0.004,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.0025,
+          0.004,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.0025,
+          0.004,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.168081
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "The cylinder remains between the fingers. Continue toward the green pad with a gradual descent.",
+      "actions": [
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "Maintain the smooth-object grasp and approach the visible green pad; keep the cylinder upright.",
+      "actions": [
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 12,
+      "text": "Center the retained smooth cylinder over the green pad and lower its base near the pad surface.",
+      "actions": [
+        [
+          0.00385,
+          0.00595,
+          -0.0034,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.00385,
+          0.00595,
+          -0.0034,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.00385,
+          0.00595,
+          -0.0034,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.00385,
+          0.00595,
+          -0.0034,
+          0,
+          0,
+          0,
+          0.168081
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

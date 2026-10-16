@@ -1,0 +1,2206 @@
+{
+  "seed": 1000029,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 198,
+  "decisions": 50,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000029_vision",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "19.800000",
+    "nb_frames": "198"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 198,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/6db38742e31f97d471c2f1c8.mp4",
+  "poster": "media/6db38742e31f97d471c2f1c8.jpg",
+  "usage": {
+    "attempts": 50,
+    "requests_with_tokens": 50,
+    "prompt_tokens": 1110643,
+    "completion_tokens": 23020,
+    "total_tokens": 1133663,
+    "cached_tokens": 763938,
+    "reasoning_tokens": 17455,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Apply a gentle lateral/twist contact probe while retaining the cylinder; texture remains uncertain from RGB alone.",
+      "actions": [
+        [
+          0,
+          0.002,
+          0.001,
+          0,
+          0,
+          0.015,
+          0.185069
+        ],
+        [
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.015,
+          0.185069
+        ],
+        [
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          -0.015,
+          0.185069
+        ],
+        [
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          -0.015,
+          0.185069
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "Cylinder remains retained after the probe. Tentatively classify as rough and approach the visible orange pad, preserving the grip.",
+      "actions": [
+        [
+          0.003,
+          -0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.003,
+          -0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.003,
+          -0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.003,
+          -0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "Carry the retained cylinder toward the orange pad with a level grasp and a gradual descent.",
+      "actions": [
+        [
+          0.003,
+          -0.006,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.003,
+          -0.006,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.003,
+          -0.006,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.003,
+          -0.006,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 12,
+      "text": "Approach the orange pad center while lowering the upright cylinder; keep the current grip until supported.",
+      "actions": [
+        [
+          0.004,
+          -0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.004,
+          -0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.004,
+          -0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.004,
+          -0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.185069
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 16,
+      "text": "Fine-align the retained cylinder over the orange pad and descend slowly toward its surface.",
+      "actions": [
+        [
+          0.0025,
+          -0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.0025,
+          -0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.0025,
+          -0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0.0025,
+          -0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 20,
+      "text": "The cylinder is centered over orange with a small visible gap; lower it gently to pad height before opening.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.185069
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 24,
+      "text": "Set the cylinder onto the orange pad and gradually open the fingers, checking that it stays upright and supported.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.35
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.65
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 28,
+      "text": "Retract vertically with the gripper open to verify the cylinder remains on the orange pad independently of the hand.",
+      "actions": [
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 32,
+      "text": "The cylinder remains upright on orange after release. Move the open hand clear and allow the placement to settle.",
+      "actions": [
+        [
+          -0.003,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.003,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.003,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.003,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 36,
+      "text": "Withdraw the open hand toward the center, above the cylinder, to leave the orange-pad placement unobstructed.",
+      "actions": [
+        [
+          -0.003,
+          0.015,
+          0.005,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.003,
+          0.015,
+          0.005,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.003,
+          0.015,
+          0.005,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.003,
+          0.015,
+          0.005,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 40,
+      "text": "Keep the open hand clear while the upright cylinder settles on the orange pad; no further contact is needed.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 44,
+      "text": "Maintain clearance and observe the released cylinder on orange for stability; the placement remains unchanged.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 48,
+      "text": "Keep the open hand stationary, clear of the upright cylinder on the orange pad, while awaiting settling.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 52,
+      "text": "The released cylinder remains upright on orange; maintain hand clearance without disturbing it.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 56,
+      "text": "Withdraw the open hand further from the upright cylinder on orange, leaving the placement unobstructed.",
+      "actions": [
+        [
+          -0.004,
+          0.002,
+          0.005,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.004,
+          0.002,
+          0.005,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.004,
+          0.002,
+          0.005,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.004,
+          0.002,
+          0.005,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 60,
+      "text": "Hold the open hand clear; the cylinder remains upright over the orange pad. Observe stability without disturbing it.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 64,
+      "text": "Keep the hand clear and observe the cylinder on orange for settling; the texture classification remains tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 68,
+      "text": "Cylinder remains upright on the orange pad with the hand clear. Preserve the stable placement and monitor; texture identification is tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 72,
+      "text": "Maintain clearance and leave the released cylinder upright on orange; no visible placement drift.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 76,
+      "text": "Leave the stable orange-pad placement undisturbed with the hand clear; RGB does not resolve texture certainty.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 80,
+      "text": "Maintain clearance from the upright cylinder on orange. Placement is stable in RGB; texture classification remains tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 84,
+      "text": "Keep the open hand clear of the stable cylinder on orange and monitor without disturbing the placement; texture remains uncertain.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 88,
+      "text": "Maintain hand clearance while the cylinder stands on orange. Preserve the placement; RGB alone has not confirmed its texture.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 92,
+      "text": "Keep the open hand clear and leave the upright orange-pad placement undisturbed; texture classification remains tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 96,
+      "text": "Leave the stable cylinder on orange and keep the open hand clear. Texture classification remains tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 100,
+      "text": "Keep the open hand clear of the cylinder, which remains upright on orange. Preserve the stable placement; texture is not independently confirmed by RGB.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 104,
+      "text": "Preserve the upright orange-pad placement and keep the open hand clear. Texture classification remains uncertain from the available observations.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 108,
+      "text": "Keep the hand clear and preserve the stable orange-pad placement. The cylinder is visibly supported, but its texture remains uncertain.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 112,
+      "text": "Maintain clearance from the upright cylinder on orange without disturbing it. The placement is stable in RGB; texture classification remains tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 116,
+      "text": "Preserve the upright cylinder placement on orange with the hand clear. Its texture remains tentative; no new contact evidence is available.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 120,
+      "text": "Keep the hand clear of the cylinder standing on orange. Preserve the stable placement; the rough classification remains tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 124,
+      "text": "Keep the open hand clear and preserve the upright orange-pad placement. No visible drift; texture classification remains tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 128,
+      "text": "Leave the cylinder upright on orange and keep the open hand clear. Placement is stable in RGB; texture remains tentatively classified as rough.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 132,
+      "text": "Keep the hand clear and preserve the stable orange-pad placement. The rough classification remains tentative without additional contact feedback.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 136,
+      "text": "Maintain open-hand clearance while the cylinder stands on orange. Preserve the placement; texture identification remains tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 140,
+      "text": "Keep the open hand clear of the stable cylinder on orange. No visible displacement; the rough classification remains tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 144,
+      "text": "Maintain hand clearance and leave the upright cylinder on orange undisturbed. Placement is stable in RGB; texture classification remains tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 148,
+      "text": "Keep the open hand clear and preserve the upright orange-pad placement. Texture remains tentatively classified as rough; no new contact evidence is available.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 152,
+      "text": "Maintain hand clearance and preserve the upright cylinder on orange. Placement is stable in RGB; the rough classification remains tentative.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 156,
+      "text": "Reapproach the supported cylinder with open fingers for a cautious contact check; its texture was not resolved by the earlier probe.",
+      "actions": [
+        [
+          0.005,
+          -0.009,
+          -0.008,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.005,
+          -0.009,
+          -0.008,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.005,
+          -0.009,
+          -0.008,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.005,
+          -0.009,
+          -0.008,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 160,
+      "text": "Align open fingers around the upright cylinder on orange, descending cautiously for a second contact check.",
+      "actions": [
+        [
+          0.0045,
+          -0.008,
+          -0.009,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.0045,
+          -0.008,
+          -0.009,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.0045,
+          -0.008,
+          -0.009,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.0045,
+          -0.008,
+          -0.009,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 164,
+      "text": "Lower the aligned fingers around the supported cylinder and close gently for a controlled regrasp; texture remains unresolved.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          0.6
+        ],
+        [
+          0,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          0.3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.185069
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 168,
+      "text": "Lift the regrasped cylinder slightly over orange to verify retention before a more controlled contact probe.",
+      "actions": [
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0,
+          0,
+          0.185069
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0,
+          0,
+          0.185069
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 172,
+      "text": "Cylinder lifted with the hand. Slightly relax the opening target and apply a small tilt/lateral probe over orange, watching for relative slip; texture remains uncertain.",
+      "actions": [
+        [
+          0,
+          0.002,
+          0,
+          0.04,
+          0,
+          0,
+          0.21
+        ],
+        [
+          0,
+          0.002,
+          0,
+          0.04,
+          0,
+          0,
+          0.22
+        ],
+        [
+          0,
+          -0.002,
+          0,
+          -0.04,
+          0,
+          0,
+          0.22
+        ],
+        [
+          0,
+          -0.002,
+          0,
+          -0.04,
+          0,
+          0,
+          0.22
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 176,
+      "text": "Hold the relaxed grasp stationary over orange to check whether the cylinder continues slipping relative to the fingers; the last image suggests a small downward shift.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.22
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.22
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.22
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.22
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 180,
+      "text": "The cylinder shifted relative to the stationary relaxed fingers, suggesting a smooth surface. Re-secure the grasp and lift slightly to check retention before moving to green.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.185
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.17
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 184,
+      "text": "The cylinder rose with the tightened grasp. Carry it toward green with clearance, using the observed relative slip as tentative evidence of smooth texture.",
+      "actions": [
+        [
+          0,
+          0.008,
+          0.002,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0,
+          0.008,
+          0.002,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0,
+          0.17
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 188,
+      "text": "Continue carrying the retained cylinder toward green at clearance height; the relaxed-grasp slip supports a tentative smooth classification.",
+      "actions": [
+        [
+          0.0004,
+          0.012,
+          0,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0.0004,
+          0.012,
+          0,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0.0004,
+          0.012,
+          0,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0.0004,
+          0.012,
+          0,
+          0,
+          0,
+          0,
+          0.17
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 192,
+      "text": "Move the retained cylinder toward the green pad with a shallow descent, keeping its base clear until centered.",
+      "actions": [
+        [
+          0,
+          0.012,
+          -0.002,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0,
+          0.012,
+          -0.002,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0,
+          0.012,
+          -0.002,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0,
+          0.012,
+          -0.002,
+          0,
+          0,
+          0,
+          0.17
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 196,
+      "text": "Center the retained cylinder over green while descending gently; keep the grasp until the base reaches the pad.",
+      "actions": [
+        [
+          0,
+          0.008,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0,
+          0.008,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0,
+          0.008,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.17
+        ],
+        [
+          0,
+          0.008,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.17
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

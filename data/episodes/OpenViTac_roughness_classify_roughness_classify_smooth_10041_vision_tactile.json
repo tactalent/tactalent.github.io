@@ -1,0 +1,385 @@
+{
+  "seed": 10041,
+  "evaluation_case": "roughness_classify_smooth",
+  "conditions": {
+    "roughness_label": "smooth"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 29,
+  "decisions": 6,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_roughness_classify_roughness_classify_smooth_10041_vision_tactile",
+  "task_id": "OpenViTac_roughness_classify",
+  "benchmark": "OpenViTac",
+  "task": "roughness_classify",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "2.900000",
+    "nb_frames": "29"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      320,
+      240
+    ],
+    "tactile_right": [
+      320,
+      240
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 29,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/b57937aecc816efa940bf9f0.mp4",
+  "poster": "media/b57937aecc816efa940bf9f0.jpg",
+  "usage": {
+    "attempts": 6,
+    "requests_with_tokens": 6,
+    "prompt_tokens": 186063,
+    "completion_tokens": 2307,
+    "total_tokens": 188370,
+    "cached_tokens": 146284,
+    "reasoning_tokens": 1332,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible central block with open fingers, aligning for a downward grasp before reading contact texture.",
+      "actions": [
+        [
+          -0.01,
+          -0.0005,
+          -0.008,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.01,
+          -0.0005,
+          -0.008,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.01,
+          -0.0005,
+          -0.008,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.01,
+          -0.0005,
+          -0.008,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.01,
+          -0.0005,
+          -0.008,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Lower and align the hand around the block; keep the gripper open until the sides are centered between the pads.",
+      "actions": [
+        [
+          -0.011,
+          0,
+          -0.0095,
+          -0.008623,
+          2.5e-05,
+          -0.000117,
+          0.512821
+        ],
+        [
+          -0.011,
+          0,
+          -0.0095,
+          -0.008623,
+          2.5e-05,
+          -0.000117,
+          0.512821
+        ],
+        [
+          -0.011,
+          0,
+          -0.0095,
+          -0.008623,
+          2.5e-05,
+          -0.000117,
+          0.512821
+        ],
+        [
+          -0.011,
+          0,
+          -0.0095,
+          -0.008623,
+          2.5e-05,
+          -0.000117,
+          0.512821
+        ],
+        [
+          -0.011,
+          0,
+          -0.0095,
+          -0.008623,
+          2.5e-05,
+          -0.000117,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Close gently around the centered block and inspect both tactile images to distinguish smooth from rough.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.43
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.34
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.25
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.16
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Both tactile pads show a continuous smooth contact patch rather than facets. Lift the smooth block and verify retention before moving to blue.",
+      "actions": [
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The block rises with the hand and retains smooth tactile contact. Carry it above the blue plate while maintaining the grasp.",
+      "actions": [
+        [
+          0.013,
+          0.018,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.013,
+          0.018,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.013,
+          0.018,
+          0,
+          0,
+          0,
+          0.1,
+          0
+        ],
+        [
+          0.013,
+          0.018,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.013,
+          0.018,
+          0,
+          0,
+          0,
+          0.1,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Centering over blue, straighten the grasp and lower the smooth block toward the plate without releasing prematurely.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0065,
+          0,
+          0,
+          -0.04,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.0065,
+          0,
+          0,
+          -0.04,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.0065,
+          0,
+          0,
+          -0.04,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.0065,
+          0,
+          0,
+          -0.04,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.0065,
+          0,
+          0,
+          -0.04,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

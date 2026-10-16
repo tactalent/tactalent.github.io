@@ -1,0 +1,628 @@
+{
+  "seed": 1000085,
+  "evaluation_case": "insert_HDMI",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 55,
+  "decisions": 11,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_HDMI_insert_HDMI_1000085_vision",
+  "task_id": "UniVTAC_insert_HDMI",
+  "benchmark": "UniVTAC",
+  "task": "insert_HDMI",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "5.400000",
+    "nb_frames": "54"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 54,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/53822fc163e917781d8488f9.mp4",
+  "poster": "media/53822fc163e917781d8488f9.jpg",
+  "usage": {
+    "attempts": 11,
+    "requests_with_tokens": 11,
+    "prompt_tokens": 272413,
+    "completion_tokens": 8270,
+    "total_tokens": 280683,
+    "cached_tokens": 208997,
+    "reasoning_tokens": 6524,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Keep the native grasp; make a small depth/lateral alignment and lower toward the visible socket. Depth alignment is uncertain from the head view.",
+      "actions": [
+        [
+          0.0007,
+          0.00018,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0.0007,
+          0.00018,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0.0007,
+          0.00018,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0.0007,
+          0.00018,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0.0007,
+          0.00018,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.095681
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Plug appears retained and nearly centered over the slot. Lower another 3.5 mm with a small lateral correction, preserving orientation.",
+      "actions": [
+        [
+          0,
+          6e-05,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          6e-05,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          6e-05,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          6e-05,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          6e-05,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.095681
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "The tip is directly above the visible opening. Begin a slow straight insertion while retaining the existing grasp and watching for misalignment.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Tip now meets the socket surface without visible lateral deflection. Advance another 2 mm slowly to seat the connector.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.095681
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Continue a cautious 1.5 mm seating motion; the plug remains centered and retained, but the socket interface is partly occluded.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "The connector silhouette has stopped descending while the hand moved. Relieve contact slightly and test a 1.5 mm depth correction rather than forcing downward.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0.0005,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0.0005,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0.0005,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095681
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Lift enough to unload the socket and make a small upright orientation correction, compensating translation to keep the tip near its current depth alignment.",
+      "actions": [
+        [
+          0.00065,
+          0,
+          0.0009,
+          0,
+          0.0045,
+          0.0022,
+          0.095681
+        ],
+        [
+          0.00065,
+          0,
+          0.0009,
+          0,
+          0.0045,
+          0.0022,
+          0.095681
+        ],
+        [
+          0.00065,
+          0,
+          0.0009,
+          0,
+          0.0045,
+          0.0022,
+          0.095681
+        ],
+        [
+          0.00065,
+          0,
+          0.0009,
+          0,
+          0.0045,
+          0.0022,
+          0.095681
+        ],
+        [
+          0.00065,
+          0,
+          0.0009,
+          0,
+          0.0045,
+          0.0022,
+          0.095681
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "The tip is visibly clear and centered over the slot after the small orientation correction. Lower 3 mm vertically to re-enter without lateral scraping.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095681
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Advance 1.5 mm slowly at the corrected upright alignment, checking whether the connector moves into the opening rather than slipping in the fingers.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "The plug appears stalled at the surface. Unload vertically, shift 2 mm in depth, and retry the same height without dragging across the socket.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0.002,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.095681
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "The upper plug edge appears slightly lower after the depth correction. Test a slow 1.5 mm insertion at this alignment while maintaining the grasp.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095681
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

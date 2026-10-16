@@ -1,0 +1,645 @@
+{
+  "seed": 10000,
+  "evaluation_case": "hardness_classify_soft",
+  "conditions": {
+    "hardness_label": "soft"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 53,
+  "decisions": 11,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_hardness_classify_hardness_classify_soft_10000_vision_tactile",
+  "task_id": "OpenViTac_hardness_classify",
+  "benchmark": "OpenViTac",
+  "task": "hardness_classify",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "5.300000",
+    "nb_frames": "53"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      320,
+      240
+    ],
+    "tactile_right": [
+      320,
+      240
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 53,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/5a281da91c5ba1b57b142290.mp4",
+  "poster": "media/5a281da91c5ba1b57b142290.jpg",
+  "usage": {
+    "attempts": 11,
+    "requests_with_tokens": 11,
+    "prompt_tokens": 347984,
+    "completion_tokens": 3680,
+    "total_tokens": 351664,
+    "cached_tokens": 293680,
+    "reasoning_tokens": 2059,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible red block from above with open fingers; hardness not yet assessed.",
+      "actions": [
+        [
+          -0.008,
+          0.0003,
+          -0.004,
+          -0.002,
+          -0.0025,
+          -0.0005,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0003,
+          -0.004,
+          -0.002,
+          -0.0025,
+          -0.0005,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0003,
+          -0.004,
+          -0.002,
+          -0.0025,
+          -0.0005,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0003,
+          -0.004,
+          -0.002,
+          -0.0025,
+          -0.0005,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0003,
+          -0.004,
+          -0.002,
+          -0.0025,
+          -0.0005,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue centering above the block and straighten the downward grasp orientation.",
+      "actions": [
+        [
+          -0.008,
+          0.0003,
+          -0.005,
+          -0.0023,
+          -0.003,
+          -0.00063,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0003,
+          -0.005,
+          -0.0023,
+          -0.003,
+          -0.00063,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0003,
+          -0.005,
+          -0.0023,
+          -0.003,
+          -0.00063,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0003,
+          -0.005,
+          -0.0023,
+          -0.003,
+          -0.00063,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0003,
+          -0.005,
+          -0.0023,
+          -0.003,
+          -0.00063,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Lower the open fingers around the upper part of the block for a tactile squeeze.",
+      "actions": [
+        [
+          -0.004,
+          0.00012,
+          -0.0076,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.004,
+          0.00012,
+          -0.0076,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.004,
+          0.00012,
+          -0.0076,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.004,
+          0.00012,
+          -0.0076,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.004,
+          0.00012,
+          -0.0076,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Close gradually around the red block and inspect the contact deformation before classifying hardness.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.43
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.35
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.27
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.19
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.13
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Apply the reference-scale squeeze and pause to read the tactile contact pattern.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.115
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Lift slightly while maintaining the squeeze to verify retention and obtain a settled tactile response.",
+      "actions": [
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "The block is visibly retained. Increase closure slightly to compare contact deformation for hardness classification.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.088
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.081
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.074
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.067
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.06
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "The squeeze visibly narrows/deforms the block and produces a soft-like tactile response. Lift for transfer to the blue plate.",
+      "actions": [
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          0.065
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          0.07
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          0.075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Carry the visibly retained, compliant block toward the blue plate while maintaining clearance.",
+      "actions": [
+        [
+          0.006,
+          0.008,
+          0,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0.006,
+          0.008,
+          0,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0.006,
+          0.008,
+          0,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0.006,
+          0.008,
+          0,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0.006,
+          0.008,
+          0,
+          0,
+          0,
+          0,
+          0.075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Align the held block over the blue plate and begin lowering without releasing.",
+      "actions": [
+        [
+          0.0077,
+          0.009,
+          -0.003,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0.0077,
+          0.009,
+          -0.003,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0.0077,
+          0.009,
+          -0.003,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0.0077,
+          0.009,
+          -0.003,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0.0077,
+          0.009,
+          -0.003,
+          0,
+          0,
+          0,
+          0.075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "Lower the retained soft-classified block until its bottom is close to the blue plate surface.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0045,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0,
+          0,
+          -0.0045,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0,
+          0,
+          -0.0045,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0,
+          0,
+          -0.0045,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0,
+          0,
+          -0.0045,
+          0,
+          0,
+          0,
+          0.075
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

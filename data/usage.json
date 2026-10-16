@@ -1,0 +1,70 @@
+{
+  "source": "Four provider-exported request logs, deduplicated by RequestID and reconciled against evaluation runtime records.",
+  "scope": "Evaluation-phase accounting, including billed failed requests, retries and reruns. Excludes demonstration preparation, the separate RGB-marker experiment, the later Empty-Can rerun and the head-camera-only ablation. Not total project spending or exact per-episode settlement.",
+  "timezone": "Asia/Shanghai",
+  "currency": "CNY",
+  "fee_column_in_source": "预估费用(元)",
+  "amount_is_final_settlement": false,
+  "token_notes": "Cached input is included in input tokens; reasoning tokens are included in output tokens. Neither is added again.",
+  "deduplication": {
+    "raw_rows": 12946,
+    "unique_requests": 10831,
+    "duplicate_rows_removed": 2115
+  },
+  "requested_windows": {
+    "V+T": [
+      "2026-10-14 19:33:00",
+      "2026-10-15 19:50:00"
+    ],
+    "V": [
+      "2026-10-15 21:41:00",
+      "2026-10-16 08:00:00"
+    ]
+  },
+  "boundary_reconciliation": {
+    "vision_tactile": "Includes six final-episode requests after the requested 19:50 boundary, through 2026-10-15 19:52:07 (+3.394 CNY).",
+    "vision": "Excludes 30 requests from the preceding RGB-marker experiment between 21:41:03 and 21:42:38 (-36.589 CNY). The first recorded vision-only request started at 2026-10-15 21:47:31.687470.",
+    "limitations": "Runtime records do not expose the same provider RequestID. Matches use token fields and request timing; not every request can be matched to a local record. Billed unmatched requests within the reconciled phase are retained."
+  },
+  "by_mode": {
+    "vision_tactile": {
+      "requests": 5281,
+      "nonzero_usage_requests": 4890,
+      "prompt_tokens": 203911092,
+      "completion_tokens": 2521218,
+      "total_tokens": 206432310,
+      "cached_tokens": 170693217,
+      "uncached_input_tokens": 33217875,
+      "estimated_cost_cny": "4402.802",
+      "matched_runtime_requests": 4841,
+      "first": "2026-10-14 19:46:06",
+      "last": "2026-10-15 19:52:07"
+    },
+    "vision": {
+      "requests": 4292,
+      "nonzero_usage_requests": 3927,
+      "prompt_tokens": 127250755,
+      "completion_tokens": 2283555,
+      "total_tokens": 129534310,
+      "cached_tokens": 104837109,
+      "uncached_input_tokens": 22413646,
+      "estimated_cost_cny": "3102.251",
+      "matched_runtime_requests": 3766,
+      "first": "2026-10-15 21:47:43",
+      "last": "2026-10-16 04:40:34"
+    }
+  },
+  "total": {
+    "requests": 9573,
+    "nonzero_usage_requests": 8817,
+    "prompt_tokens": 331161847,
+    "completion_tokens": 4804773,
+    "total_tokens": 335966620,
+    "cached_tokens": 275530326,
+    "uncached_input_tokens": 55631521,
+    "estimated_cost_cny": "7505.053",
+    "matched_runtime_requests": 8607,
+    "first": "2026-10-14 19:46:06",
+    "last": "2026-10-16 04:40:34"
+  }
+}

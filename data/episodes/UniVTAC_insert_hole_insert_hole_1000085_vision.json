@@ -1,0 +1,732 @@
+{
+  "seed": 1000085,
+  "evaluation_case": "insert_hole",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 61,
+  "decisions": 13,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_hole_insert_hole_1000085_vision",
+  "task_id": "UniVTAC_insert_hole",
+  "benchmark": "UniVTAC",
+  "task": "insert_hole",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "6.100000",
+    "nb_frames": "61"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 61,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/a12ea60e570b2b608bcc2e60.mp4",
+  "poster": "media/a12ea60e570b2b608bcc2e60.jpg",
+  "usage": {
+    "attempts": 13,
+    "requests_with_tokens": 13,
+    "prompt_tokens": 312353,
+    "completion_tokens": 3142,
+    "total_tokens": 315495,
+    "cached_tokens": 273155,
+    "reasoning_tokens": 1117,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Maintain the native grasp and gently probe downward at the visible hole entrance; slant direction is not yet established.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue a slow vertical contact probe while watching the retained stick and entrance for a lateral deflection.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Advance the initial shallow probe; the stick remains at the entrance, with no clear slant resolved yet.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Finish the gentle vertical seating phase before a small lateral direction test; maintain grasp opening.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The lower stick deflects slightly right in the image. Test a small +X hand shift with shallow descent to let the seated tip guide its angle.",
+      "actions": [
+        [
+          0.001,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.001,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.001,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.001,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.001,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Continue the small lateral seating test; the tip stays at the opening as the exposed stick begins leaning rightward.",
+      "actions": [
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Gently increase the lean about the seated tip; preserve grip and watch for loss of entrance alignment before attempting diagonal insertion.",
+      "actions": [
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "The stick remains seated and is approaching the rightward-downward slant. Continue a modest lateral adjustment before following its axis into the hole.",
+      "actions": [
+        [
+          0.0015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.0015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.0015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.0015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.0015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Make a final small lean adjustment toward roughly 30 degrees from vertical, keeping the visible lower end centered at the entrance.",
+      "actions": [
+        [
+          0.001,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.001,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.001,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.001,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          0.001,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Probe insertion along the observed down-right stick axis (-X, -Z), using small steps and watching whether the exposed segment shortens.",
+      "actions": [
+        [
+          -0.00055,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.00055,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.00055,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.00055,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.00055,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "The visible stick is shortening while remaining aligned at the entrance. Continue a slow diagonal feed along the same apparent hole direction.",
+      "actions": [
+        [
+          -0.000825,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.000825,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.000825,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.000825,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.000825,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Continue the diagonal insertion with the stick visibly retained and progressively less exposed; keep the existing grasp and angle.",
+      "actions": [
+        [
+          -0.000825,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.000825,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.000825,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.000825,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.000825,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Feed another short distance along the apparent slanted bore, slowing as the gripper approaches the block.",
+      "actions": [
+        [
+          -0.00066,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.00066,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.00066,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.00066,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146726
+        ],
+        [
+          -0.00066,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146726
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

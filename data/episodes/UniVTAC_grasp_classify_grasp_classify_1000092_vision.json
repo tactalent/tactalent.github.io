@@ -1,0 +1,271 @@
+{
+  "seed": 1000092,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 19,
+  "decisions": 5,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000092_vision",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "1.800000",
+    "nb_frames": "18"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 18,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/63c6cf359560110ab503eca0.mp4",
+  "poster": "media/63c6cf359560110ab503eca0.jpg",
+  "usage": {
+    "attempts": 5,
+    "requests_with_tokens": 5,
+    "prompt_tokens": 96556,
+    "completion_tokens": 2585,
+    "total_tokens": 99141,
+    "cached_tokens": 72570,
+    "reasoning_tokens": 1954,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Gently lift with the existing grasp to observe contact retention; texture is not visually certain.",
+      "actions": [
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.184762
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.184762
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.184762
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.184762
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "Slightly relax the grasp during a small lift and watch for vertical slip as a friction cue.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.195
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.205
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.215
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.215
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "The cylinder slipped downward during slight grasp relaxation, suggesting smooth contact. Re-secure it and approach the green pad.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.175
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.175
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.175
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.175
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 12,
+      "text": "Carry the retained cylinder diagonally toward the green pad while keeping its bottom above the table.",
+      "actions": [
+        [
+          0.004,
+          0.0065,
+          -0.00325,
+          0,
+          0,
+          0,
+          0.175
+        ],
+        [
+          0.004,
+          0.0065,
+          -0.00325,
+          0,
+          0,
+          0,
+          0.175
+        ],
+        [
+          0.004,
+          0.0065,
+          -0.00325,
+          0,
+          0,
+          0,
+          0.175
+        ],
+        [
+          0.004,
+          0.0065,
+          -0.00325,
+          0,
+          0,
+          0,
+          0.175
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 16,
+      "text": "Align the cylinder over the green pad, using the observed slip as the smooth-surface cue.",
+      "actions": [
+        [
+          0.00615,
+          0.009675,
+          -0.004,
+          0,
+          0,
+          0,
+          0.175
+        ],
+        [
+          0.00615,
+          0.009675,
+          -0.004,
+          0,
+          0,
+          0,
+          0.175
+        ],
+        [
+          0.00615,
+          0.009675,
+          -0.004,
+          0,
+          0,
+          0,
+          0.175
+        ],
+        [
+          0.00615,
+          0.009675,
+          -0.004,
+          0,
+          0,
+          0,
+          0.175
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

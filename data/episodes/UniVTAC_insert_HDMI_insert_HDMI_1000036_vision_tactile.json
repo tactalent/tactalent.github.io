@@ -1,0 +1,586 @@
+{
+  "seed": 1000036,
+  "evaluation_case": "insert_HDMI",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 49,
+  "decisions": 10,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_HDMI_insert_HDMI_1000036_vision_tactile",
+  "task_id": "UniVTAC_insert_HDMI",
+  "benchmark": "UniVTAC",
+  "task": "insert_HDMI",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "4.900000",
+    "nb_frames": "49"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 49,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/5d46f9984296203d2045a44b.mp4",
+  "poster": "media/5d46f9984296203d2045a44b.jpg",
+  "usage": {
+    "attempts": 11,
+    "requests_with_tokens": 10,
+    "prompt_tokens": 319415,
+    "completion_tokens": 7613,
+    "total_tokens": 327028,
+    "cached_tokens": 265463,
+    "reasoning_tokens": 6038,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": false
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Keep the native grasp; gently center the plug over the visible slot and approach, preserving orientation while checking the tilted tactile contact.",
+      "actions": [
+        [
+          0.0008,
+          -0.00035,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0.0008,
+          -0.00035,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0.0008,
+          -0.00035,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0.0008,
+          -0.00035,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0.0008,
+          -0.00035,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095699
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Plug is nearly centered in the head view. Lower gradually with a small pitch correction inferred from the tactile slope, compensating the tip's lateral arc.",
+      "actions": [
+        [
+          0.00014,
+          -0.0001,
+          -0.0005,
+          0,
+          0.001,
+          0,
+          0.095699
+        ],
+        [
+          0.00014,
+          -0.0001,
+          -0.0005,
+          0,
+          0.001,
+          0,
+          0.095699
+        ],
+        [
+          0.00014,
+          -0.0001,
+          -0.0005,
+          0,
+          0.001,
+          0,
+          0.095699
+        ],
+        [
+          0.00014,
+          -0.0001,
+          -0.0005,
+          0,
+          0.001,
+          0,
+          0.095699
+        ],
+        [
+          0.00014,
+          -0.0001,
+          -0.0005,
+          0,
+          0.001,
+          0,
+          0.095699
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Maintain the centered plug and retained grasp; approach the socket vertically in small increments while watching for contact or slipping.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095699
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "The tip is just above the opening. Make a small depth-centering correction while lowering slowly toward first contact; keep the grasp unchanged.",
+      "actions": [
+        [
+          0.00025,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0.00025,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0.00025,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0.00025,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0.00025,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The plug now meets the slot rim. Begin a slow straight insertion, monitoring tactile retention and the plug's motion rather than assuming seating.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Continue the shallow vertical insertion with unchanged orientation and grip; contact remains visible, but full seating is not yet established.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Tactile contact shifted while the plug stayed at the rim, suggesting axial blockage. Unload slightly, then make a small depth correction before retrying.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          -0.0006,
+          0,
+          0.0001,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          -0.0006,
+          0,
+          0.0001,
+          0,
+          0,
+          0,
+          0.095699
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Retry shallow vertical insertion after the depth correction; watch whether the connector follows the hand or remains blocked at the rim.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Continue a small downward insertion increment with the current alignment and unchanged grasp; monitor axial slip at the tactile contacts.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095699
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "The plug remains centered and tactile contact is retained. Advance another shallow vertical increment while checking for seating or slip.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095699
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095699
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

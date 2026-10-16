@@ -1,0 +1,185 @@
+{
+  "seed": 1000044,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 11,
+  "decisions": 3,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000044_vision",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "1.100000",
+    "nb_frames": "11"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 11,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/37e3cede441b6614d0dfd0c8.mp4",
+  "poster": "media/37e3cede441b6614d0dfd0c8.jpg",
+  "usage": {
+    "attempts": 3,
+    "requests_with_tokens": 3,
+    "prompt_tokens": 55621,
+    "completion_tokens": 1141,
+    "total_tokens": 56762,
+    "cached_tokens": 35756,
+    "reasoning_tokens": 733,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Keep the native grasp and move gently toward the green pad; smooth is the tentative classification. Watch cylinder retention and pad alignment.",
+      "actions": [
+        [
+          0.003,
+          0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.003,
+          0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.003,
+          0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.003,
+          0.004,
+          -0.002,
+          0,
+          0,
+          0,
+          0.181417
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "Cylinder remains retained in RGB. Continue toward the green pad with a gradual descent and unchanged grip.",
+      "actions": [
+        [
+          0.004,
+          0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.004,
+          0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.004,
+          0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.004,
+          0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "Carry the retained cylinder closer over the green pad, leaving a small bottom clearance for final alignment.",
+      "actions": [
+        [
+          0.004,
+          0.007,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.004,
+          0.007,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.004,
+          0.007,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ],
+        [
+          0.004,
+          0.007,
+          -0.003,
+          0,
+          0,
+          0,
+          0.181417
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

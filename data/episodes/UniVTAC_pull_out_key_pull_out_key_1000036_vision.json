@@ -1,0 +1,888 @@
+{
+  "seed": 1000036,
+  "evaluation_case": "pull_out_key",
+  "conditions": {},
+  "status": "failed",
+  "raw_status": "failed",
+  "steps": 79,
+  "decisions": 16,
+  "termination": "native_early_stop",
+  "available": true,
+  "id": "UniVTAC_pull_out_key_pull_out_key_1000036_vision",
+  "task_id": "UniVTAC_pull_out_key",
+  "benchmark": "UniVTAC",
+  "task": "pull_out_key",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "7.900000",
+    "nb_frames": "79"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 79,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/84c24d974f26753cbcf14673.mp4",
+  "poster": "media/84c24d974f26753cbcf14673.jpg",
+  "usage": {
+    "attempts": 16,
+    "requests_with_tokens": 16,
+    "prompt_tokens": 409062,
+    "completion_tokens": 4371,
+    "total_tokens": 413433,
+    "cached_tokens": 364406,
+    "reasoning_tokens": 2107,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Maintain the native grasp and key position; begin a small positive turn about the vertical slot axis, watching for rotational resistance.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.015,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue turning about world Z without lifting or shifting laterally; grasp and key remain aligned with the lock.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Continue the controlled positive axial turn, keeping the key seated and watching for a stop before extraction.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "The key remains seated and follows the turn. Continue positive rotation in moderate increments, preserving the native grasp and axis.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Continue rotating the seated key about its vertical axis; no stop is evident yet, so keep position and grip unchanged.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Keep the key seated and continue the positive axial turn; monitor the visible key and tracking for the mechanical stop.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Continue the positive vertical-axis turn with no translation. The key remains at the slot and no resistance is yet apparent.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Slow the seated axial turn slightly while looking for a mechanical stop; hold the existing grasp and vertical position.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Continue positive rotation about the seated key's axis, without lateral movement or lift; the stop remains uncertain.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Keep turning the grasped key positively in small axial increments. Maintain the seated height and monitor for a stop.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "Continue a measured positive turn while keeping the key centered in the slot. The key is partly occluded, so resistance remains uncertain.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Reduce angular increments near the apparent end of the turn. Keep the grasp closed and avoid lifting or lateral motion during rotation.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.01,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Pause rotation and cautiously probe straight upward extraction by 4 mm, watching whether the key rises with the fingers rather than assuming it is unlocked.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "Continue the cautious straight upward pull without changing angle or grip; inspect the exposed key for retention and separation from the lock.",
+      "actions": [
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 70,
+      "text": "Pull another 5 mm straight along the slot axis, holding the current key angle and native grip; continue checking that the key rises with the fingers.",
+      "actions": [
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 75,
+      "text": "Continue gradual straight extraction with fixed rotation. More of the key is visible beneath the fingers; watch for clearance while keeping the grasp unchanged.",
+      "actions": [
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.017916
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

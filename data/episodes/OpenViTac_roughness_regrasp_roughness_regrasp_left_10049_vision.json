@@ -1,0 +1,479 @@
+{
+  "seed": 10049,
+  "evaluation_case": "roughness_regrasp_left",
+  "conditions": {
+    "rough_block_side": "left"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 38,
+  "decisions": 8,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_roughness_regrasp_roughness_regrasp_left_10049_vision",
+  "task_id": "OpenViTac_roughness_regrasp",
+  "benchmark": "OpenViTac",
+  "task": "roughness_regrasp",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "3.800000",
+    "nb_frames": "38"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 38,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/b8f8d3ed2e7f92f457c71b6a.mp4",
+  "poster": "media/b8f8d3ed2e7f92f457c71b6a.jpg",
+  "usage": {
+    "attempts": 8,
+    "requests_with_tokens": 8,
+    "prompt_tokens": 192708,
+    "completion_tokens": 2705,
+    "total_tokens": 195413,
+    "cached_tokens": 157516,
+    "reasoning_tokens": 1412,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the right-hand candidate with open fingers for a gentle touch; its surface appears ridged, but retention remains untested.",
+      "actions": [
+        [
+          -0.008,
+          0.0058,
+          -0.008,
+          0.004313,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0058,
+          -0.008,
+          0.004313,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0058,
+          -0.008,
+          0.004313,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0058,
+          -0.008,
+          0.004313,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0058,
+          -0.008,
+          0.004313,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Align the open gripper around the right ridged block and lower to its upper sides, using small approach increments.",
+      "actions": [
+        [
+          -0.0083,
+          0.0056,
+          -0.0096,
+          -0.008625,
+          2.3e-05,
+          -0.000118,
+          0.512821
+        ],
+        [
+          -0.0083,
+          0.0056,
+          -0.0096,
+          -0.008625,
+          2.3e-05,
+          -0.000118,
+          0.512821
+        ],
+        [
+          -0.0083,
+          0.0056,
+          -0.0096,
+          -0.008625,
+          2.3e-05,
+          -0.000118,
+          0.512821
+        ],
+        [
+          -0.0083,
+          0.0056,
+          -0.0096,
+          -0.008625,
+          2.3e-05,
+          -0.000118,
+          0.512821
+        ],
+        [
+          -0.0083,
+          0.0056,
+          -0.0096,
+          -0.008625,
+          2.3e-05,
+          -0.000118,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Gently close onto the centered ridged candidate to touch and grasp it; inspect before lifting.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.42
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.32
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.23
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.15
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Lift the touched ridged block slightly while keeping the grasp closed; check that its base rises with the hand.",
+      "actions": [
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The ridged block rose with the gripper. Lift it clear of the other block and start moving toward the yellow plate.",
+      "actions": [
+        [
+          0.006,
+          0,
+          0.012,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.006,
+          0,
+          0.012,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.006,
+          0,
+          0.012,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.006,
+          0,
+          0.012,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.006,
+          0,
+          0.012,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Carry the visibly retained rough block across toward the yellow plate with clearance above the stationary block.",
+      "actions": [
+        [
+          0.008,
+          -0.017,
+          0.002,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008,
+          -0.017,
+          0.002,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008,
+          -0.017,
+          0.002,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008,
+          -0.017,
+          0.002,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008,
+          -0.017,
+          0.002,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Center the retained rough block over the yellow plate and descend toward it, keeping the grasp closed.",
+      "actions": [
+        [
+          0.0022,
+          -0.0102,
+          -0.012,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.0022,
+          -0.0102,
+          -0.012,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.0022,
+          -0.0102,
+          -0.012,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.0022,
+          -0.0102,
+          -0.012,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.0022,
+          -0.0102,
+          -0.012,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Lower the rough block slowly toward the yellow plate; its base is still visibly above the surface.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.005,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.005,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

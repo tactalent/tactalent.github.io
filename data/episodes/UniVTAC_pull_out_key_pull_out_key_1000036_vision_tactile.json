@@ -1,0 +1,1366 @@
+{
+  "seed": 1000036,
+  "evaluation_case": "pull_out_key",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 125,
+  "decisions": 25,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_pull_out_key_pull_out_key_1000036_vision_tactile",
+  "task_id": "UniVTAC_pull_out_key",
+  "benchmark": "UniVTAC",
+  "task": "pull_out_key",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "12.500000",
+    "nb_frames": "125"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 125,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/65eed72e1f2a9dfe5ca16b52.mp4",
+  "poster": "media/65eed72e1f2a9dfe5ca16b52.jpg",
+  "usage": {
+    "attempts": 25,
+    "requests_with_tokens": 25,
+    "prompt_tokens": 899379,
+    "completion_tokens": 6880,
+    "total_tokens": 906259,
+    "cached_tokens": 704445,
+    "reasoning_tokens": 3400,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Keep the native grasp and position; begin turning about the vertical key axis, watching tactile deformation for the stop.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.01,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.015,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue the axial turn with no lift; tactile contacts remain broadly unchanged.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.022,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.022,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.022,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.022,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.022,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Maintain the grasp and continue turning slowly about the slot axis; no clear resistance deformation yet.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.022,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.022,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.022,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.022,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.022,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Continue the in-place positive axial turn; preserve height and native opening while monitoring contact shape.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Contacts remain rounded without a clear stop signature; continue the controlled axial turn without pulling.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Continue turning in place with the key held; monitor both tactile outlines for increasing torsional resistance.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Continue the positive axial turn at fixed position; contact remains present and no pronounced stop deformation is visible.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Continue turning about the vertical axis while holding height and grip; watch for the tactile stop signature before extraction.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Keep turning in place, maintaining the native grasp; the tactile outlines still show no pronounced torsional stop.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Continue a measured positive axial turn with fixed height and opening; watch for contact shearing before lifting.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "Maintain the seated key and native grasp; continue turning slowly until a resistance signature appears.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Continue the in-place axial turn; contact is retained and still rounded, with no clear resistance deformation.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Continue turning at fixed position and grip; tactile shape is still stable, so do not extract yet.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.025,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "A pronounced opposing tactile shear now indicates resistance. Ease back slightly to unload torsion while keeping the key seated and grasped.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -0.01,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -0.01,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -0.01,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -0.01,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -0.01,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 70,
+      "text": "Tactile shear has relaxed after reaching resistance. Start a gentle straight upward extraction, retaining the current angle and grasp.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 75,
+      "text": "The initial lift shifted both tactile contacts, so pause extraction to check whether axial loading relaxes before pulling farther.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 80,
+      "text": "Contact displacement partly relaxed during the pause. Continue a slower straight lift, keeping rotation and grasp fixed while checking retention.",
+      "actions": [
+        [
+          0,
+          0,
+          0.00035,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.00035,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.00035,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.00035,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.00035,
+          0,
+          0,
+          0,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 85,
+      "text": "Pause the small lift again: both tactile contacts have translated under axial load, so check settling before increasing extraction.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 90,
+      "text": "The contact shift decreases while held. Continue a very slow straight lift with fixed angle, monitoring for growing slip or separation.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 95,
+      "text": "Continue the slow axial extraction without rotation; watch whether contact displacement stabilizes and the exposed shaft grows.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 100,
+      "text": "Tactile contact keeps translating during lift, suggesting axial binding or slip. Lower slightly to unload before refining the release angle.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 105,
+      "text": "Lowering relieved the axial contact shift. Ease back a further small angle to remove residual torsion before retrying a straight pull.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -0.008,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -0.008,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -0.008,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -0.008,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -0.008,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 110,
+      "text": "Test a small straight extraction at the relaxed angle, keeping horizontal position and opening unchanged.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 115,
+      "text": "Continue straight upward at the adjusted angle; tactile displacement is smaller, and the shaft remains visible below the fingers.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 120,
+      "text": "Tactile contacts are stable during the last lift. Continue extracting vertically, holding angle and grasp unchanged.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.018683
+        ],
+        [
+          0,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.018683
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

@@ -1,0 +1,375 @@
+{
+  "seed": 10042,
+  "evaluation_case": "roughness_classify_smooth",
+  "conditions": {
+    "roughness_label": "smooth"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 29,
+  "decisions": 6,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_roughness_classify_roughness_classify_smooth_10042_vision",
+  "task_id": "OpenViTac_roughness_classify",
+  "benchmark": "OpenViTac",
+  "task": "roughness_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "2.900000",
+    "nb_frames": "29"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 29,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/bc811914da2060fda5216a52.mp4",
+  "poster": "media/bc811914da2060fda5216a52.jpg",
+  "usage": {
+    "attempts": 6,
+    "requests_with_tokens": 6,
+    "prompt_tokens": 142853,
+    "completion_tokens": 1892,
+    "total_tokens": 144745,
+    "cached_tokens": 112383,
+    "reasoning_tokens": 899,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible central block with open fingers, aligning the hand downward. Surface class still uncertain; establish contact before transfer.",
+      "actions": [
+        [
+          -0.015,
+          0.0007,
+          -0.008,
+          0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.015,
+          0.0007,
+          -0.008,
+          0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.015,
+          0.0007,
+          -0.008,
+          0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.015,
+          0.0007,
+          -0.008,
+          0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.015,
+          0.0007,
+          -0.008,
+          0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Lower around the block to contact height and remove the small hand tilt. Keep fingers open until centered.",
+      "actions": [
+        [
+          -0.006,
+          0.0003,
+          -0.01,
+          -0.0086,
+          0,
+          -0.000152,
+          0.512821
+        ],
+        [
+          -0.006,
+          0.0003,
+          -0.01,
+          -0.0086,
+          0,
+          -0.000152,
+          0.512821
+        ],
+        [
+          -0.006,
+          0.0003,
+          -0.01,
+          -0.0086,
+          0,
+          -0.000152,
+          0.512821
+        ],
+        [
+          -0.006,
+          0.0003,
+          -0.01,
+          -0.0086,
+          0,
+          -0.000152,
+          0.512821
+        ],
+        [
+          -0.006,
+          0.0003,
+          -0.01,
+          -0.0086,
+          0,
+          -0.000152,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Close gradually on the centered block to establish surface contact. The visible contacted face appears smooth; verify retention with a short lift.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.42
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.32
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.22
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.12
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Lift vertically while maintaining the contact grasp; use the block's visible movement to check retention before moving to blue.",
+      "actions": [
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The block rose with the hand and the contacted face looks smooth. Carry it toward the blue plate while maintaining clearance and a closed grasp.",
+      "actions": [
+        [
+          0.009,
+          0.012,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.009,
+          0.012,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.009,
+          0.012,
+          0,
+          0,
+          0,
+          0.1,
+          0.1
+        ],
+        [
+          0.009,
+          0.012,
+          0,
+          0,
+          0,
+          -0.1,
+          0.1
+        ],
+        [
+          0.009,
+          0.012,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Align the retained smooth block over the blue plate and lower toward placement height, keeping the grasp until the block is supported.",
+      "actions": [
+        [
+          0.0035,
+          0.005,
+          -0.006,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.0035,
+          0.005,
+          -0.006,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.0035,
+          0.005,
+          -0.006,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.0035,
+          0.005,
+          -0.006,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.0035,
+          0.005,
+          -0.006,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

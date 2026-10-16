@@ -1,0 +1,323 @@
+{
+  "seed": 10038,
+  "evaluation_case": "roughness_classify_smooth",
+  "conditions": {
+    "roughness_label": "smooth"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 25,
+  "decisions": 5,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_roughness_classify_roughness_classify_smooth_10038_vision",
+  "task_id": "OpenViTac_roughness_classify",
+  "benchmark": "OpenViTac",
+  "task": "roughness_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "2.500000",
+    "nb_frames": "25"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 25,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/413de5e8133d0e07bdb09ea8.mp4",
+  "poster": "media/413de5e8133d0e07bdb09ea8.jpg",
+  "usage": {
+    "attempts": 5,
+    "requests_with_tokens": 5,
+    "prompt_tokens": 118055,
+    "completion_tokens": 1700,
+    "total_tokens": 119755,
+    "cached_tokens": 89759,
+    "reasoning_tokens": 890,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible upright block with open fingers, using its live image position; descend toward a contact grasp.",
+      "actions": [
+        [
+          -0.018,
+          0.0018,
+          -0.014,
+          -0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.018,
+          0.0018,
+          -0.014,
+          -0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.018,
+          0.0018,
+          -0.014,
+          -0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.018,
+          0.0018,
+          -0.014,
+          -0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.018,
+          0.0018,
+          -0.014,
+          -0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Align around the narrow block and lower the finger pads to its upper sides before closing.",
+      "actions": [
+        [
+          -0.002,
+          0.00015,
+          -0.0042,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.002,
+          0.00015,
+          -0.0042,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.002,
+          0.00015,
+          -0.0042,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.002,
+          0.00015,
+          -0.0042,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.002,
+          0.00015,
+          -0.0042,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Close gradually to establish contact on the block's sides; inspect the contacted surface and subsequent retention.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.43
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.34
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.25
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.16
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Lift gently while maintaining side contact, checking that the block follows the fingers and inspecting for surface ridges.",
+      "actions": [
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The lifted block is retained and its contacted sides appear un-ridged, consistent with smooth. Carry it toward the blue plate, keeping its base above the surface.",
+      "actions": [
+        [
+          0.012,
+          0.016,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.012,
+          0.016,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.012,
+          0.016,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.012,
+          0.016,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.012,
+          0.016,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

@@ -1,0 +1,950 @@
+{
+  "seed": 1000044,
+  "evaluation_case": "insert_HDMI",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 85,
+  "decisions": 17,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_HDMI_insert_HDMI_1000044_vision_tactile",
+  "task_id": "UniVTAC_insert_HDMI",
+  "benchmark": "UniVTAC",
+  "task": "insert_HDMI",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "8.500000",
+    "nb_frames": "85"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 85,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/f05ac30ea4296e6741851405.mp4",
+  "poster": "media/f05ac30ea4296e6741851405.jpg",
+  "usage": {
+    "attempts": 17,
+    "requests_with_tokens": 17,
+    "prompt_tokens": 568439,
+    "completion_tokens": 14426,
+    "total_tokens": 582865,
+    "cached_tokens": 432183,
+    "reasoning_tokens": 11720,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Adjust the held plug's pitch and yaw in small increments, approximately pivoting near its tip; preserve the current grasp and inspect alignment before descending.",
+      "actions": [
+        [
+          -0.0012,
+          0,
+          0.00018,
+          0,
+          -0.009,
+          -0.003,
+          0.095762
+        ],
+        [
+          -0.0012,
+          0,
+          0.00018,
+          0,
+          -0.009,
+          -0.003,
+          0.095762
+        ],
+        [
+          -0.0012,
+          0,
+          0.00018,
+          0,
+          -0.009,
+          -0.003,
+          0.095762
+        ],
+        [
+          -0.0012,
+          0,
+          0.00018,
+          0,
+          -0.009,
+          -0.003,
+          0.095762
+        ],
+        [
+          -0.0012,
+          0,
+          0.00018,
+          0,
+          -0.009,
+          -0.003,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Approach the socket slowly while correcting estimated fore-aft offset; retain pitch correction and grip, then reassess the visible tip-to-slot gap.",
+      "actions": [
+        [
+          0.0008,
+          4e-05,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0008,
+          4e-05,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0008,
+          4e-05,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0008,
+          4e-05,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0008,
+          4e-05,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Lower another 3 mm with the plug centered over the visible slot; monitor the remaining gap and tactile contact before attempting seating.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Bring the tip to the socket mouth with a small fore-aft correction and a slow 1.75 mm descent; watch for contact or deflection.",
+      "actions": [
+        [
+          0.0003,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0003,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0003,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0003,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0003,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The tip visually meets the slot mouth. Begin slow straight insertion while holding orientation and checking for tactile change or lateral deflection.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Continue the slow axial insertion; the visible lower tip is at the socket and the grasp pattern remains stable.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "The tactile patches shifted during descent, suggesting the tip may be on a rim rather than seated. Unload upward 2 mm and correct fore-aft alignment slightly before retrying.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          -0.0006,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          -0.0006,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          -0.0006,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Retry a gentle 1.5 mm axial descent at the corrected fore-aft position, watching for renewed tactile displacement versus entry.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Slight tactile motion suggests rim contact. Unload, shift the tip modestly away from the camera, and finish a small pitch correction before another insertion attempt.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          -0.0008,
+          0,
+          5e-05,
+          0,
+          -0.003,
+          0,
+          0.095762
+        ],
+        [
+          -0.0008,
+          0,
+          5e-05,
+          0,
+          -0.003,
+          0,
+          0.095762
+        ],
+        [
+          -0.0008,
+          0,
+          5e-05,
+          0,
+          -0.003,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Test the corrected alignment with a slow 1.25 mm descent; monitor whether the plug enters or shifts upward within the grasp.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "The plug remains at the surface while its tactile imprint shifts. Relieve contact and probe a 2 mm fore-aft correction toward the camera, preserving angular alignment.",
+      "actions": [
+        [
+          0.0004,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0004,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0004,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0004,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0.0004,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Attempt a gentle insertion at the revised fore-aft alignment and compare the tactile imprint for retention versus surface blockage.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Continue only 1 mm farther at the current alignment to distinguish shallow entry from rim contact, retaining the same grasp.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "The tactile contact is sliding sideways rather than staying fixed. Unload and shift 2.5 mm away from the camera to recenter the tip before probing again.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          -0.0005,
+          0,
+          0.0004,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          -0.0007,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          -0.0007,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          -0.0006,
+          0,
+          0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 70,
+      "text": "Probe straight down at the recentered position. Check the tactile patch for upward slip, which would indicate continued blockage at the socket lip.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 75,
+      "text": "Continue a cautious 1 mm seating motion at the current alignment; the plug overlaps the slot mouth, but entry is not yet confirmed.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 80,
+      "text": "The tactile contact remains near its retained-grasp pattern. Advance another 1 mm along the insertion axis while watching for displacement.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095762
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

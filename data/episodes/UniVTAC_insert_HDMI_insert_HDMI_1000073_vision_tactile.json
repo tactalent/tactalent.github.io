@@ -1,0 +1,1106 @@
+{
+  "seed": 1000073,
+  "evaluation_case": "insert_HDMI",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 97,
+  "decisions": 20,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_HDMI_insert_HDMI_1000073_vision_tactile",
+  "task_id": "UniVTAC_insert_HDMI",
+  "benchmark": "UniVTAC",
+  "task": "insert_HDMI",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "9.700000",
+    "nb_frames": "97"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 97,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/a706028c09f8256d2523ce3a.mp4",
+  "poster": "media/a706028c09f8256d2523ce3a.jpg",
+  "usage": {
+    "attempts": 20,
+    "requests_with_tokens": 20,
+    "prompt_tokens": 686997,
+    "completion_tokens": 12256,
+    "total_tokens": 699253,
+    "cached_tokens": 604915,
+    "reasoning_tokens": 9047,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Keep the grasp closed; begin a small pitch correction from tactile slant while lowering toward the visible socket. Depth alignment remains uncertain.",
+      "actions": [
+        [
+          -0.00045,
+          5e-05,
+          -0.0004,
+          0,
+          -0.005,
+          0,
+          0.095819
+        ],
+        [
+          -0.00045,
+          5e-05,
+          -0.0004,
+          0,
+          -0.005,
+          0,
+          0.095819
+        ],
+        [
+          -0.00045,
+          5e-05,
+          -0.0004,
+          0,
+          -0.005,
+          0,
+          0.095819
+        ],
+        [
+          -0.00045,
+          5e-05,
+          -0.0004,
+          0,
+          -0.005,
+          0,
+          0.095819
+        ],
+        [
+          -0.00045,
+          5e-05,
+          -0.0004,
+          0,
+          -0.005,
+          0,
+          0.095819
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue modest pitch compensation about the held plug, preserving its visible lateral alignment as the gap closes.",
+      "actions": [
+        [
+          -0.0005,
+          8e-05,
+          -0.0007,
+          0,
+          -0.004,
+          0,
+          0.095819
+        ],
+        [
+          -0.0005,
+          8e-05,
+          -0.0007,
+          0,
+          -0.004,
+          0,
+          0.095819
+        ],
+        [
+          -0.0005,
+          8e-05,
+          -0.0007,
+          0,
+          -0.004,
+          0,
+          0.095819
+        ],
+        [
+          -0.0005,
+          8e-05,
+          -0.0007,
+          0,
+          -0.004,
+          0,
+          0.095819
+        ],
+        [
+          -0.0005,
+          8e-05,
+          -0.0007,
+          0,
+          -0.004,
+          0,
+          0.095819
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Finish the small pitch adjustment and approach the socket lip slowly; retain the grasp and current image-center alignment.",
+      "actions": [
+        [
+          -0.0002,
+          0,
+          -0.00055,
+          0,
+          -0.0016,
+          0,
+          0.095819
+        ],
+        [
+          -0.0002,
+          0,
+          -0.00055,
+          0,
+          -0.0016,
+          0,
+          0.095819
+        ],
+        [
+          -0.0002,
+          0,
+          -0.00055,
+          0,
+          -0.0016,
+          0,
+          0.095819
+        ],
+        [
+          -0.0002,
+          0,
+          -0.00055,
+          0,
+          -0.0016,
+          0,
+          0.095819
+        ],
+        [
+          -0.0002,
+          0,
+          -0.00055,
+          0,
+          -0.0016,
+          0,
+          0.095819
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Advance vertically in submillimeter steps to bring the plug to the slot mouth; watch for contact or deflection.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095819
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The tip meets the socket mouth without visible lateral deflection. Continue a slow insertion, maintaining pitch and grasp.",
+      "actions": [
+        [
+          3e-05,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          3e-05,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          3e-05,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          3e-05,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          3e-05,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095819
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Tactile contact shifts while the plug stays at the lip, suggesting blockage. Unload upward and reduce the pitch correction while slightly adjusting depth.",
+      "actions": [
+        [
+          0.0006,
+          0,
+          0.0005,
+          0,
+          0.006,
+          0,
+          0.095819
+        ],
+        [
+          0.0006,
+          0,
+          0.0005,
+          0,
+          0.006,
+          0,
+          0.095819
+        ],
+        [
+          0.0006,
+          0,
+          0.0005,
+          0,
+          0.006,
+          0,
+          0.095819
+        ],
+        [
+          0.0006,
+          0,
+          0.0005,
+          0,
+          0.006,
+          0,
+          0.095819
+        ],
+        [
+          0.0006,
+          0,
+          0.0005,
+          0,
+          0.006,
+          0,
+          0.095819
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Reapproach the slot at the revised pitch, with a very small lateral centering correction. Check whether the plug advances with the fingers.",
+      "actions": [
+        [
+          0,
+          4e-05,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0,
+          4e-05,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0,
+          4e-05,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0,
+          4e-05,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0,
+          4e-05,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.095819
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Contact shifts before clear insertion. Unload the lip, then shift 1.5 mm in camera-depth to test socket alignment without forcing downward.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0.0005,
+          0,
+          0.0002,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0.0005,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095819
+        ],
+        [
+          0.0005,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095819
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "The plug remains at the mouth while tactile angle changes. Lift enough to clear contact and slightly close the position target to improve retention before realigning.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          0.0008,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          -0.0003,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          -0.0003,
+          0,
+          0.0006,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "The plug clears the mouth and tactile contact recovers. Restore pitch compensation and move a few millimeters in depth toward the estimated socket center while still above it.",
+      "actions": [
+        [
+          0.00055,
+          0,
+          -0.0003,
+          0,
+          -0.006,
+          0,
+          0.09
+        ],
+        [
+          0.00055,
+          0,
+          -0.0003,
+          0,
+          -0.006,
+          0,
+          0.09
+        ],
+        [
+          0.00055,
+          0,
+          -0.0003,
+          0,
+          -0.006,
+          0,
+          0.09
+        ],
+        [
+          0.00055,
+          0,
+          -0.0003,
+          0,
+          -0.006,
+          0,
+          0.09
+        ],
+        [
+          0.00055,
+          0,
+          -0.0003,
+          0,
+          -0.006,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "The tip is centered over the visible mouth and tactile shape remains stable. Test a slow 1.25 mm downward advance at the corrected depth.",
+      "actions": [
+        [
+          5e-05,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          5e-05,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          5e-05,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          5e-05,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          5e-05,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Continue the gentle vertical insertion test. The plug remains at the mouth with little tactile change; monitor for slip rather than assuming seating.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Tactile translation suggests the tip is blocked rather than advancing. Unload slightly and add a small pitch correction, which also moves the tip toward the socket in depth.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          -0.004,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          -0.004,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          -0.004,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -0.004,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.00025,
+          0,
+          -0.004,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "Test insertion at the revised pitch and depth with small vertical increments, retaining the connector and monitoring tactile slip.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 70,
+      "text": "Tactile shift indicates blockage. Back out slightly, reduce the pitch, and move the tip back in depth before another low-force approach.",
+      "actions": [
+        [
+          -0.0002,
+          0,
+          0.0006,
+          0,
+          0.005,
+          0,
+          0.09
+        ],
+        [
+          -0.0002,
+          0,
+          0.0006,
+          0,
+          0.005,
+          0,
+          0.09
+        ],
+        [
+          -0.0002,
+          0,
+          0.0006,
+          0,
+          0.005,
+          0,
+          0.09
+        ],
+        [
+          -0.0002,
+          0,
+          0.0006,
+          0,
+          0.005,
+          0,
+          0.09
+        ],
+        [
+          -0.0002,
+          0,
+          0.0006,
+          0,
+          0.005,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 75,
+      "text": "With the plug unloaded, shift 1.3 mm farther back in depth and lower gently to test the socket center at the reduced pitch.",
+      "actions": [
+        [
+          -0.0003,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          -0.0003,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          -0.0003,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          -0.0002,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          -0.0002,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 80,
+      "text": "Test a 1 mm vertical insertion at this depth alignment; watch the tactile patch for sliding or rotation rather than relying on arm tracking.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 85,
+      "text": "Continue by another millimeter with fixed orientation. Current contact is small; compare plug motion and tactile displacement before proceeding deeper.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 90,
+      "text": "The plug top moves down with the fingers while tactile shape stays nearly unchanged, consistent with entry. Maintain alignment and advance slowly.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 95,
+      "text": "Continue the straight insertion in 0.2 mm increments. The visible plug top continues following the gripper without substantial tactile slip.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

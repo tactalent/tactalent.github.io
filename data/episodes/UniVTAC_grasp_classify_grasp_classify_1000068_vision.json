@@ -1,0 +1,185 @@
+{
+  "seed": 1000068,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 10,
+  "decisions": 3,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000068_vision",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "1.000000",
+    "nb_frames": "10"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 10,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/9793d0dd4b79bd819ddf721e.mp4",
+  "poster": "media/9793d0dd4b79bd819ddf721e.jpg",
+  "usage": {
+    "attempts": 3,
+    "requests_with_tokens": 3,
+    "prompt_tokens": 55788,
+    "completion_tokens": 1358,
+    "total_tokens": 57146,
+    "cached_tokens": 35742,
+    "reasoning_tokens": 927,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Keep the existing contact and make a gentle transport/probe while checking retention. The cylinder appears textured, so tentatively approach the orange pad.",
+      "actions": [
+        [
+          0.002,
+          -0.003,
+          0.001,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.002,
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.002,
+          -0.003,
+          -0.001,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.002,
+          -0.003,
+          -0.002,
+          0,
+          0,
+          0,
+          0.179023
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "The cylinder remains between the fingers and looks rough. Carry it toward the orange pad, keeping the grasp and lowering gradually.",
+      "actions": [
+        [
+          0.005,
+          -0.008,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.005,
+          -0.008,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.005,
+          -0.008,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.005,
+          -0.008,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.179023
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "Align the held rough-looking cylinder with the orange pad and approach its surface without opening the fingers yet.",
+      "actions": [
+        [
+          0.00545,
+          -0.0095,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.00545,
+          -0.0095,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.00545,
+          -0.0095,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.00545,
+          -0.0095,
+          -0.0055,
+          0,
+          0,
+          0,
+          0.179023
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

@@ -1,0 +1,489 @@
+{
+  "seed": 10038,
+  "evaluation_case": "roughness_classify_smooth",
+  "conditions": {
+    "roughness_label": "smooth"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 36,
+  "decisions": 8,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_roughness_classify_roughness_classify_smooth_10038_vision_tactile",
+  "task_id": "OpenViTac_roughness_classify",
+  "benchmark": "OpenViTac",
+  "task": "roughness_classify",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "3.600000",
+    "nb_frames": "36"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      320,
+      240
+    ],
+    "tactile_right": [
+      320,
+      240
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 36,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/39a85ee184b5cf6cae2aa14f.mp4",
+  "poster": "media/39a85ee184b5cf6cae2aa14f.jpg",
+  "usage": {
+    "attempts": 8,
+    "requests_with_tokens": 8,
+    "prompt_tokens": 250348,
+    "completion_tokens": 2616,
+    "total_tokens": 252964,
+    "cached_tokens": 205142,
+    "reasoning_tokens": 1414,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible block with open fingers; surface class is unknown until contact.",
+      "actions": [
+        [
+          -0.008,
+          0.0008,
+          -0.006,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0008,
+          -0.006,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0008,
+          -0.006,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0008,
+          -0.006,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0008,
+          -0.006,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Move down and back to straddle the block, keeping the gripper open.",
+      "actions": [
+        [
+          -0.01,
+          0.001,
+          -0.01,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.001,
+          -0.01,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.001,
+          -0.01,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.001,
+          -0.01,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.001,
+          -0.01,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Finish alignment at the upper sides of the block and close gently to obtain tactile contact.",
+      "actions": [
+        [
+          -0.004,
+          0.00025,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.004,
+          0.00025,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.004,
+          0.00025,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.16
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Establish and hold side contact so the tactile pattern can distinguish smooth from rough.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.12
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Contact shows a flat, untextured surface, consistent with smooth. Lift while retaining the block before moving toward blue.",
+      "actions": [
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "The block rose with the hand and the smooth contact persists. Carry it toward the blue plate with clearance.",
+      "actions": [
+        [
+          0.006,
+          0.008,
+          0.001,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.006,
+          0.008,
+          0.001,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.006,
+          0.008,
+          0.001,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.006,
+          0.008,
+          0.001,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.006,
+          0.008,
+          0.001,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Move the retained smooth block over the blue plate, descending while keeping its base clear.",
+      "actions": [
+        [
+          0.006,
+          0.008,
+          -0.004,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.006,
+          0.008,
+          -0.004,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.006,
+          0.008,
+          -0.004,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.006,
+          0.008,
+          -0.004,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.006,
+          0.008,
+          -0.004,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Lower the smooth block toward the center of the blue plate, retaining it until supported.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.003,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.003,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.003,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.003,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.003,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

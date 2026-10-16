@@ -1,0 +1,1103 @@
+{
+  "seed": 10006,
+  "evaluation_case": "hardness_classify_hard",
+  "conditions": {
+    "hardness_label": "hard"
+  },
+  "status": "failed",
+  "raw_status": "failed",
+  "steps": 100,
+  "decisions": 20,
+  "termination": "native_horizon",
+  "available": true,
+  "id": "OpenViTac_hardness_classify_hardness_classify_hard_10006_vision",
+  "task_id": "OpenViTac_hardness_classify",
+  "benchmark": "OpenViTac",
+  "task": "hardness_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "10.000000",
+    "nb_frames": "100"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 100,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/161e415ef6899a4e19566159.mp4",
+  "poster": "media/161e415ef6899a4e19566159.jpg",
+  "usage": {
+    "attempts": 20,
+    "requests_with_tokens": 20,
+    "prompt_tokens": 558068,
+    "completion_tokens": 5642,
+    "total_tokens": 563710,
+    "cached_tokens": 500414,
+    "reasoning_tokens": 2794,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible red block with an open gripper, aligning vertically before a gentle squeeze to assess deformation.",
+      "actions": [
+        [
+          -0.008,
+          0.0008,
+          -0.006,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0008,
+          -0.006,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0008,
+          -0.006,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0008,
+          -0.006,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0008,
+          -0.006,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue toward the red block's upper sides, maintaining an open gripper and checking alignment before contact.",
+      "actions": [
+        [
+          -0.01,
+          0.001,
+          -0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.001,
+          -0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.001,
+          -0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.001,
+          -0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.001,
+          -0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Fine-align around the block's upper section; lower slowly to establish opposing fingertip contact during the next squeeze.",
+      "actions": [
+        [
+          -0.0022,
+          0.00015,
+          -0.0027,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0022,
+          0.00015,
+          -0.0027,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0022,
+          0.00015,
+          -0.0027,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0022,
+          0.00015,
+          -0.0027,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0022,
+          0.00015,
+          -0.0027,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Adjust depth toward the block center and narrow the gripper gradually, watching for the onset of contact rather than assuming a grasp.",
+      "actions": [
+        [
+          -0.0024,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.48
+        ],
+        [
+          -0.0024,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.44
+        ],
+        [
+          -0.0024,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.0024,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.36
+        ],
+        [
+          -0.0024,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.32
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Squeeze the aligned block progressively while holding the hand still; inspect whether the red block compresses under fingertip contact.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.27
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.22
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.18
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.14
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Apply a small additional closing probe and pause. Little visible compression so far suggests rigidity, but contact response needs confirmation.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.075
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.05
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "The contact region appears to narrow under the extra squeeze, suggesting soft material. Ease back to a retaining opening and lift slightly to verify retention.",
+      "actions": [
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "The block rose with the fingers and its contour recovered after easing the squeeze. Carry the apparently soft block toward the blue plate with clearance.",
+      "actions": [
+        [
+          0.006,
+          0.006,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.006,
+          0.006,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.006,
+          0.006,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.006,
+          0.006,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.006,
+          0.006,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Continue transporting the retained block over the blue plate while keeping it raised; check its alignment before lowering.",
+      "actions": [
+        [
+          0.01,
+          0.009,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.01,
+          0.009,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.01,
+          0.009,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.01,
+          0.009,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.01,
+          0.009,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Lower the block vertically over the blue plate while maintaining the grasp; approach the support surface slowly before release.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.006,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.006,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.006,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.006,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.006,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "Set the block onto the blue plate and open the fingers gradually. Check that it remains supported after release.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.18
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.35
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Withdraw the open hand and observe whether the placed block stays on the blue plate; inspect for any remaining block.",
+      "actions": [
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.003,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.003,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "The released block remains upright on the blue plate. Move aside for an unobstructed inspection and allow it to settle.",
+      "actions": [
+        [
+          -0.004,
+          -0.008,
+          0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.004,
+          -0.008,
+          0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.004,
+          -0.008,
+          0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.004,
+          -0.008,
+          0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.004,
+          -0.008,
+          0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "Hold clear while the block settles on blue. No second red block is visible in either camera.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 70,
+      "text": "Maintain clearance and monitor the released block, which remains on the blue plate; no additional block is visible.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 75,
+      "text": "Keep the hand clear and continue monitoring the block's stable placement on blue.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 80,
+      "text": "Observe without contact; the red block remains upright and centered on the blue plate.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 85,
+      "text": "Keep clear of the placed block and monitor its stable support on blue.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 90,
+      "text": "Observe the released block on blue without disturbing it; no other red block is visible.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 95,
+      "text": "Hold the open gripper clear and monitor the stable block on the blue plate.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

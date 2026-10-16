@@ -1,0 +1,529 @@
+{
+  "seed": 1000026,
+  "evaluation_case": "insert_tube",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 44,
+  "decisions": 9,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_tube_insert_tube_1000026_vision",
+  "task_id": "UniVTAC_insert_tube",
+  "benchmark": "UniVTAC",
+  "task": "insert_tube",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "4.400000",
+    "nb_frames": "44"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ],
+    "wrist": [
+      640,
+      360
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 44,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/7b153884dfa3be9e8086c855.mp4",
+  "poster": "media/7b153884dfa3be9e8086c855.jpg",
+  "usage": {
+    "attempts": 9,
+    "requests_with_tokens": 9,
+    "prompt_tokens": 262278,
+    "completion_tokens": 4103,
+    "total_tokens": 266381,
+    "cached_tokens": 218281,
+    "reasoning_tokens": 2526,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Tube is held near the entrance. Begin a small advance along its observed downward inclined axis, keeping the grasp and checking rim alignment.",
+      "actions": [
+        [
+          0.00025,
+          -1e-06,
+          -0.00044,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0003,
+          -1e-06,
+          -0.00053,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00035,
+          -1e-06,
+          -0.00062,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0004,
+          -2e-06,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0004,
+          -2e-06,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146721
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue a short axial insertion with a very small lateral centering probe; a narrow crescent remains beside the tube in the wrist view.",
+      "actions": [
+        [
+          0.00035,
+          -5e-05,
+          -0.000615,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00035,
+          -5e-05,
+          -0.000615,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00035,
+          -5e-05,
+          -0.000615,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00035,
+          -5e-05,
+          -0.000615,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00035,
+          -5e-05,
+          -0.000615,
+          0,
+          0,
+          0,
+          0.146721
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "The left rim remains visible. Reverse the tiny lateral probe to center the tube while advancing only a few millimeters.",
+      "actions": [
+        [
+          0.00025,
+          0.00012,
+          -0.00044,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00025,
+          0.00012,
+          -0.00044,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00025,
+          0.00012,
+          -0.00044,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00025,
+          0.00012,
+          -0.00044,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00025,
+          0.00012,
+          -0.00044,
+          0,
+          0,
+          0,
+          0.146721
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "The rim is nearly centered around the tube. Preserve orientation and grasp for another short axial insertion, watching for shortening of the exposed tube.",
+      "actions": [
+        [
+          0.00035,
+          0,
+          -0.00062,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00035,
+          0,
+          -0.00062,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00035,
+          0,
+          -0.00062,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00035,
+          0,
+          -0.00062,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00035,
+          0,
+          -0.00062,
+          0,
+          0,
+          0,
+          0.146721
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The entrance rim has become occluded and the tube remains held. Advance gently along the same axis without changing the lateral alignment.",
+      "actions": [
+        [
+          0.00045,
+          -2e-06,
+          -0.00079,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00045,
+          -2e-06,
+          -0.00079,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00045,
+          -2e-06,
+          -0.00079,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00045,
+          -2e-06,
+          -0.00079,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.00045,
+          -2e-06,
+          -0.00079,
+          0,
+          0,
+          0,
+          0.146721
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "The visible tube is shortening into the entrance with no exposed offset rim. Continue controlled axial insertion while maintaining the grasp.",
+      "actions": [
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Maintain the current aligned axis and insert another small distance. The wrist view shows the surface approaching and the exposed tube shortening.",
+      "actions": [
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Continue incremental insertion along the held tube axis; no lateral correction is indicated by the visible entrance.",
+      "actions": [
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "The tube continues to shorten against a stationary slot. Maintain the same small axial insertion steps and closed grasp.",
+      "actions": [
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ],
+        [
+          0.0005,
+          -2e-06,
+          -0.00088,
+          0,
+          0,
+          0,
+          0.146721
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

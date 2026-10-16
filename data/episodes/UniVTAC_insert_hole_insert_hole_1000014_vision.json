@@ -1,0 +1,576 @@
+{
+  "seed": 1000014,
+  "evaluation_case": "insert_hole",
+  "conditions": {},
+  "status": "failed",
+  "raw_status": "failed",
+  "steps": 49,
+  "decisions": 10,
+  "termination": "native_early_stop",
+  "available": true,
+  "id": "UniVTAC_insert_hole_insert_hole_1000014_vision",
+  "task_id": "UniVTAC_insert_hole",
+  "benchmark": "UniVTAC",
+  "task": "insert_hole",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "4.900000",
+    "nb_frames": "49"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 49,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/b232ec557d2db1c0d254f52f.mp4",
+  "poster": "media/b232ec557d2db1c0d254f52f.jpg",
+  "usage": {
+    "attempts": 10,
+    "requests_with_tokens": 10,
+    "prompt_tokens": 233543,
+    "completion_tokens": 2441,
+    "total_tokens": 235984,
+    "cached_tokens": 198229,
+    "reasoning_tokens": 933,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Gently lower the retained stick toward the entrance, watching for contact and any deflection before choosing a slant.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146562
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue a slow vertical approach with unchanged grip; the tip remains at the block entrance.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146562
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Lower another small increment to establish entrance contact without changing orientation.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146562
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Complete the gentle straight approach; next examine lateral response at the hole mouth.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.146562
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Probe the positive-X slant gently while keeping the tip near the entrance; inspect the stick's contact-guided tilt.",
+      "actions": [
+        [
+          0.001,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.0015,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.0015,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.0015,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.0015,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146562
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Extend the small lateral probe while easing down; the tip appears retained at the hole mouth.",
+      "actions": [
+        [
+          0.002,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.002,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146562
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Continue contact-guided tilting toward positive X; watch whether the mouth remains anchored and the exposed stick shortens.",
+      "actions": [
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146562
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Approach the candidate 30-degree-from-vertical slant using the entrance as a pivot; preserve the existing grip.",
+      "actions": [
+        [
+          0.0024,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.0024,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.0024,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.0024,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          0.0024,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146562
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Test insertion along the observed slant, moving down and back toward the entrance; check that exposed tube length decreases.",
+      "actions": [
+        [
+          -0.0006,
+          0,
+          -0.0011,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          -0.0008,
+          0,
+          -0.0014,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          -0.0008,
+          0,
+          -0.0014,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          -0.0009,
+          0,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          -0.0009,
+          0,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.146562
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Continue slow insertion along the candidate bore direction; the tip stays at the entrance while the visible shaft shortens.",
+      "actions": [
+        [
+          -0.0009,
+          0,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          -0.0009,
+          0,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          -0.0009,
+          0,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          -0.0009,
+          0,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.146562
+        ],
+        [
+          -0.0009,
+          0,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.146562
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

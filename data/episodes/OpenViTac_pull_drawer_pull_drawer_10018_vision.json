@@ -1,0 +1,633 @@
+{
+  "seed": 10018,
+  "evaluation_case": "pull_drawer",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 53,
+  "decisions": 11,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_pull_drawer_pull_drawer_10018_vision",
+  "task_id": "OpenViTac_pull_drawer",
+  "benchmark": "OpenViTac",
+  "task": "pull_drawer",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "5.300000",
+    "nb_frames": "53"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 53,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/eaebddaa25fe00143da77979.mp4",
+  "poster": "media/eaebddaa25fe00143da77979.jpg",
+  "usage": {
+    "attempts": 11,
+    "requests_with_tokens": 11,
+    "prompt_tokens": 311514,
+    "completion_tokens": 2977,
+    "total_tokens": 314491,
+    "cached_tokens": 268130,
+    "reasoning_tokens": 1337,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach above the upper handle with open fingers and a slight forward tilt; refine alignment from wrist view.",
+      "actions": [
+        [
+          0.01,
+          -0.0006,
+          -0.001,
+          -0.003,
+          -0.035,
+          -0.001,
+          0.55
+        ],
+        [
+          0.01,
+          -0.0006,
+          -0.001,
+          -0.003,
+          -0.035,
+          -0.001,
+          0.55
+        ],
+        [
+          0.01,
+          -0.0006,
+          -0.001,
+          -0.003,
+          -0.035,
+          -0.001,
+          0.55
+        ],
+        [
+          0.01,
+          -0.0006,
+          -0.001,
+          -0.003,
+          -0.035,
+          -0.001,
+          0.55
+        ],
+        [
+          0.01,
+          -0.0006,
+          -0.001,
+          -0.003,
+          -0.035,
+          -0.001,
+          0.55
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Move closer and lower toward the centered upper knob, finishing the shallow tilt while keeping the grasp open.",
+      "actions": [
+        [
+          0.008,
+          -0.0002,
+          -0.004,
+          -0.00114,
+          -0.0229,
+          -0.0007,
+          0.55
+        ],
+        [
+          0.008,
+          -0.0002,
+          -0.004,
+          -0.00114,
+          -0.0229,
+          -0.0007,
+          0.55
+        ],
+        [
+          0.008,
+          -0.0002,
+          -0.004,
+          -0.00114,
+          -0.0229,
+          -0.0007,
+          0.55
+        ],
+        [
+          0.008,
+          -0.0002,
+          -0.004,
+          -0.00114,
+          -0.0229,
+          -0.0007,
+          0.55
+        ],
+        [
+          0.008,
+          -0.0002,
+          -0.004,
+          -0.00114,
+          -0.0229,
+          -0.0007,
+          0.55
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Lower the fingers around the upper handle, with a small centering correction. Keep open until the knob is seated between the pads.",
+      "actions": [
+        [
+          0.0008,
+          0.00012,
+          -0.0028,
+          0,
+          0,
+          0,
+          0.55
+        ],
+        [
+          0.0008,
+          0.00012,
+          -0.0028,
+          0,
+          0,
+          0,
+          0.55
+        ],
+        [
+          0.0008,
+          0.00012,
+          -0.0028,
+          0,
+          0,
+          0,
+          0.55
+        ],
+        [
+          0.0008,
+          0.00012,
+          -0.0028,
+          0,
+          0,
+          0,
+          0.55
+        ],
+        [
+          0.0008,
+          0.00012,
+          -0.0028,
+          0,
+          0,
+          0,
+          0.55
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "The upper knob is centered between the finger pads; close around it while holding the hand pose.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.45
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.35
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.26
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.19
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Begin a slow straight outward pull while maintaining the grasp; check that the upper drawer follows the handle.",
+      "actions": [
+        [
+          -0.001,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.001,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.001,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.001,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.001,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "The knob remains between the pads and the drawer front has begun moving; continue a level outward pull.",
+      "actions": [
+        [
+          -0.002,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.002,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.002,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.002,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.002,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "The upper drawer gap is increasing and the knob stays centered in the grasp. Continue pulling straight outward at constant height.",
+      "actions": [
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Keep the handle grasped and extend the visibly opening upper drawer with a steady, level outward pull.",
+      "actions": [
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "The upper drawer continues following the retained handle. Maintain the same outward pull and stable hand orientation.",
+      "actions": [
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Continue extending the upper drawer while keeping the knob secured between the pads and the pull level.",
+      "actions": [
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "The handle remains retained and the upper drawer is extending. Continue the controlled outward pull.",
+      "actions": [
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ],
+        [
+          -0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.145
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

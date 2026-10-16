@@ -1,0 +1,695 @@
+{
+  "seed": 1000065,
+  "evaluation_case": "insert_tube",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 59,
+  "decisions": 12,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_tube_insert_tube_1000065_vision_tactile",
+  "task_id": "UniVTAC_insert_tube",
+  "benchmark": "UniVTAC",
+  "task": "insert_tube",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "5.900000",
+    "nb_frames": "59"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ],
+    "wrist": [
+      640,
+      360
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 59,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/a24a2d097a6c77ee3305a5ea.mp4",
+  "poster": "media/a24a2d097a6c77ee3305a5ea.jpg",
+  "usage": {
+    "attempts": 12,
+    "requests_with_tokens": 12,
+    "prompt_tokens": 472226,
+    "completion_tokens": 3745,
+    "total_tokens": 475971,
+    "cached_tokens": 405952,
+    "reasoning_tokens": 1685,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Maintain the native grasp and advance gently along the tube axis toward the visible hole; check entry alignment.",
+      "actions": [
+        [
+          0.00025,
+          0,
+          -0.00045,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.00035,
+          0,
+          -0.00065,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.0004,
+          0,
+          -0.00075,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.0004,
+          0,
+          -0.00075,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.0004,
+          0,
+          -0.00075,
+          0,
+          0,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue a short axial approach while holding orientation and grip; the hole remains slightly visible above the tube.",
+      "actions": [
+        [
+          0.0004,
+          0,
+          -0.00075,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.0004,
+          0,
+          -0.00075,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.0004,
+          0,
+          -0.00075,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.00035,
+          0,
+          -0.00065,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.0003,
+          0,
+          -0.00055,
+          0,
+          0,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Make a small inclination correction about the tube entrance, with very shallow forward progress; preserve grasp and monitor rim contact.",
+      "actions": [
+        [
+          0.00056,
+          0,
+          8e-05,
+          0,
+          0.0025,
+          0,
+          0.146373
+        ],
+        [
+          0.00056,
+          0,
+          8e-05,
+          0,
+          0.0025,
+          0,
+          0.146373
+        ],
+        [
+          0.00056,
+          0,
+          8e-05,
+          0,
+          0.0025,
+          0,
+          0.146373
+        ],
+        [
+          0.00056,
+          0,
+          8e-05,
+          0,
+          0.0025,
+          0,
+          0.146373
+        ],
+        [
+          0.00056,
+          0,
+          8e-05,
+          0,
+          0.0025,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Continue the small pitch correction with a near-fixed tube tip to match the inclined entrance; advance only minimally.",
+      "actions": [
+        [
+          0.00061,
+          0,
+          0.0002,
+          0,
+          0.003,
+          0,
+          0.146373
+        ],
+        [
+          0.00061,
+          0,
+          0.0002,
+          0,
+          0.003,
+          0,
+          0.146373
+        ],
+        [
+          0.00061,
+          0,
+          0.0002,
+          0,
+          0.003,
+          0,
+          0.146373
+        ],
+        [
+          0.00061,
+          0,
+          0.0002,
+          0,
+          0.003,
+          0,
+          0.146373
+        ],
+        [
+          0.00061,
+          0,
+          0.0002,
+          0,
+          0.003,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Refine pitch toward the surface normal while compensating the hand position to keep the tube at the entrance; the rim is nearly centered.",
+      "actions": [
+        [
+          0.0007,
+          0,
+          0.0003,
+          0,
+          0.0035,
+          0,
+          0.146373
+        ],
+        [
+          0.0007,
+          0,
+          0.0003,
+          0,
+          0.0035,
+          0,
+          0.146373
+        ],
+        [
+          0.0007,
+          0,
+          0.0003,
+          0,
+          0.0035,
+          0,
+          0.146373
+        ],
+        [
+          0.0007,
+          0,
+          0.0003,
+          0,
+          0.0035,
+          0,
+          0.146373
+        ],
+        [
+          0.0007,
+          0,
+          0.0003,
+          0,
+          0.0035,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Start a slow insertion with a final small inclination refinement. Keep the grasp unchanged and inspect whether the tube advances through the rim.",
+      "actions": [
+        [
+          0.00051,
+          0,
+          -0.00066,
+          0,
+          0.0008,
+          0,
+          0.146373
+        ],
+        [
+          0.00051,
+          0,
+          -0.00066,
+          0,
+          0.0008,
+          0,
+          0.146373
+        ],
+        [
+          0.00051,
+          0,
+          -0.00066,
+          0,
+          0.0008,
+          0,
+          0.146373
+        ],
+        [
+          0.00051,
+          0,
+          -0.00066,
+          0,
+          0.0008,
+          0,
+          0.146373
+        ],
+        [
+          0.00051,
+          0,
+          -0.00066,
+          0,
+          0.0008,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "The tube now covers the entrance rim. Advance five millimeters along its current axis, maintaining grip and orientation.",
+      "actions": [
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Continue a small axial insertion; the visible exposed tube is shortening and the grasp appearance remains stable.",
+      "actions": [
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Advance another short axial segment, preserving orientation and grasp while monitoring the tube at the slot.",
+      "actions": [
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Continue slow axial insertion. The exposed tube is shortening without visible lateral displacement; maintain the existing grip.",
+      "actions": [
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "Advance another five millimeters along the current tube axis, preserving orientation and monitoring the slot contact and grasp.",
+      "actions": [
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Continue controlled axial insertion; the tube remains at the entrance with no visible lateral escape. Keep the grasp target fixed.",
+      "actions": [
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ],
+        [
+          0.000445,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146373
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

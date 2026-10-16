@@ -1,0 +1,794 @@
+{
+  "seed": 1000010,
+  "evaluation_case": "insert_hole",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 69,
+  "decisions": 14,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_hole_insert_hole_1000010_vision_tactile",
+  "task_id": "UniVTAC_insert_hole",
+  "benchmark": "UniVTAC",
+  "task": "insert_hole",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "6.900000",
+    "nb_frames": "69"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 69,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/8b5781245b2ed733ab2b9e08.mp4",
+  "poster": "media/8b5781245b2ed733ab2b9e08.jpg",
+  "usage": {
+    "attempts": 14,
+    "requests_with_tokens": 14,
+    "prompt_tokens": 459225,
+    "completion_tokens": 3373,
+    "total_tokens": 462598,
+    "cached_tokens": 401222,
+    "reasoning_tokens": 1251,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Keep the native grasp and gently lower toward the entrance, monitoring tactile deformation for contact.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue the slow vertical contact approach; the tube remains centered over the block.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Lower another small increment while maintaining opening and watching for asymmetric contact.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Continue gentle descent; tube contact remains nearly symmetric, so the hole slant is not yet resolved.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Lower cautiously toward seated contact, retaining the tube and checking the developing left/right tactile tilt.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Complete the gentle vertical probe; slight tube tilt suggests testing the positive-x side next rather than forcing straight down.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Probe gently toward positive x with the tip at the entrance; use the tube's pivot and tactile response to test this slant.",
+      "actions": [
+        [
+          0.0005,
+          0,
+          -0.0001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0008,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.001,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0012,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0012,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "The tip stays at the entrance while the tube pivots. Continue a small positive-x arc and monitor whether the tactile slope develops smoothly.",
+      "actions": [
+        [
+          0.0015,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0015,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0015,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0015,
+          0,
+          -0.00045,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Continue the contact-guided pivot toward the candidate slant; tactile bands rotate smoothly and the entrance remains fixed.",
+      "actions": [
+        [
+          0.0018,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0018,
+          0,
+          -0.00045,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0018,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0018,
+          0,
+          -0.00055,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0018,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Increase the candidate tilt gradually while lowering along a shallow arc; stop short of forcing insertion until the tube reaches the slanted alignment.",
+      "actions": [
+        [
+          0.0018,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0018,
+          0,
+          -0.00065,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0018,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0018,
+          0,
+          -0.00075,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0018,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "The visible tube and tactile bands approach a 30-degree tilt. Finish the small pivot, then test advance along that axis.",
+      "actions": [
+        [
+          0.0012,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0012,
+          0,
+          -0.00065,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0012,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.001,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          0.0008,
+          0,
+          -0.00045,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Test insertion along the observed slant, moving negative x and down while preserving the native grasp and watching for stable angle and shortening.",
+      "actions": [
+        [
+          -0.0004,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.0005,
+          0,
+          -0.00087,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.00058,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.00058,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.00058,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "The tube shortens above the entrance with a stable tactile slope. Continue small advances along the same slanted axis.",
+      "actions": [
+        [
+          -0.00075,
+          0,
+          -0.0013,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.00087,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.00087,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.00087,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.00087,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "Maintain the established slant and feed the tube farther into the block in small increments; tactile tilt remains steady.",
+      "actions": [
+        [
+          -0.00087,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.00087,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.00087,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.00087,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146482
+        ],
+        [
+          -0.00087,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146482
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

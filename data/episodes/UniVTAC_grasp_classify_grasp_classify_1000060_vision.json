@@ -1,0 +1,271 @@
+{
+  "seed": 1000060,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 21,
+  "decisions": 6,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000060_vision",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "2.000000",
+    "nb_frames": "20"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 20,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/f9db003157e0a883549bb704.mp4",
+  "poster": "media/f9db003157e0a883549bb704.jpg",
+  "usage": {
+    "attempts": 6,
+    "requests_with_tokens": 6,
+    "prompt_tokens": 116670,
+    "completion_tokens": 2337,
+    "total_tokens": 119007,
+    "cached_tokens": 92740,
+    "reasoning_tokens": 1537,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Maintain the initial grasp and make a tiny contact probe; texture is not yet clear from the head view.",
+      "actions": [
+        [
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.01,
+          0.186003
+        ],
+        [
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.01,
+          0.186003
+        ],
+        [
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          -0.01,
+          0.186003
+        ],
+        [
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          -0.01,
+          0.186003
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "Use a small upward contact test with slightly relaxed closure, then restore the grasp; watch for relative cylinder slip.",
+      "actions": [
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.195
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.205
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.205
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.186003
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "The cylinder appears to have slipped slightly during relaxed contact. Tentatively classify it as smooth and carry it toward the green pad with the original closure restored.",
+      "actions": [
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 12,
+      "text": "The cylinder is visibly retained. Continue the shallow diagonal carry toward green while keeping its base clear of the table.",
+      "actions": [
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 16,
+      "text": "Continue toward the tentative smooth region. Keep the grasp closed and slow the descent as the cylinder approaches pad height.",
+      "actions": [
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.186003
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

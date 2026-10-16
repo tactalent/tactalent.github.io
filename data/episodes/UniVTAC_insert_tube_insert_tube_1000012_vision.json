@@ -1,0 +1,633 @@
+{
+  "seed": 1000012,
+  "evaluation_case": "insert_tube",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 53,
+  "decisions": 11,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_tube_insert_tube_1000012_vision",
+  "task_id": "UniVTAC_insert_tube",
+  "benchmark": "UniVTAC",
+  "task": "insert_tube",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "5.300000",
+    "nb_frames": "53"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ],
+    "wrist": [
+      640,
+      360
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 53,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/b015c5975f174fc6fe6274ad.mp4",
+  "poster": "media/b015c5975f174fc6fe6274ad.jpg",
+  "usage": {
+    "attempts": 11,
+    "requests_with_tokens": 11,
+    "prompt_tokens": 332993,
+    "completion_tokens": 5846,
+    "total_tokens": 338839,
+    "cached_tokens": 282509,
+    "reasoning_tokens": 3895,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Advance gently along the already-held tube axis, maintaining grip; watch the exposed rim for lateral alignment.",
+      "actions": [
+        [
+          0.000235,
+          -1e-06,
+          -0.000442,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000235,
+          -1e-06,
+          -0.000442,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000235,
+          -1e-06,
+          -0.000442,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000235,
+          -1e-06,
+          -0.000442,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000235,
+          -1e-06,
+          -0.000442,
+          0,
+          0,
+          0,
+          0.146716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Test a 1 mm lateral correction toward the visible rim center with a very shallow axial advance.",
+      "actions": [
+        [
+          0.0001,
+          0.0002,
+          -0.000188,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.0001,
+          0.0002,
+          -0.000188,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.0001,
+          0.0002,
+          -0.000188,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.0001,
+          0.0002,
+          -0.000188,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.0001,
+          0.0002,
+          -0.000188,
+          0,
+          0,
+          0,
+          0.146716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "The lateral test reduced the exposed left rim. Shift another 2 mm and make a small tip-centered tilt toward the inclined-slot normal.",
+      "actions": [
+        [
+          0.000486,
+          0.0004,
+          0.000258,
+          0,
+          0.0025,
+          0,
+          0.146716
+        ],
+        [
+          0.000487,
+          0.0004,
+          0.000257,
+          0,
+          0.0025,
+          0,
+          0.146716
+        ],
+        [
+          0.000487,
+          0.0004,
+          0.000255,
+          0,
+          0.0025,
+          0,
+          0.146716
+        ],
+        [
+          0.000488,
+          0.0004,
+          0.000254,
+          0,
+          0.0025,
+          0,
+          0.146716
+        ],
+        [
+          0.000489,
+          0.0004,
+          0.000253,
+          0,
+          0.0025,
+          0,
+          0.146716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Complete the small inclination correction while easing the tube 1 mm forward and centering the remaining asymmetric rim.",
+      "actions": [
+        [
+          0.000598,
+          0.0003,
+          8.5e-05,
+          0,
+          0.0026,
+          0,
+          0.146716
+        ],
+        [
+          0.000599,
+          0.0003,
+          8.4e-05,
+          0,
+          0.0026,
+          0,
+          0.146716
+        ],
+        [
+          0.000599,
+          0.0003,
+          8.2e-05,
+          0,
+          0.0026,
+          0,
+          0.146716
+        ],
+        [
+          0.0006,
+          0.0003,
+          8.1e-05,
+          0,
+          0.0026,
+          0,
+          0.146716
+        ],
+        [
+          0.000601,
+          0.0003,
+          8e-05,
+          0,
+          0.0026,
+          0,
+          0.146716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Rim is now laterally centered. Maintain the corrected inclination and make a slow 4.5 mm axial insertion.",
+      "actions": [
+        [
+          0.000403,
+          -2e-06,
+          -0.000805,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000403,
+          -2e-06,
+          -0.000805,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000403,
+          -2e-06,
+          -0.000805,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000403,
+          -2e-06,
+          -0.000805,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000403,
+          -2e-06,
+          -0.000805,
+          0,
+          0,
+          0,
+          0.146716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "The exposed rim narrows evenly as the tube advances. Continue another 5 mm along the held axis without releasing.",
+      "actions": [
+        [
+          0.000447,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000447,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000447,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000447,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000447,
+          -2e-06,
+          -0.000895,
+          0,
+          0,
+          0,
+          0.146716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "The tube now covers the entrance evenly. Continue a controlled 6 mm axial advance and monitor retention and seating.",
+      "actions": [
+        [
+          0.000536,
+          -2e-06,
+          -0.001074,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000536,
+          -2e-06,
+          -0.001074,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000536,
+          -2e-06,
+          -0.001074,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000536,
+          -2e-06,
+          -0.001074,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000536,
+          -2e-06,
+          -0.001074,
+          0,
+          0,
+          0,
+          0.146716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Maintain the aligned shaft and closed grasp while advancing another 6 mm into the inclined slot.",
+      "actions": [
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "The shaft remains at the entrance with no visible lateral rim. Continue slow axial insertion, preserving the current alignment.",
+      "actions": [
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Continue another 6 mm along the tube axis; the visible shaft is shortening while remaining aligned with the slot.",
+      "actions": [
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "Maintain grip and inclination for a further 6 mm insertion, monitoring the tube-to-surface junction.",
+      "actions": [
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ],
+        [
+          0.000537,
+          -2e-06,
+          -0.001073,
+          0,
+          0,
+          0,
+          0.146716
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

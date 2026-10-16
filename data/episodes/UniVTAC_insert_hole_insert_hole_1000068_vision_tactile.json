@@ -1,0 +1,742 @@
+{
+  "seed": 1000068,
+  "evaluation_case": "insert_hole",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 65,
+  "decisions": 13,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_hole_insert_hole_1000068_vision_tactile",
+  "task_id": "UniVTAC_insert_hole",
+  "benchmark": "UniVTAC",
+  "task": "insert_hole",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "6.500000",
+    "nb_frames": "65"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 65,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/7e0190e0d937a5fcf3213040.mp4",
+  "poster": "media/7e0190e0d937a5fcf3213040.jpg",
+  "usage": {
+    "attempts": 13,
+    "requests_with_tokens": 13,
+    "prompt_tokens": 422644,
+    "completion_tokens": 3075,
+    "total_tokens": 425719,
+    "cached_tokens": 367331,
+    "reasoning_tokens": 1070,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Lower the already held stick gently toward the entrance, retaining the initial grip and watching for asymmetric contact.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue the gentle axial contact probe; the stick remains centered and the tactile bands are nearly horizontal.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Advance slowly into initial contact without changing grip or wrist orientation; monitor for the hole's lateral bias.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Continue shallow descent. A slight opposite tilt is appearing in the tactile bands; wait for clearer contact before selecting the slant.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Finish the shallow vertical contact probe. Tactile slope and the stick's slight lean suggest moving the held end toward negative X next.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0,
+          0,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Follow the contact-induced lean toward negative X with a small lateral-and-down probe, allowing the stick to pivot at the entrance.",
+      "actions": [
+        [
+          -0.0006,
+          0,
+          -0.00015,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0008,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.001,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0012,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0014,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "The stick and tactile bands rotate consistently in the probed direction. Continue negative-X alignment while keeping the tip engaged.",
+      "actions": [
+        [
+          -0.0015,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0016,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0018,
+          0,
+          -0.00045,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0018,
+          0,
+          -0.00045,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0018,
+          0,
+          -0.00045,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Continue pivoting the held end toward negative X. The visible stick stays at the entrance and is developing the expected slant.",
+      "actions": [
+        [
+          -0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Approach the roughly 30-degree-from-vertical slant with smaller lateral steps, keeping the stick seated at the mouth.",
+      "actions": [
+        [
+          -0.0018,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0018,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0018,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0016,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Refine the negative-X lean toward the contact-indicated hole angle before beginning diagonal insertion.",
+      "actions": [
+        [
+          -0.0015,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0014,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0013,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0012,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          -0.0011,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "The tactile and visible stick slant are near 30 degrees. Begin insertion along positive X and downward while preserving this angle.",
+      "actions": [
+        [
+          0.0003,
+          0,
+          -0.00052,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.0004,
+          0,
+          -0.000693,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.0005,
+          0,
+          -0.000866,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.0006,
+          0,
+          -0.001039,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.0007,
+          0,
+          -0.001212,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Advance along the established slant. The exposed tube is shortening while the tactile inclination remains steady.",
+      "actions": [
+        [
+          0.0008,
+          0,
+          -0.001386,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.0009,
+          0,
+          -0.001559,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Continue controlled diagonal insertion with unchanged grip; the tube remains engaged and the contact angle is stable.",
+      "actions": [
+        [
+          0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146852
+        ],
+        [
+          0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146852
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

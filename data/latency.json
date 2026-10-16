@@ -1,0 +1,50 @@
+{
+  "source": "Provider RT(ms), from deduplicated and reconciled evaluation-phase logs.",
+  "source_sha256": "f0cea5664027d0ba6e562f855ec321b08567ecdb27fc8f3acb18c67bcefb81e8",
+  "metric": "Provider-reported complete API response time; not simulation time or token generation time.",
+  "inclusion": "HTTP 200, provider result success, positive output tokens, finite positive RT. Retried requests satisfying these conditions are included once per RequestID.",
+  "exclusion": "Failed API requests and successful-status responses without output tokens; no latency outlier removal.",
+  "quantile_method": "NumPy linear interpolation",
+  "by_mode": {
+    "vision": {
+      "n": 3927,
+      "mean_s": 22.80777565571683,
+      "median_s": 15.408,
+      "p90_s": 46.266600000000004,
+      "p95_s": 59.106999999999985,
+      "p99_s": 110.66977999999891,
+      "min_s": 3.76,
+      "max_s": 325.775,
+      "over_120_s": 30,
+      "excluded": {
+        "failed_request": 350,
+        "no_output_tokens": 15
+      },
+      "phase_requests": 4292
+    },
+    "vision_tactile": {
+      "n": 4890,
+      "mean_s": 21.127308588957053,
+      "median_s": 14.041,
+      "p90_s": 44.004300000000015,
+      "p95_s": 56.76995,
+      "p99_s": 96.59579999999988,
+      "min_s": 1.582,
+      "max_s": 405.477,
+      "over_120_s": 23,
+      "excluded": {
+        "failed_request": 375,
+        "no_output_tokens": 16
+      },
+      "phase_requests": 5281
+    }
+  },
+  "histogram": {
+    "bin_width_s": 5,
+    "display_range_s": [
+      0,
+      120
+    ],
+    "normalization": "Each bin count divided by all included requests in its own mode; tail not renormalized."
+  }
+}

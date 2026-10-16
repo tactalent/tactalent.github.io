@@ -1,0 +1,375 @@
+{
+  "seed": 10017,
+  "evaluation_case": "roughness_classify_smooth",
+  "conditions": {
+    "roughness_label": "smooth"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 29,
+  "decisions": 6,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_roughness_classify_roughness_classify_smooth_10017_vision",
+  "task_id": "OpenViTac_roughness_classify",
+  "benchmark": "OpenViTac",
+  "task": "roughness_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "2.900000",
+    "nb_frames": "29"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 29,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/634f00b9872634c5f610727b.mp4",
+  "poster": "media/634f00b9872634c5f610727b.jpg",
+  "usage": {
+    "attempts": 6,
+    "requests_with_tokens": 6,
+    "prompt_tokens": 143624,
+    "completion_tokens": 2463,
+    "total_tokens": 146087,
+    "cached_tokens": 112667,
+    "reasoning_tokens": 1332,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible upright block with the gripper open, keeping the fingers vertical for a contact inspection.",
+      "actions": [
+        [
+          -0.01,
+          0.0,
+          -0.008,
+          -0.004,
+          -0.005,
+          -0.001,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.0,
+          -0.008,
+          -0.004,
+          -0.005,
+          -0.001,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.0,
+          -0.008,
+          -0.004,
+          -0.005,
+          -0.001,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.0,
+          -0.008,
+          -0.004,
+          -0.005,
+          -0.001,
+          0.512821
+        ],
+        [
+          -0.01,
+          0.0,
+          -0.008,
+          -0.004,
+          -0.005,
+          -0.001,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Align over the block and lower until the finger pads straddle its upper surface.",
+      "actions": [
+        [
+          -0.011,
+          8e-05,
+          -0.01,
+          -0.000312,
+          -0.000528,
+          -0.000132,
+          0.512821
+        ],
+        [
+          -0.011,
+          8e-05,
+          -0.01,
+          -0.000312,
+          -0.000528,
+          -0.000132,
+          0.512821
+        ],
+        [
+          -0.011,
+          8e-05,
+          -0.01,
+          -0.000312,
+          -0.000528,
+          -0.000132,
+          0.512821
+        ],
+        [
+          -0.011,
+          8e-05,
+          -0.01,
+          -0.000312,
+          -0.000528,
+          -0.000132,
+          0.512821
+        ],
+        [
+          -0.011,
+          8e-05,
+          -0.01,
+          -0.000312,
+          -0.000528,
+          -0.000132,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Close gradually to contact the block; inspect its surface and retention before choosing the plate.",
+      "actions": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.43
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.34
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.25
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.16
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Lift the contacted block slightly and check that it stays between the fingers; the visible surface appears smooth.",
+      "actions": [
+        [
+          0.0,
+          0.0,
+          0.009,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.0,
+          0.0,
+          0.009,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.0,
+          0.0,
+          0.009,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.0,
+          0.0,
+          0.009,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.0,
+          0.0,
+          0.009,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The block is visibly retained after lifting. Carry the smooth-appearing block toward the blue plate with clearance.",
+      "actions": [
+        [
+          0.012,
+          0.016,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.012,
+          0.016,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.012,
+          0.016,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.012,
+          0.016,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.012,
+          0.016,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Center the retained block over the blue plate and lower it close to the plate surface before release.",
+      "actions": [
+        [
+          0.001,
+          0.002,
+          -0.007,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.001,
+          0.002,
+          -0.007,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.001,
+          0.002,
+          -0.007,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.001,
+          0.002,
+          -0.007,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ],
+        [
+          0.001,
+          0.002,
+          -0.007,
+          0.0,
+          0.0,
+          0.0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

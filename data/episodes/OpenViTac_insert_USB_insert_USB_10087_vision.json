@@ -1,0 +1,1049 @@
+{
+  "seed": 10087,
+  "evaluation_case": "insert_USB",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 92,
+  "decisions": 19,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_insert_USB_insert_USB_10087_vision",
+  "task_id": "OpenViTac_insert_USB",
+  "benchmark": "OpenViTac",
+  "task": "insert_USB",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "9.200000",
+    "nb_frames": "92"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 92,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/bd7d7032212b285cdfbcfc47.mp4",
+  "poster": "media/bd7d7032212b285cdfbcfc47.jpg",
+  "usage": {
+    "attempts": 19,
+    "requests_with_tokens": 19,
+    "prompt_tokens": 589674,
+    "completion_tokens": 9566,
+    "total_tokens": 599240,
+    "cached_tokens": 405090,
+    "reasoning_tokens": 6894,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the relocated blue holder with open fingers, leveling the downward hand; target position remains approximate from RGB.",
+      "actions": [
+        [
+          -0.009,
+          -0.0008,
+          -0.005,
+          0.004,
+          -0.006,
+          -0.001,
+          0.52
+        ],
+        [
+          -0.009,
+          -0.0008,
+          -0.005,
+          0.004,
+          -0.006,
+          -0.001,
+          0.52
+        ],
+        [
+          -0.009,
+          -0.0008,
+          -0.005,
+          0.004,
+          -0.006,
+          -0.001,
+          0.52
+        ],
+        [
+          -0.009,
+          -0.0008,
+          -0.005,
+          0.004,
+          -0.006,
+          -0.001,
+          0.52
+        ],
+        [
+          -0.009,
+          -0.0008,
+          -0.005,
+          0.004,
+          -0.004,
+          -0.001,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Move closer above the plug and remove residual hand tilt before the final grasp alignment.",
+      "actions": [
+        [
+          -0.011,
+          -0.001,
+          -0.008,
+          -0.0083,
+          0.0001,
+          -0.00025,
+          0.52
+        ],
+        [
+          -0.011,
+          -0.001,
+          -0.008,
+          -0.0083,
+          0.0001,
+          -0.00025,
+          0.52
+        ],
+        [
+          -0.011,
+          -0.001,
+          -0.008,
+          -0.0083,
+          0.0001,
+          -0.00025,
+          0.52
+        ],
+        [
+          -0.011,
+          -0.001,
+          -0.008,
+          -0.0083,
+          0.0001,
+          -0.00025,
+          0.52
+        ],
+        [
+          -0.011,
+          -0.001,
+          -0.008,
+          -0.0083,
+          0.0001,
+          -0.00025,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Fine approach around the upper plug body, using wrist centering and small downward increments.",
+      "actions": [
+        [
+          -0.0012,
+          0.0008,
+          -0.0026,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          -0.0012,
+          0.0008,
+          -0.0026,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          -0.0012,
+          0.0008,
+          -0.0026,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          -0.0012,
+          0.0008,
+          -0.0026,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          -0.0012,
+          0.0008,
+          -0.0026,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "The plug is centered between the pads; lower slightly and close around its upper body.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.38
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Finish closing, then lift straight up to test retention and clear the blue socket.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Plug visibly lifted with the fingers. Raise clear of the holder, then begin carrying toward the red socket.",
+      "actions": [
+        [
+          0,
+          0,
+          0.007,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0.007,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.008,
+          0.0018,
+          0.007,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.008,
+          0.0018,
+          0.007,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.008,
+          0.0018,
+          0.007,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Carry the retained upright USB toward the red slot at safe height, preserving orientation.",
+      "actions": [
+        [
+          0.012,
+          0.0025,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.012,
+          0.0025,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.012,
+          0.0025,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.012,
+          0.0025,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.012,
+          0.0025,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Approach above the red socket, keeping the plug vertical; slow alignment follows before contact.",
+      "actions": [
+        [
+          0.012,
+          0.0025,
+          -0.003,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.012,
+          0.0025,
+          -0.003,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.012,
+          0.0025,
+          -0.003,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.012,
+          0.0025,
+          -0.003,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.012,
+          0.0025,
+          -0.003,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Use the wrist view to center the plug tip over the red opening while remaining above contact.",
+      "actions": [
+        [
+          0.002,
+          0.0004,
+          -0.001,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.002,
+          0.0004,
+          -0.001,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.002,
+          0.0004,
+          -0.001,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.002,
+          0.0004,
+          -0.001,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.002,
+          0.0004,
+          -0.001,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "The tip is nearly aligned with the socket in both views. Lower slowly toward the entrance without rotating the retained plug.",
+      "actions": [
+        [
+          0,
+          0.0001,
+          -0.0016,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0.0001,
+          -0.0016,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0016,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0016,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0016,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "Continue the slow vertical descent to bring the metal tip into the red slot entrance; monitor alignment before deeper insertion.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "The metal tip appears aligned at the red slot entrance. Advance straight downward in small increments while keeping the plug grasped.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Continue gentle insertion along the slot axis, checking that the exposed metal portion diminishes rather than the plug tilting.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "The exposed metal stopped shortening, suggesting edge contact. Lift slightly and make a small lateral correction before retrying insertion.",
+      "actions": [
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.0005,
+          0.0007,
+          0.002,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0.0005,
+          0.0007,
+          0.002,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 70,
+      "text": "Retry a slow descent after the lateral correction; the socket now appears centered beneath the metal tip.",
+      "actions": [
+        [
+          0,
+          0.0001,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0.0001,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 75,
+      "text": "Advance gently from the socket entrance, watching whether the metal section becomes seated instead of sliding in the gripper.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 80,
+      "text": "Continue a short, straight insertion stroke; inspect the remaining exposed metal before further depth.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 85,
+      "text": "The exposed connector is now shortening visibly. Continue the aligned insertion slowly toward full seating.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 90,
+      "text": "Only a small metal edge remains exposed. Complete the last short seating motion without lateral movement.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

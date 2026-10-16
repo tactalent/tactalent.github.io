@@ -1,0 +1,281 @@
+{
+  "seed": 1000032,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 17,
+  "decisions": 5,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000032_vision_tactile",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "1.700000",
+    "nb_frames": "17"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 17,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/d6823b03e8d8a4bb14b0f04c.mp4",
+  "poster": "media/d6823b03e8d8a4bb14b0f04c.jpg",
+  "usage": {
+    "attempts": 5,
+    "requests_with_tokens": 5,
+    "prompt_tokens": 129142,
+    "completion_tokens": 1432,
+    "total_tokens": 130574,
+    "cached_tokens": 97555,
+    "reasoning_tokens": 709,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Tactile contact shows broad smooth bands rather than rough ridges. Begin carrying the retained cylinder toward the green pad, keeping its grasp and upright orientation.",
+      "actions": [
+        [
+          0.0015,
+          0.0025,
+          -0.001,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.0015,
+          0.0025,
+          -0.001,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.0015,
+          0.0025,
+          -0.001,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.0015,
+          0.0025,
+          -0.001,
+          0,
+          0,
+          0,
+          0.182422
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "Cylinder remains between the fingers and tactile texture remains smooth. Continue diagonally toward the green pad with a gradual descent.",
+      "actions": [
+        [
+          0.002,
+          0.003,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.002,
+          0.003,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.002,
+          0.003,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.002,
+          0.003,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.182422
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "Move the smooth cylinder closer to the green pad while retaining the same grasp; the object is still visibly carried.",
+      "actions": [
+        [
+          0.003,
+          0.0045,
+          -0.002,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.003,
+          0.0045,
+          -0.002,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.003,
+          0.0045,
+          -0.002,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.003,
+          0.0045,
+          -0.002,
+          0,
+          0,
+          0,
+          0.182422
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 12,
+      "text": "Continue the controlled approach to the green pad, keeping the smooth cylinder upright and securely between the fingers.",
+      "actions": [
+        [
+          0.003,
+          0.0045,
+          -0.002,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.003,
+          0.0045,
+          -0.002,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.003,
+          0.0045,
+          -0.002,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.003,
+          0.0045,
+          -0.002,
+          0,
+          0,
+          0,
+          0.182422
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 16,
+      "text": "Align the smooth cylinder over the green pad and lower it toward the pad surface while maintaining the grasp.",
+      "actions": [
+        [
+          0.0029,
+          0.0055,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.0029,
+          0.0055,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.0029,
+          0.0055,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.0029,
+          0.0055,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.182422
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

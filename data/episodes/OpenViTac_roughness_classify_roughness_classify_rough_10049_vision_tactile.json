@@ -1,0 +1,489 @@
+{
+  "seed": 10049,
+  "evaluation_case": "roughness_classify_rough",
+  "conditions": {
+    "roughness_label": "rough"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 39,
+  "decisions": 8,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_roughness_classify_roughness_classify_rough_10049_vision_tactile",
+  "task_id": "OpenViTac_roughness_classify",
+  "benchmark": "OpenViTac",
+  "task": "roughness_classify",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "3.900000",
+    "nb_frames": "39"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      320,
+      240
+    ],
+    "tactile_right": [
+      320,
+      240
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 39,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/b9277fa7761052f02d2d4b7c.mp4",
+  "poster": "media/b9277fa7761052f02d2d4b7c.jpg",
+  "usage": {
+    "attempts": 8,
+    "requests_with_tokens": 8,
+    "prompt_tokens": 249901,
+    "completion_tokens": 2729,
+    "total_tokens": 252630,
+    "cached_tokens": 204614,
+    "reasoning_tokens": 1478,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible upright block with open fingers; surface class will be determined from contact.",
+      "actions": [
+        [
+          -0.008,
+          0.0005,
+          -0.007,
+          0.002156,
+          0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0005,
+          -0.007,
+          0.002156,
+          0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0005,
+          -0.007,
+          0.002156,
+          0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0005,
+          -0.007,
+          0.002156,
+          0.002764,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0005,
+          -0.007,
+          0.002156,
+          0.002764,
+          -0.000568,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue descending toward the block while leveling the hand for a parallel side grasp.",
+      "actions": [
+        [
+          -0.008,
+          0.0004,
+          -0.007,
+          -0.006484,
+          -0.008278,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0004,
+          -0.007,
+          -0.006484,
+          -0.008278,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0004,
+          -0.007,
+          -0.006484,
+          -0.008278,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0004,
+          -0.007,
+          -0.006484,
+          -0.008278,
+          -0.000568,
+          0.512821
+        ],
+        [
+          -0.008,
+          0.0004,
+          -0.007,
+          -0.006484,
+          -0.008278,
+          -0.000568,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Align the open fingers around the upper sides of the upright block before touching.",
+      "actions": [
+        [
+          -0.005,
+          0.000425,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.005,
+          0.000425,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.005,
+          0.000425,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.005,
+          0.000425,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.005,
+          0.000425,
+          -0.004,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Close gradually around the block and inspect both tactile surfaces to classify its texture.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.43
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.34
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.25
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.16
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Both tactile images show repeated raised facets: rough block. Lift while maintaining the grasp before moving to yellow.",
+      "actions": [
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "The block rose with the fingers and tactile contact persists. Carry the rough block toward the yellow plate at clearance height.",
+      "actions": [
+        [
+          0.007,
+          -0.0083,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.007,
+          -0.0083,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.007,
+          -0.0083,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.007,
+          -0.0083,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.007,
+          -0.0083,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Center the retained rough block over the yellow plate before lowering.",
+      "actions": [
+        [
+          0.005,
+          -0.009,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.005,
+          -0.009,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.005,
+          -0.009,
+          0,
+          0,
+          0,
+          0.1,
+          0.1
+        ],
+        [
+          0.005,
+          -0.009,
+          0,
+          0,
+          0,
+          -0.1,
+          0.1
+        ],
+        [
+          0.005,
+          -0.009,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Lower the rough block vertically toward the yellow plate, keeping the tactile grasp until supported.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.008,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          -0.008,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

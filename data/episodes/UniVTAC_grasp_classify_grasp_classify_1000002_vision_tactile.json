@@ -1,0 +1,195 @@
+{
+  "seed": 1000002,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 12,
+  "decisions": 3,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000002_vision_tactile",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "1.200000",
+    "nb_frames": "12"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 12,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/8ae7432da270d72fc98a3681.mp4",
+  "poster": "media/8ae7432da270d72fc98a3681.jpg",
+  "usage": {
+    "attempts": 3,
+    "requests_with_tokens": 3,
+    "prompt_tokens": 74475,
+    "completion_tokens": 863,
+    "total_tokens": 75338,
+    "cached_tokens": 47971,
+    "reasoning_tokens": 444,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Tactile contact is uniformly banded without rough ridges, indicating smooth. Carry toward the green pad while maintaining the existing grasp.",
+      "actions": [
+        [
+          0.0025,
+          0.004,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0.0025,
+          0.004,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0.0025,
+          0.004,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0.0025,
+          0.004,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.171354
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "The cylinder remains between the fingers. Continue translating toward green with a gradual descent.",
+      "actions": [
+        [
+          0.003,
+          0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0.003,
+          0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0.003,
+          0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0.003,
+          0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.171354
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "Approach the green pad center, preserving the upright cylinder orientation and grip.",
+      "actions": [
+        [
+          0.004,
+          0.005,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0.004,
+          0.005,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0.004,
+          0.005,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.171354
+        ],
+        [
+          0.004,
+          0.005,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.171354
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

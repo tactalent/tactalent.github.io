@@ -1,0 +1,375 @@
+{
+  "seed": 10007,
+  "evaluation_case": "roughness_regrasp_right",
+  "conditions": {
+    "rough_block_side": "right"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 29,
+  "decisions": 6,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_roughness_regrasp_roughness_regrasp_right_10007_vision",
+  "task_id": "OpenViTac_roughness_regrasp",
+  "benchmark": "OpenViTac",
+  "task": "roughness_regrasp",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "2.900000",
+    "nb_frames": "29"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 29,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/206b869f75ef1eb1f49e1e6e.mp4",
+  "poster": "media/206b869f75ef1eb1f49e1e6e.jpg",
+  "usage": {
+    "attempts": 6,
+    "requests_with_tokens": 6,
+    "prompt_tokens": 142792,
+    "completion_tokens": 2044,
+    "total_tokens": 144836,
+    "cached_tokens": 112218,
+    "reasoning_tokens": 1082,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the left ridged candidate with open fingers, keeping above its top for a controlled touch.",
+      "actions": [
+        [
+          -0.01,
+          -0.007,
+          -0.008,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.55
+        ],
+        [
+          -0.01,
+          -0.007,
+          -0.008,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.55
+        ],
+        [
+          -0.01,
+          -0.007,
+          -0.008,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.55
+        ],
+        [
+          -0.01,
+          -0.007,
+          -0.008,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.55
+        ],
+        [
+          -0.01,
+          -0.007,
+          -0.008,
+          0.004312,
+          -0.005527,
+          -0.001136,
+          0.55
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Lower around the left block, aligning the hand vertically before gently closing to touch its sides.",
+      "actions": [
+        [
+          -0.006,
+          -0.004,
+          -0.0095,
+          -0.008622,
+          2.6e-05,
+          -0.000119,
+          0.55
+        ],
+        [
+          -0.006,
+          -0.004,
+          -0.0095,
+          -0.008622,
+          2.6e-05,
+          -0.000119,
+          0.55
+        ],
+        [
+          -0.006,
+          -0.004,
+          -0.0095,
+          -0.008622,
+          2.6e-05,
+          -0.000119,
+          0.55
+        ],
+        [
+          -0.006,
+          -0.004,
+          -0.0095,
+          -0.008622,
+          2.6e-05,
+          -0.000119,
+          0.55
+        ],
+        [
+          -0.006,
+          -0.004,
+          -0.0095,
+          -0.008622,
+          2.6e-05,
+          -0.000119,
+          0.55
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Gently close on the centered ridged block to establish side contact; retention will be checked during a short lift.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.45
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.35
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.25
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.15
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Lift the contacted rough candidate vertically and inspect whether it stays between the fingers.",
+      "actions": [
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          0.01,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          0.01,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          0.01,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The ridged block rose with the fingers. Carry it above the yellow plate while maintaining the grasp.",
+      "actions": [
+        [
+          0.012,
+          -0.0045,
+          0,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0.012,
+          -0.0045,
+          0,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0.012,
+          -0.0045,
+          0,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0.012,
+          -0.0045,
+          0,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0.012,
+          -0.0045,
+          0,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Center the retained rough block over the yellow plate and lower toward its surface.",
+      "actions": [
+        [
+          0.002,
+          -0.0004,
+          -0.007,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0.002,
+          -0.0004,
+          -0.007,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0.002,
+          -0.0004,
+          -0.007,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0.002,
+          -0.0004,
+          -0.007,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0.002,
+          -0.0004,
+          -0.007,
+          0,
+          0,
+          0,
+          0.09
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

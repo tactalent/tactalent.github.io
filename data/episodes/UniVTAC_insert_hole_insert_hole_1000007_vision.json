@@ -1,0 +1,628 @@
+{
+  "seed": 1000007,
+  "evaluation_case": "insert_hole",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 53,
+  "decisions": 11,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_hole_insert_hole_1000007_vision",
+  "task_id": "UniVTAC_insert_hole",
+  "benchmark": "UniVTAC",
+  "task": "insert_hole",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "5.300000",
+    "nb_frames": "53"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 53,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/5c3b5521c06426ae415c0c63.mp4",
+  "poster": "media/5c3b5521c06426ae415c0c63.jpg",
+  "usage": {
+    "attempts": 12,
+    "requests_with_tokens": 11,
+    "prompt_tokens": 260239,
+    "completion_tokens": 3207,
+    "total_tokens": 263446,
+    "cached_tokens": 199929,
+    "reasoning_tokens": 1526,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": false
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Keep the existing grasp and lower gently into the entrance; inspect stick/contact response before choosing a slant.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146742
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue a small vertical entrance probe while retaining the tube; watch for deflection or loss of alignment.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146742
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Advance gently downward with the tube still centered at the entrance; no clear slant is visible yet.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146742
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Finish the shallow vertical probe, maintaining the native grasp and watching for contact-induced tilt at the entrance.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146742
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Probe a small positive-x lean while lowering slightly; use the tube's contact deflection to test the slanted passage.",
+      "actions": [
+        [
+          0.001,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.0013,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.0015,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.0017,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146742
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Continue the gentle positive-x contact probe, letting the retained tube pivot at the entrance rather than rotating the hand.",
+      "actions": [
+        [
+          0.002,
+          0,
+          -0.00045,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.00045,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "The tube is pivoting with its lower end at the opening. Increase this lean gradually and monitor whether it seats along the slant.",
+      "actions": [
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Approach a roughly thirty-degree tube lean in small steps while keeping the lower end at the entrance; then test axial insertion.",
+      "actions": [
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          0.002,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146742
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Test insertion down and toward negative x along the observed tube lean, watching whether the exposed tube shortens without sideways displacement.",
+      "actions": [
+        [
+          -0.0005,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.00065,
+          0,
+          -0.0013,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.00075,
+          0,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.00085,
+          0,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.0009,
+          0,
+          -0.0017,
+          0,
+          0,
+          0,
+          0.146742
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Continue slowly along the candidate slant; the exposed tube remains aligned with the entrance and is shortening.",
+      "actions": [
+        [
+          -0.001,
+          0,
+          -0.00175,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.001,
+          0,
+          -0.00175,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.001,
+          0,
+          -0.00175,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.001,
+          0,
+          -0.00175,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.001,
+          0,
+          -0.00175,
+          0,
+          0,
+          0,
+          0.146742
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "Maintain the observed lean and advance down the slanted path in millimeter increments, retaining the native grasp.",
+      "actions": [
+        [
+          -0.001,
+          0,
+          -0.00175,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.001,
+          0,
+          -0.00175,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.001,
+          0,
+          -0.00175,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.001,
+          0,
+          -0.00175,
+          0,
+          0,
+          0,
+          0.146742
+        ],
+        [
+          -0.001,
+          0,
+          -0.00175,
+          0,
+          0,
+          0,
+          0.146742
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

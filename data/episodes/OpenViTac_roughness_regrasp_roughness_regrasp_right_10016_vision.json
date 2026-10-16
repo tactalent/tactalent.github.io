@@ -1,0 +1,375 @@
+{
+  "seed": 10016,
+  "evaluation_case": "roughness_regrasp_right",
+  "conditions": {
+    "rough_block_side": "right"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 29,
+  "decisions": 6,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_roughness_regrasp_roughness_regrasp_right_10016_vision",
+  "task_id": "OpenViTac_roughness_regrasp",
+  "benchmark": "OpenViTac",
+  "task": "roughness_regrasp",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "2.900000",
+    "nb_frames": "29"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 29,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/049d33682ec39ebcab50fb2b.mp4",
+  "poster": "media/049d33682ec39ebcab50fb2b.jpg",
+  "usage": {
+    "attempts": 6,
+    "requests_with_tokens": 6,
+    "prompt_tokens": 142978,
+    "completion_tokens": 2659,
+    "total_tokens": 145637,
+    "cached_tokens": 112010,
+    "reasoning_tokens": 1695,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the left, visibly ridged candidate with open fingers for a touch/grasp check; adjust from the next view.",
+      "actions": [
+        [
+          -0.008,
+          -0.0055,
+          -0.009,
+          -0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0055,
+          -0.009,
+          -0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0055,
+          -0.009,
+          -0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0055,
+          -0.009,
+          -0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0055,
+          -0.009,
+          -0.004312,
+          -0.005527,
+          -0.001136,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Lower around the ridged left block, centering the finger gap before contact.",
+      "actions": [
+        [
+          -0.008,
+          -0.0038,
+          -0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0038,
+          -0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0038,
+          -0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0038,
+          -0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0038,
+          -0.008,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Refine depth alignment and close the fingers gently onto the rough ridged candidate.",
+      "actions": [
+        [
+          -0.006,
+          -0.00075,
+          -0.002,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.006,
+          -0.00075,
+          -0.002,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.38
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.23
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Lift the contacted block and verify visually that the ridged block stays between the fingers.",
+      "actions": [
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0.009,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The ridged block rose with the gripper. Carry it above the yellow plate while retaining the grasp.",
+      "actions": [
+        [
+          0.014,
+          -0.005,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.014,
+          -0.005,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.014,
+          -0.005,
+          0,
+          0,
+          0,
+          0.1,
+          0.1
+        ],
+        [
+          0.014,
+          -0.005,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0.014,
+          -0.005,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Center the retained block over the yellow plate and lower toward its surface, restoring the original yaw.",
+      "actions": [
+        [
+          0.0055,
+          -0.0008,
+          -0.007,
+          0,
+          0,
+          -0.02,
+          0.1
+        ],
+        [
+          0.0055,
+          -0.0008,
+          -0.007,
+          0,
+          0,
+          -0.02,
+          0.1
+        ],
+        [
+          0.0055,
+          -0.0008,
+          -0.007,
+          0,
+          0,
+          -0.02,
+          0.1
+        ],
+        [
+          0.0055,
+          -0.0008,
+          -0.007,
+          0,
+          0,
+          -0.02,
+          0.1
+        ],
+        [
+          0.0055,
+          -0.0008,
+          -0.007,
+          0,
+          0,
+          -0.02,
+          0.1
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

@@ -1,0 +1,846 @@
+{
+  "seed": 1000015,
+  "evaluation_case": "insert_hole",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 71,
+  "decisions": 15,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_hole_insert_hole_1000015_vision_tactile",
+  "task_id": "UniVTAC_insert_hole",
+  "benchmark": "UniVTAC",
+  "task": "insert_hole",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "7.100000",
+    "nb_frames": "71"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 71,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/70465d30890469646f11cd02.mp4",
+  "poster": "media/70465d30890469646f11cd02.jpg",
+  "usage": {
+    "attempts": 15,
+    "requests_with_tokens": 15,
+    "prompt_tokens": 496720,
+    "completion_tokens": 3789,
+    "total_tokens": 500509,
+    "cached_tokens": 435733,
+    "reasoning_tokens": 1471,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Lower the retained stick gently toward the entrance, preserving the initial grip and monitoring tactile changes for contact.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue a slow vertical contact approach; stick remains centered over the entrance.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Maintain the entrance alignment and lower another small increment to establish slanted-wall contact.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.001,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Advance slowly downward while checking for asymmetric tactile loading; the visible stick is still upright at the entrance.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Continue the gentle seating motion; tactile stripes are beginning to change angle, so keep lateral motion paused until the contact trend is clearer.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0012,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Finish a small vertical seating increment while keeping the stick centered; the contact image shows loading but the slant remains uncertain.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0009,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Apply a small positive-x lateral probe at the seated entrance and inspect whether the stick pivots into the slanted channel rather than translating off it.",
+      "actions": [
+        [
+          0.0006,
+          0,
+          -0.0001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0008,
+          0,
+          -0.0001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.001,
+          0,
+          -0.0001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.001,
+          0,
+          -0.0001,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.001,
+          0,
+          -0.0001,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "The entrance stays fixed as the stick pivots under the positive-x probe. Continue the shallow arc while watching the mirrored tactile tilt for channel alignment.",
+      "actions": [
+        [
+          0.0012,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0012,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0012,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0012,
+          0,
+          -0.00025,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0012,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Continue pivoting about the visually stationary entrance in small increments; tactile tilt is smooth and the stick remains retained.",
+      "actions": [
+        [
+          0.0015,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0015,
+          0,
+          -0.00035,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0015,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0015,
+          0,
+          -0.00045,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Increase the entrance-centered pivot gradually toward the candidate slant, keeping the grip unchanged and watching for loss of seating.",
+      "actions": [
+        [
+          0.0016,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0016,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0016,
+          0,
+          -0.00055,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0016,
+          0,
+          -0.00055,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0016,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "Continue the small positive-x pivot with a shallow descent; the tube remains at the entrance and the tactile inclination is approaching the candidate channel angle.",
+      "actions": [
+        [
+          0.0016,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0016,
+          0,
+          -0.00065,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0016,
+          0,
+          -0.0007,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0016,
+          0,
+          -0.00075,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.0016,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Bring the visible tube close to 30 degrees from vertical, then test a very short down-and-negative-x insertion along that candidate channel.",
+      "actions": [
+        [
+          0.001,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.001,
+          0,
+          -0.00055,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          0.001,
+          0,
+          -0.0006,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.0005,
+          0,
+          -0.000866,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.0005,
+          0,
+          -0.000866,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Test insertion along the observed slant with a short controlled advance; check that exposed stick length decreases without a large change in tactile angle.",
+      "actions": [
+        [
+          -0.00075,
+          0,
+          -0.001299,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.00075,
+          0,
+          -0.001299,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.00075,
+          0,
+          -0.001299,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.00075,
+          0,
+          -0.001299,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.00075,
+          0,
+          -0.001299,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "The exposed tube has shortened while its tactile angle stays steady. Continue a small advance down the same slanted axis, retaining the grip.",
+      "actions": [
+        [
+          -0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 70,
+      "text": "Continue along the seated slant: the visible length is decreasing and the mirrored tactile tilt remains stable.",
+      "actions": [
+        [
+          -0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146075
+        ],
+        [
+          -0.001,
+          0,
+          -0.001732,
+          0,
+          0,
+          0,
+          0.146075
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

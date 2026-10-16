@@ -1,0 +1,841 @@
+{
+  "seed": 1000063,
+  "evaluation_case": "lift_can",
+  "conditions": {},
+  "status": "failed",
+  "raw_status": "failed",
+  "steps": 73,
+  "decisions": 15,
+  "termination": "native_early_stop",
+  "available": true,
+  "id": "UniVTAC_lift_can_lift_can_1000063_vision",
+  "task_id": "UniVTAC_lift_can",
+  "benchmark": "UniVTAC",
+  "task": "lift_can",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "7.300000",
+    "nb_frames": "73"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ],
+    "wrist": [
+      640,
+      360
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 73,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/11f68546bdbc7b2006c37583.mp4",
+  "poster": "media/11f68546bdbc7b2006c37583.jpg",
+  "usage": {
+    "attempts": 15,
+    "requests_with_tokens": 15,
+    "prompt_tokens": 463332,
+    "completion_tokens": 5332,
+    "total_tokens": 468664,
+    "cached_tokens": 405379,
+    "reasoning_tokens": 3370,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Close gradually at the native can alignment; verify contact visually before lifting.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.94
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.89
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.84
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.79
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.74
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Finish a gradual closure around the can, holding the hand pose to avoid rolling it.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.7
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.66
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.62
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.58
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.55
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Begin a slow test lift at the can end and watch whether the can follows rather than slips.",
+      "actions": [
+        [
+          0,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.54
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.53
+        ],
+        [
+          0,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Raise the held end gently while keeping the other end close to the tabletop; inspect the developing tilt.",
+      "actions": [
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.0002,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.0003,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The can has not visibly lifted; reopen and move slightly farther over its body for a more secure purchase.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.65
+        ],
+        [
+          0.003,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.8
+        ],
+        [
+          0.004,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.9
+        ],
+        [
+          0.004,
+          0,
+          -0.003,
+          0,
+          0,
+          0,
+          0.95
+        ],
+        [
+          0.004,
+          0,
+          -0.003,
+          0,
+          0,
+          0,
+          0.95
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Lower the open fingers around the can body rather than catching its top edge.",
+      "actions": [
+        [
+          0.002,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          0.95
+        ],
+        [
+          0.002,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          0.95
+        ],
+        [
+          0.002,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          0.95
+        ],
+        [
+          0,
+          0,
+          -0.004,
+          0,
+          0,
+          0,
+          0.95
+        ],
+        [
+          0,
+          0,
+          -0.003,
+          0,
+          0,
+          0,
+          0.9
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Close around the deeper body contact while holding the pose steady.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.82
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.74
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.66
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.58
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Test the new grip with a slow one-centimeter lift, watching for the can to rise with the fingers.",
+      "actions": [
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "The can is following the fingers. Lift steadily to create clearance before rotating it upright.",
+      "actions": [
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "Maintain the grip and raise the can while starting a slow world-Y rotation toward vertical.",
+      "actions": [
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0.025,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0.025,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0.025,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0.025,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.006,
+          0,
+          0.025,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "The can is clear of the support; gain rotation clearance while keeping the grip unchanged.",
+      "actions": [
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0.05,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0.05,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0.05,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0.05,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0.005,
+          0,
+          0.05,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Rotate the securely lifted can farther toward upright, holding its height above the table.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0.06,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0.06,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0.06,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0.06,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0.06,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Continue the controlled rotation; the can remains between the fingers and clear of the surface.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0.06,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0.06,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0.06,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0.06,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0.06,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "The can has pivoted within the grasp and now leans past vertical; make a small reverse rotation and reassess its axis.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          -0.04,
+          0,
+          0.5
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -0.04,
+          0,
+          0.5
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -0.04,
+          0,
+          0.5
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -0.04,
+          0,
+          0.5
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -0.04,
+          0,
+          0.5
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 70,
+      "text": "Hold the arm still and reduce the opening to arrest the visible slipping before any further placement motion.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.46
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.42
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.38
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.36
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.36
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

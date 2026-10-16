@@ -1,0 +1,314 @@
+{
+  "seed": 1000032,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 22,
+  "decisions": 6,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000032_vision",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "2.200000",
+    "nb_frames": "22"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 22,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/48a9bab7374afd22c8859ccb.mp4",
+  "poster": "media/48a9bab7374afd22c8859ccb.jpg",
+  "usage": {
+    "attempts": 6,
+    "requests_with_tokens": 6,
+    "prompt_tokens": 117253,
+    "completion_tokens": 2978,
+    "total_tokens": 120231,
+    "cached_tokens": 95108,
+    "reasoning_tokens": 2207,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Gently lift with a slightly relaxed grasp, checking visible retention or slip to assess surface friction.",
+      "actions": [
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.19
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.19
+        ],
+        [
+          0,
+          0,
+          0.003,
+          0,
+          0,
+          0,
+          0.19
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "Apply a small contact-motion probe with modestly relaxed fingers; compare the cylinder's motion with the hand rather than relying on commanded aperture.",
+      "actions": [
+        [
+          0.003,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.205
+        ],
+        [
+          0.003,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.205
+        ],
+        [
+          -0.003,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.205
+        ],
+        [
+          -0.003,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.205
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "Check whether the apparent downward creep continues during a gentle lift, then restore the original secure grasp.",
+      "actions": [
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.205
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.205
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.205
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.182422
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 12,
+      "text": "The relaxed-grip probe showed slight relative creep, provisionally indicating smooth. Carry toward the green pad while maintaining the restored grasp.",
+      "actions": [
+        [
+          0.004,
+          0.006,
+          -0.004,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.004,
+          0.006,
+          -0.004,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.004,
+          0.006,
+          -0.004,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.004,
+          0.006,
+          -0.004,
+          0,
+          0,
+          0,
+          0.182422
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 16,
+      "text": "Continue the retained cylinder toward the green pad, lowering gradually while keeping it upright.",
+      "actions": [
+        [
+          0.005,
+          0.008,
+          -0.006,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.005,
+          0.008,
+          -0.006,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.005,
+          0.008,
+          -0.006,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.005,
+          0.008,
+          -0.006,
+          0,
+          0,
+          0,
+          0.182422
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 20,
+      "text": "Center over green and approach its surface slowly; the cylinder remains visibly held.",
+      "actions": [
+        [
+          0.0032,
+          0.006,
+          -0.0053,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.0032,
+          0.006,
+          -0.0053,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.0032,
+          0.006,
+          -0.0053,
+          0,
+          0,
+          0,
+          0.182422
+        ],
+        [
+          0.0032,
+          0.006,
+          -0.004,
+          0,
+          0,
+          0,
+          0.182422
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

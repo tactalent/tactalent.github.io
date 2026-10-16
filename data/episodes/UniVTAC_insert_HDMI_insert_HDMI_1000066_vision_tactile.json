@@ -1,0 +1,430 @@
+{
+  "seed": 1000066,
+  "evaluation_case": "insert_HDMI",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 35,
+  "decisions": 7,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_HDMI_insert_HDMI_1000066_vision_tactile",
+  "task_id": "UniVTAC_insert_HDMI",
+  "benchmark": "UniVTAC",
+  "task": "insert_HDMI",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "3.500000",
+    "nb_frames": "35"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 35,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/b7a02f987138aae866617779.mp4",
+  "poster": "media/b7a02f987138aae866617779.jpg",
+  "usage": {
+    "attempts": 7,
+    "requests_with_tokens": 7,
+    "prompt_tokens": 217521,
+    "completion_tokens": 3574,
+    "total_tokens": 221095,
+    "cached_tokens": 175248,
+    "reasoning_tokens": 2388,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Keep the native grasp; gently reduce tilt and shift the visible plug toward the socket center while approaching above it.",
+      "actions": [
+        [
+          -0.0003,
+          0.0005,
+          -0.0004,
+          0,
+          -0.003,
+          0,
+          0.095731
+        ],
+        [
+          -0.0003,
+          0.0005,
+          -0.0004,
+          0,
+          -0.003,
+          0,
+          0.095731
+        ],
+        [
+          -0.0003,
+          0.0005,
+          -0.0004,
+          0,
+          -0.003,
+          0,
+          0.095731
+        ],
+        [
+          -0.0003,
+          0.0005,
+          -0.0004,
+          0,
+          -0.003,
+          0,
+          0.095731
+        ],
+        [
+          -0.0003,
+          0.0005,
+          -0.0004,
+          0,
+          -0.003,
+          0,
+          0.095731
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Plug is retained and nearly centered laterally. Finish the small alignment correction and lower a few millimeters, staying above the slot.",
+      "actions": [
+        [
+          -0.0001,
+          0.0002,
+          -0.00065,
+          0,
+          -0.001,
+          0,
+          0.095731
+        ],
+        [
+          -0.0001,
+          0.0002,
+          -0.00065,
+          0,
+          -0.001,
+          0,
+          0.095731
+        ],
+        [
+          -0.0001,
+          0.0002,
+          -0.00065,
+          0,
+          -0.001,
+          0,
+          0.095731
+        ],
+        [
+          -0.0001,
+          0.0002,
+          -0.00065,
+          0,
+          -0.001,
+          0,
+          0.095731
+        ],
+        [
+          -0.0001,
+          0.0002,
+          -0.00065,
+          0,
+          -0.001,
+          0,
+          0.095731
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "The plug tip is centered over the visible opening. Descend slowly toward the mouth without changing the grasp or orientation.",
+      "actions": [
+        [
+          0,
+          -5e-05,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          0,
+          -5e-05,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          0,
+          -5e-05,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          0,
+          -5e-05,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          0,
+          -5e-05,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095731
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "The tip is at the socket mouth; use submillimeter insertion steps and watch for asymmetrical tactile changes or displacement.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Maintain alignment and the retained grasp while advancing another millimeter into the socket; monitor the plug relative to the fixed block.",
+      "actions": [
+        [
+          -5e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -5e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -5e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -5e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -5e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Continue a slow, straight insertion with unchanged grip. The tip remains at the mouth and no large asymmetric tactile change is visible.",
+      "actions": [
+        [
+          -6e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -6e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -6e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -6e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -6e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Advance another millimeter along the socket axis while preserving orientation and grasp; inspect seating after this small increment.",
+      "actions": [
+        [
+          -6e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -6e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -6e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -6e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ],
+        [
+          -6e-06,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095731
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

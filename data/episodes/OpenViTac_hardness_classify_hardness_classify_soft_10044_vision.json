@@ -1,0 +1,427 @@
+{
+  "seed": 10044,
+  "evaluation_case": "hardness_classify_soft",
+  "conditions": {
+    "hardness_label": "soft"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 34,
+  "decisions": 7,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_hardness_classify_hardness_classify_soft_10044_vision",
+  "task_id": "OpenViTac_hardness_classify",
+  "benchmark": "OpenViTac",
+  "task": "hardness_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "3.400000",
+    "nb_frames": "34"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 34,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/a3b7a9207f913c1827ceacaf.mp4",
+  "poster": "media/a3b7a9207f913c1827ceacaf.jpg",
+  "usage": {
+    "attempts": 7,
+    "requests_with_tokens": 7,
+    "prompt_tokens": 171517,
+    "completion_tokens": 2207,
+    "total_tokens": 173724,
+    "cached_tokens": 139749,
+    "reasoning_tokens": 1122,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible red block from above with fingers open; prepare a gentle contact test rather than infer hardness from appearance.",
+      "actions": [
+        [
+          -0.012,
+          0.0008,
+          -0.008,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.012,
+          0.0008,
+          -0.008,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.012,
+          0.0008,
+          -0.008,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.012,
+          0.0008,
+          -0.008,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ],
+        [
+          -0.012,
+          0.0008,
+          -0.008,
+          -0.0043,
+          -0.0055,
+          -0.0011,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Lower to straddle the upper portion of the red block, aligning from both camera views.",
+      "actions": [
+        [
+          -0.0083,
+          0.0008,
+          -0.0086,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0083,
+          0.0008,
+          -0.0086,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0083,
+          0.0008,
+          -0.0086,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0083,
+          0.0008,
+          -0.0086,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0083,
+          0.0008,
+          -0.0086,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Close progressively around the block and inspect its response to contact to distinguish compliance.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.43
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.35
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.27
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.21
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.15
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Apply a small additional closing displacement while stationary, watching for visible compression rather than treating the command as a force measurement.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.12
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.09
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.06
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.03
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.02
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "The contacted region visibly narrows under closing, suggesting the soft block. Lift gently and verify that it remains between the fingers before moving to blue.",
+      "actions": [
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.06
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0,
+          0,
+          0.008,
+          0,
+          0,
+          0,
+          0.08
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "The block rises with the gripper. Carry the apparently compliant block toward the blue plate while maintaining clearance.",
+      "actions": [
+        [
+          0.01,
+          0.011,
+          0.002,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0.01,
+          0.011,
+          0.002,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0.01,
+          0.011,
+          0.002,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0.01,
+          0.011,
+          0.002,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0.01,
+          0.011,
+          0.002,
+          0,
+          0,
+          0,
+          0.08
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Center over the blue plate and lower the retained block toward its surface before release.",
+      "actions": [
+        [
+          0.004,
+          0.005,
+          -0.0075,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0.004,
+          0.005,
+          -0.0075,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0.004,
+          0.005,
+          -0.0075,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0.004,
+          0.005,
+          -0.0075,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0.004,
+          0.005,
+          -0.0075,
+          0,
+          0,
+          0,
+          0.08
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

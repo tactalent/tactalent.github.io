@@ -1,0 +1,747 @@
+{
+  "seed": 10021,
+  "evaluation_case": "insert_block_v2_cube_layout_014",
+  "conditions": {
+    "target_block": "cube",
+    "block_base_pose_indices": [
+      0,
+      1,
+      4
+    ]
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 70,
+  "decisions": 7,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_insert_block_v2_cube_insert_block_v2_cube_layout_014_10021_vision",
+  "task_id": "OpenViTac_insert_block_v2_cube",
+  "benchmark": "OpenViTac",
+  "task": "insert_block_v2",
+  "variant": "cube",
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "7.000000",
+    "nb_frames": "70"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 70,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/5a583576494913dadb6f2dcf.mp4",
+  "poster": "media/5a583576494913dadb6f2dcf.jpg",
+  "usage": {
+    "attempts": 7,
+    "requests_with_tokens": 7,
+    "prompt_tokens": 259644,
+    "completion_tokens": 5928,
+    "total_tokens": 265572,
+    "cached_tokens": 213485,
+    "reasoning_tokens": 3952,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach above the cyan-blue cube, opening fingers and straightening to a downward grasp. Position estimated from head image; refine with wrist view.",
+      "actions": [
+        [
+          -0.003,
+          0.014,
+          -0.009,
+          -0.00032,
+          0.0144,
+          -0.00443,
+          0.6
+        ],
+        [
+          -0.003,
+          0.014,
+          -0.009,
+          -0.00032,
+          0.0144,
+          -0.00443,
+          0.7
+        ],
+        [
+          -0.003,
+          0.014,
+          -0.009,
+          -0.00032,
+          0.0144,
+          -0.00443,
+          0.8
+        ],
+        [
+          -0.003,
+          0.014,
+          -0.009,
+          -0.00032,
+          0.0144,
+          -0.00443,
+          0.9
+        ],
+        [
+          -0.003,
+          0.014,
+          -0.009,
+          -0.00032,
+          0.0144,
+          -0.00443,
+          1
+        ],
+        [
+          -0.003,
+          0.014,
+          -0.009,
+          -0.00032,
+          0.0144,
+          -0.00443,
+          1
+        ],
+        [
+          -0.003,
+          0.014,
+          -0.009,
+          -0.00032,
+          0.0144,
+          -0.00443,
+          1
+        ],
+        [
+          -0.003,
+          0.014,
+          -0.009,
+          -0.00032,
+          0.0144,
+          -0.00443,
+          1
+        ],
+        [
+          -0.003,
+          0.014,
+          -0.009,
+          -0.00032,
+          0.0144,
+          -0.00443,
+          1
+        ],
+        [
+          -0.003,
+          0.014,
+          -0.009,
+          -0.00032,
+          0.0144,
+          -0.00443,
+          1
+        ]
+      ],
+      "dispatched_steps": 10
+    },
+    {
+      "step": 10,
+      "text": "Lower open gripper over the cube, with small lateral centering correction. Stop above grasp depth to inspect alignment.",
+      "actions": [
+        [
+          -0.0002,
+          0.0004,
+          -0.009,
+          0.000637,
+          -1.5e-05,
+          -4.8e-05,
+          1
+        ],
+        [
+          -0.0002,
+          0.0004,
+          -0.009,
+          0.000637,
+          -1.5e-05,
+          -4.8e-05,
+          1
+        ],
+        [
+          -0.0002,
+          0.0004,
+          -0.009,
+          0.000637,
+          -1.5e-05,
+          -4.8e-05,
+          1
+        ],
+        [
+          -0.0002,
+          0.0004,
+          -0.009,
+          0.000637,
+          -1.5e-05,
+          -4.8e-05,
+          1
+        ],
+        [
+          -0.0002,
+          0.0004,
+          -0.009,
+          0.000637,
+          -1.5e-05,
+          -4.8e-05,
+          1
+        ],
+        [
+          -0.0002,
+          0.0004,
+          -0.009,
+          0.000637,
+          -1.5e-05,
+          -4.8e-05,
+          1
+        ],
+        [
+          -0.0002,
+          0.0004,
+          -0.009,
+          0.000637,
+          -1.5e-05,
+          -4.8e-05,
+          1
+        ],
+        [
+          -0.0002,
+          0.0004,
+          -0.009,
+          0.000637,
+          -1.5e-05,
+          -4.8e-05,
+          1
+        ],
+        [
+          -0.0002,
+          0.0004,
+          -0.009,
+          0.000637,
+          -1.5e-05,
+          -4.8e-05,
+          1
+        ],
+        [
+          -0.0002,
+          0.0004,
+          -0.009,
+          0.000637,
+          -1.5e-05,
+          -4.8e-05,
+          1
+        ]
+      ],
+      "dispatched_steps": 10
+    },
+    {
+      "step": 20,
+      "text": "Descend the remaining 18 mm to grasp height, then close fingers around the centered cube. Retention still needs a lift check.",
+      "actions": [
+        [
+          0,
+          -0.00025,
+          -0.0045,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -0.00025,
+          -0.0045,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -0.00025,
+          -0.0045,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -0.00025,
+          -0.0045,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.9
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.8
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.7
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.5
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ]
+      ],
+      "dispatched_steps": 10
+    },
+    {
+      "step": 30,
+      "text": "Lift vertically with the cube clamped, clearing the box roof before lateral transport; check RGB for retention.",
+      "actions": [
+        [
+          0,
+          0,
+          0.019,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0.019,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0.019,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0.019,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0.019,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0.019,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0.019,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0.019,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0.019,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0.019,
+          0,
+          0,
+          0,
+          0.4
+        ]
+      ],
+      "dispatched_steps": 10
+    },
+    {
+      "step": 40,
+      "text": "Cube is visibly retained. Carry it above the square opening on the yellow roof at clearance height, keeping its orientation fixed.",
+      "actions": [
+        [
+          -0.0011,
+          -0.0235,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.0011,
+          -0.0235,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.0011,
+          -0.0235,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.0011,
+          -0.0235,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.0011,
+          -0.0235,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.0011,
+          -0.0235,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.0011,
+          -0.0235,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.0011,
+          -0.0235,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.0011,
+          -0.0235,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.0011,
+          -0.0235,
+          0,
+          0,
+          0,
+          0,
+          0.4
+        ]
+      ],
+      "dispatched_steps": 10
+    },
+    {
+      "step": 50,
+      "text": "Lower retained cube toward the square hole, making a small centering adjustment. Keep grasp closed until the bottom is aligned at the opening.",
+      "actions": [
+        [
+          -0.00015,
+          -0.00025,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.00015,
+          -0.00025,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.00015,
+          -0.00025,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.00015,
+          -0.00025,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.00015,
+          -0.00025,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.00015,
+          -0.00025,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.00015,
+          -0.00025,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.00015,
+          -0.00025,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.00015,
+          -0.00025,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          -0.00015,
+          -0.00025,
+          -0.0035,
+          0,
+          0,
+          0,
+          0.4
+        ]
+      ],
+      "dispatched_steps": 10
+    },
+    {
+      "step": 60,
+      "text": "The cube is aligned with the square aperture. Lower its bottom into the opening, then gradually release it into the box.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          -0.002,
+          0,
+          0,
+          0,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.44
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.48
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.56
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.62
+        ]
+      ],
+      "dispatched_steps": 10
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

@@ -1,0 +1,238 @@
+{
+  "seed": 1000068,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 13,
+  "decisions": 4,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000068_vision_tactile",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision_tactile",
+  "video": {
+    "codec_name": "h264",
+    "width": 640,
+    "height": 558,
+    "r_frame_rate": "10/1",
+    "duration": "1.300000",
+    "nb_frames": "13"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "tactile_left": [
+      400,
+      300
+    ],
+    "tactile_right": [
+      400,
+      300
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "tactile_left",
+    "tactile_right"
+  ],
+  "source_frame_count": 13,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/2195b80c384626108b9889b5.mp4",
+  "poster": "media/2195b80c384626108b9889b5.jpg",
+  "usage": {
+    "attempts": 4,
+    "requests_with_tokens": 4,
+    "prompt_tokens": 101793,
+    "completion_tokens": 1228,
+    "total_tokens": 103021,
+    "cached_tokens": 72774,
+    "reasoning_tokens": 660,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Tactile images show repeated ridges, indicating rough texture. Begin carrying the retained cylinder toward the orange pad, keeping its orientation and grasp.",
+      "actions": [
+        [
+          0.002,
+          -0.003,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.002,
+          -0.003,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.002,
+          -0.003,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.002,
+          -0.003,
+          -0.0015,
+          0,
+          0,
+          0,
+          0.179023
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "Cylinder remains between the fingers with rough tactile contact. Continue leftward toward the orange pad while lowering gradually.",
+      "actions": [
+        [
+          0.003,
+          -0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.003,
+          -0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.003,
+          -0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.003,
+          -0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.179023
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "Move the rough cylinder closer to the orange pad center; maintain the closed grasp and upright cylinder during descent.",
+      "actions": [
+        [
+          0.004,
+          -0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.004,
+          -0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.004,
+          -0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.004,
+          -0.006,
+          -0.003,
+          0,
+          0,
+          0,
+          0.179023
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 12,
+      "text": "Approach alignment over the orange pad using its visible center. The cylinder is still retained; slow the descent near the pad.",
+      "actions": [
+        [
+          0.00325,
+          -0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.00325,
+          -0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.00325,
+          -0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.179023
+        ],
+        [
+          0.00325,
+          -0.006,
+          -0.0025,
+          0,
+          0,
+          0,
+          0.179023
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

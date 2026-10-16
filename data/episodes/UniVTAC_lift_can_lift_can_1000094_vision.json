@@ -1,0 +1,789 @@
+{
+  "seed": 1000094,
+  "evaluation_case": "lift_can",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 71,
+  "decisions": 16,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_lift_can_lift_can_1000094_vision",
+  "task_id": "UniVTAC_lift_can",
+  "benchmark": "UniVTAC",
+  "task": "lift_can",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "7.000000",
+    "nb_frames": "70"
+  },
+  "source_sizes_wh": {
+    "head": [
+      640,
+      360
+    ],
+    "wrist": [
+      640,
+      360
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 70,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/c48848715e36546032b9fe94.mp4",
+  "poster": "media/c48848715e36546032b9fe94.jpg",
+  "usage": {
+    "attempts": 16,
+    "requests_with_tokens": 16,
+    "prompt_tokens": 486483,
+    "completion_tokens": 5326,
+    "total_tokens": 491809,
+    "cached_tokens": 428078,
+    "reasoning_tokens": 3124,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Corrected closure-only commands; keep the arm stationary while narrowing the grasp around the can.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.94
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.89
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.84
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.79
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.74
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Continue gradual closure to a firm diameter-sized opening before testing retention with a small lift.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.69
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.64
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.565
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Test a 1 cm slow lift with the grasp held; inspect whether the can follows rather than assuming closure proves retention.",
+      "actions": [
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Raise the pinched end gradually, with a slight motion toward the can, watching its tilt and support contact.",
+      "actions": [
+        [
+          0.0003,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.0003,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.0003,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.0003,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.535
+        ],
+        [
+          0.0003,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.535
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Continue the controlled lift and slight inward motion; maintain a snug opening as the far end remains on the table.",
+      "actions": [
+        [
+          0.0007,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.0007,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.0007,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.0007,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.0007,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.525
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Lift the grasped end another centimeter while translating toward the far end to progressively bring the can upright.",
+      "actions": [
+        [
+          0.001,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.001,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.001,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.001,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.001,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.525
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "The can is visibly tilting with the grasp. Continue slow upward and inward motion while keeping its far end supported.",
+      "actions": [
+        [
+          0.0015,
+          0,
+          0.0018,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.0015,
+          0,
+          0.0018,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.0015,
+          0,
+          0.0018,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.0015,
+          0,
+          0.0018,
+          0,
+          0,
+          0,
+          0.525
+        ],
+        [
+          0.0015,
+          0,
+          0.0018,
+          0,
+          0,
+          0,
+          0.525
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Increase the inward component while raising gradually so the supported can rotates toward vertical rather than being dragged away.",
+      "actions": [
+        [
+          0.002,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "Continue slowly raising and moving the held end toward the base; the can is retained but still visibly tilted.",
+      "actions": [
+        [
+          0.002,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "The can is roughly halfway upright. Advance the grasp toward its base with a smaller upward component, preserving the pinch.",
+      "actions": [
+        [
+          0.002,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0015,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "The can is approaching vertical with its lower rim close to the surface; move mainly toward the base and only slightly upward.",
+      "actions": [
+        [
+          0.002,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.52
+        ],
+        [
+          0.002,
+          0,
+          0.0005,
+          0,
+          0,
+          0,
+          0.52
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "The can's lower rim is on the surface and its center appears over the base. Gradually ease the grasp to let it settle upright, checking the result.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.56
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.64
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.68
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.72
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 60,
+      "text": "Complete the slow release without shifting the arm, allowing the can to settle onto its base.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.78
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.84
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.9
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.96
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 65,
+      "text": "Withdraw the open fingers slightly upward so the released can can settle without being propped by the gripper.",
+      "actions": [
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0.002,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

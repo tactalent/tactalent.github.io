@@ -1,0 +1,228 @@
+{
+  "seed": 1000097,
+  "evaluation_case": "grasp_classify",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 16,
+  "decisions": 4,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_grasp_classify_grasp_classify_1000097_vision",
+  "task_id": "UniVTAC_grasp_classify",
+  "benchmark": "UniVTAC",
+  "task": "grasp_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "1.500000",
+    "nb_frames": "15"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 15,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/f7888fe4a44ca52842782e30.mp4",
+  "poster": "media/f7888fe4a44ca52842782e30.jpg",
+  "usage": {
+    "attempts": 4,
+    "requests_with_tokens": 4,
+    "prompt_tokens": 75347,
+    "completion_tokens": 1449,
+    "total_tokens": 76796,
+    "cached_tokens": 55451,
+    "reasoning_tokens": 895,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Gently translate the already-held cylinder while watching for slip; texture is not directly observable from the available view.",
+      "actions": [
+        [
+          0.001,
+          0.002,
+          -0.001,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.001,
+          0.002,
+          -0.001,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.001,
+          0.002,
+          -0.001,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.001,
+          0.002,
+          -0.001,
+          0,
+          0,
+          0,
+          0.168081
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 4,
+      "text": "Cylinder remains between the fingers. Provisionally classify it as smooth and carry toward the green pad, keeping the existing grasp.",
+      "actions": [
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.003,
+          0.005,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 8,
+      "text": "Continue toward the green pad with the cylinder upright and retained; leave clearance before the final descent.",
+      "actions": [
+        [
+          0.0035,
+          0.006,
+          -0.0018,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.0035,
+          0.006,
+          -0.0018,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.0035,
+          0.006,
+          -0.0018,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.0035,
+          0.006,
+          -0.0018,
+          0,
+          0,
+          0,
+          0.168081
+        ]
+      ],
+      "dispatched_steps": 4
+    },
+    {
+      "step": 12,
+      "text": "Align the held cylinder above the green pad center, lowering gradually without opening the fingers.",
+      "actions": [
+        [
+          0.0049,
+          0.007,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.0049,
+          0.007,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.0049,
+          0.007,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ],
+        [
+          0.0049,
+          0.007,
+          -0.002,
+          0,
+          0,
+          0,
+          0.168081
+        ]
+      ],
+      "dispatched_steps": 4
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

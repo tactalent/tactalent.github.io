@@ -1,0 +1,531 @@
+{
+  "seed": 10032,
+  "evaluation_case": "hardness_classify_soft",
+  "conditions": {
+    "hardness_label": "soft"
+  },
+  "status": "success",
+  "raw_status": "success",
+  "steps": 45,
+  "decisions": 9,
+  "termination": "native_success",
+  "available": true,
+  "id": "OpenViTac_hardness_classify_hardness_classify_soft_10032_vision",
+  "task_id": "OpenViTac_hardness_classify",
+  "benchmark": "OpenViTac",
+  "task": "hardness_classify",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 960,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "4.500000",
+    "nb_frames": "45"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ],
+    "wrist": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head",
+    "wrist"
+  ],
+  "source_frame_count": 45,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/12a70057d4c2e32702b87032.mp4",
+  "poster": "media/12a70057d4c2e32702b87032.jpg",
+  "usage": {
+    "attempts": 9,
+    "requests_with_tokens": 9,
+    "prompt_tokens": 225224,
+    "completion_tokens": 2915,
+    "total_tokens": 228139,
+    "cached_tokens": 189122,
+    "reasoning_tokens": 1502,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Approach the visible red block with open fingers, aligning for a gentle pinch test. Hardness is not yet determined.",
+      "actions": [
+        [
+          -0.008,
+          -0.0003,
+          -0.006,
+          -0.004,
+          -0.005,
+          -0.001,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0003,
+          -0.006,
+          -0.004,
+          -0.005,
+          -0.001,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0003,
+          -0.006,
+          -0.004,
+          -0.005,
+          -0.001,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0003,
+          -0.006,
+          -0.004,
+          -0.005,
+          -0.001,
+          0.512821
+        ],
+        [
+          -0.008,
+          -0.0003,
+          -0.006,
+          -0.004,
+          -0.005,
+          -0.001,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "Lower toward the upper portion of the red block while maintaining an open, downward-facing pinch.",
+      "actions": [
+        [
+          -0.009,
+          -0.0004,
+          -0.009,
+          -0.00031,
+          -0.00053,
+          -0.00013,
+          0.512821
+        ],
+        [
+          -0.009,
+          -0.0004,
+          -0.009,
+          -0.00031,
+          -0.00053,
+          -0.00013,
+          0.512821
+        ],
+        [
+          -0.009,
+          -0.0004,
+          -0.009,
+          -0.00031,
+          -0.00053,
+          -0.00013,
+          0.512821
+        ],
+        [
+          -0.009,
+          -0.0004,
+          -0.009,
+          -0.00031,
+          -0.00053,
+          -0.00013,
+          0.512821
+        ],
+        [
+          -0.009,
+          -0.0004,
+          -0.009,
+          -0.00031,
+          -0.00053,
+          -0.00013,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Fine-align the open fingers around the block near its top before testing compliance.",
+      "actions": [
+        [
+          -0.0022,
+          -0.0001,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0022,
+          -0.0001,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0022,
+          -0.0001,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0022,
+          -0.0001,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.512821
+        ],
+        [
+          -0.0022,
+          -0.0001,
+          -0.0016,
+          0,
+          0,
+          0,
+          0.512821
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "Gently close around the red block, using visible deformation and finger contact rather than the commanded opening to assess hardness.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.45
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.38
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.31
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.24
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.18
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Complete the light pinch and pause to inspect compliance at contact; the commanded aperture alone does not identify hardness.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.14
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Lift slightly with the contact pinch maintained and check that the red block follows the fingers before transporting it.",
+      "actions": [
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0,
+          0,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "The block follows the lift. Apply a small additional closing displacement and inspect whether the contact region compresses to distinguish soft from hard.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.065
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.05
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.05
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.05
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "Additional closure visibly bent/compressed the block, indicating soft material. Ease back to the retaining pinch and carry it toward the blue plate.",
+      "actions": [
+        [
+          0.004,
+          0.006,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.004,
+          0.006,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.004,
+          0.006,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.004,
+          0.006,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.004,
+          0.006,
+          0.004,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "The red block remains between the fingers after relaxing the test pinch. Carry it over the blue plate, keeping its bottom clear.",
+      "actions": [
+        [
+          0.008,
+          0.011,
+          -0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008,
+          0.011,
+          -0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008,
+          0.011,
+          -0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008,
+          0.011,
+          -0.004,
+          0,
+          0,
+          0,
+          0.095
+        ],
+        [
+          0.008,
+          0.011,
+          -0.004,
+          0,
+          0,
+          0,
+          0.095
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}

@@ -1,0 +1,680 @@
+{
+  "seed": 1000073,
+  "evaluation_case": "insert_HDMI",
+  "conditions": {},
+  "status": "success",
+  "raw_status": "success",
+  "steps": 57,
+  "decisions": 12,
+  "termination": "native_success",
+  "available": true,
+  "id": "UniVTAC_insert_HDMI_insert_HDMI_1000073_vision",
+  "task_id": "UniVTAC_insert_HDMI",
+  "benchmark": "UniVTAC",
+  "task": "insert_HDMI",
+  "variant": null,
+  "mode": "vision",
+  "video": {
+    "codec_name": "h264",
+    "width": 480,
+    "height": 294,
+    "r_frame_rate": "10/1",
+    "duration": "5.700000",
+    "nb_frames": "57"
+  },
+  "source_sizes_wh": {
+    "head": [
+      480,
+      270
+    ]
+  },
+  "displayed_sensors": [
+    "head"
+  ],
+  "source_frame_count": 57,
+  "source_fps": "10/1",
+  "image_transform": "Whole views; aspect-preserving fit into common tiles, padding and identical labels. No flip or content crop.",
+  "cadence": "All recorded frames retained; 10 control frames per playback second; display only.",
+  "src": "media/6838092cc709eceaadc79350.mp4",
+  "poster": "media/6838092cc709eceaadc79350.jpg",
+  "usage": {
+    "attempts": 12,
+    "requests_with_tokens": 12,
+    "prompt_tokens": 297044,
+    "completion_tokens": 8529,
+    "total_tokens": 305573,
+    "cached_tokens": 226354,
+    "reasoning_tokens": 6672,
+    "cost_usd": null,
+    "cost_complete": false,
+    "tokens_complete": true
+  },
+  "notes": [
+    {
+      "step": 0,
+      "text": "Straighten the held plug toward vertical while compensating the hand translation to keep its tip above the visible slot; retain the grasp and approach slowly.",
+      "actions": [
+        [
+          0.0017,
+          0.0003,
+          -0.0004,
+          -0.0012,
+          0.012,
+          0.0008,
+          0.095716
+        ],
+        [
+          0.0017,
+          0.0003,
+          -0.0004,
+          -0.0012,
+          0.012,
+          0.0008,
+          0.095716
+        ],
+        [
+          0.0017,
+          0.0003,
+          -0.0004,
+          -0.0012,
+          0.012,
+          0.0008,
+          0.095716
+        ],
+        [
+          0.0017,
+          0.0003,
+          -0.0004,
+          -0.0012,
+          0.012,
+          0.0008,
+          0.095716
+        ],
+        [
+          0.0017,
+          0.0003,
+          -0.0004,
+          -0.0012,
+          0.012,
+          0.0008,
+          0.095716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 5,
+      "text": "The plug is centered laterally over the socket. Approach the mouth in submillimeter steps with a small depth correction, holding orientation and grip.",
+      "actions": [
+        [
+          0.0003,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.0003,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.0003,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.0003,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.0003,
+          0,
+          -0.0008,
+          0,
+          0,
+          0,
+          0.095716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 10,
+      "text": "Close the remaining visible tip-to-slot gap slowly, keeping the connector centered and nearly vertical.",
+      "actions": [
+        [
+          0.00015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.00015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.00015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.00015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.00015,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.095716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 15,
+      "text": "The tip now overlaps the slot mouth. Advance straight downward in small increments without changing the retained grip.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 20,
+      "text": "Continue a shallow axial insertion. The slot is occluded by the plug, so use small downward steps and reassess seating from the next image.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 25,
+      "text": "Keep the visible lateral alignment and advance another shallow increment into the socket, maintaining the existing grip.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 30,
+      "text": "Complete a further 1.4 mm of slow axial seating while leaving lateral position, orientation, and grasp unchanged.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0,
+          0,
+          -0.0002,
+          0,
+          0,
+          0,
+          0.095716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 35,
+      "text": "The plug silhouette has stopped descending while the fingers moved, suggesting contact at the mouth. Back off slightly and correct camera-depth alignment before another insertion.",
+      "actions": [
+        [
+          0.0008,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.0008,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.0008,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.0008,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.095716
+        ],
+        [
+          0.0008,
+          0,
+          0.001,
+          0,
+          0,
+          0,
+          0.095716
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 40,
+      "text": "The plug did not visibly follow the small retreat. Reduce the opening target to resecure it, then make a short lift to check retention before further alignment.",
+      "actions": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.08
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.06
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          0.00075,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          0.00075,
+          0,
+          0,
+          0,
+          0.04
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 45,
+      "text": "With the narrower grip, gently reseat along the socket axis. Keep the visible lateral alignment and avoid further lateral sweeping at contact.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0005,
+          0,
+          0,
+          0,
+          0.04
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 50,
+      "text": "The connector remains over the mouth and has moved slightly downward. Continue a 2 mm controlled seating motion with orientation fixed.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0004,
+          0,
+          0,
+          0,
+          0.04
+        ]
+      ],
+      "dispatched_steps": 5
+    },
+    {
+      "step": 55,
+      "text": "Finish the shallow seating approach with 0.3 mm axial increments; keep the plug centered and the grip unchanged.",
+      "actions": [
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.04
+        ],
+        [
+          0,
+          0,
+          -0.0003,
+          0,
+          0,
+          0,
+          0.04
+        ]
+      ],
+      "dispatched_steps": 5
+    }
+  ],
+  "protocol": "native success criteria",
+  "provenance": "live evaluation"
+}
