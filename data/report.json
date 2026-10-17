@@ -453,7 +453,7 @@
       "kicker": "TACTALENT / TECHNICAL REPORT / OCTOBER 2026",
       "title": "GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation",
       "deck": "Few-shot closed-loop control · 19 contact-rich tasks · UniVTAC & OpenViTac",
-      "abstract": "Can GPT-6 Astra perform contact-rich manipulation and directly use touch as an additional modality? Across 19 simulated tasks in UniVTAC and OpenViTac, Astra achieves mean success rates of 93.8% and 81.8% with a few demonstrations and visual-tactile input. Vision-only performance also exceeds the reported baselines in our comparison. Touch improves several contact decisions, while strong vision reveals alternative cues in tasks previously considered to require tactile information.",
+      "abstract": "Can GPT-6 Astra perform contact-rich manipulation and directly use touch as an additional modality? Across 19 simulated tasks in UniVTAC and OpenViTac, Astra achieves mean success rates of 93.8% and 81.8% with a few demonstrations and visual-tactile input. Vision-only performance also exceeds the reported baselines in our comparison. Touch improves several contact decisions, while strong vision reveals subtle cues that human observers may overlook and that can partially compensate for missing tactile information.",
       "introTitle": "Is contact-rich manipulation still a moat for specialist policies?",
       "intro": [
         "Studies including GPT-as-Policy, RoboProbe, RoboDawn and RoboICL[1–7] explore general multimodal models as robot policies: models generate actions from observations, instructions and demonstrations, then revise their decisions through interaction. This offers an alternative to task-specific policy training and raises a fundamental question: what underpins the advantages of specialist models?",
@@ -473,11 +473,11 @@
         "With visuo-tactile input, Astra achieves mean success rates of 93.8% on UniVTAC and 81.8% on OpenViTac. These exceed the strongest reported baselines in our tables—SimpleTouch at 70.9% and OpenVTLA at 68.7%—by 22.9 and 13.1 percentage points. Vision-only Astra reaches 76.3% and 80.6%, also exceeding the highest baseline mean in each benchmark. Contact-rich manipulation does not establish an irreplaceable capability boundary for specialist models.",
         "The contribution of touch is particularly clear in several tasks. Pull-out Key improves from 30% to 90%, Insert Hole from 60% to 100%, and Hardness Classify from 70% to 90%. These tasks involve contact constraints, precise insertion and material-property judgments, respectively. Their results show that tactile images can supply useful information for Astra’s decisions."
       ],
-      "visionTitle": "Astra’s visual perception can partially substitute for tactile judgments",
+      "visionTitle": "Astra’s visual perception can partially compensate for missing tactile information",
       "vision": [
-        "The two benchmarks show different tactile gains: adding touch improves mean success by 17.5 percentage points on UniVTAC, but by 1.2 points on OpenViTac. This difference may reflect their respective design priorities. UniVTAC emphasizes evaluating the utility of touch and restricts certain visual cues to reduce opportunities for solving tasks through vision alone; most tasks, for example, omit the wrist camera. OpenViTac places greater emphasis on alignment with real-world manipulation, providing both fixed and wrist cameras across all tasks and preserving richer visual information. For Astra, these cues may support some judgments otherwise associated with touch, reducing the additional benefit of tactile input.",
+        "The two benchmarks show different tactile gains: adding touch improves mean success by 17.5 percentage points on UniVTAC, but by 1.2 points on OpenViTac. This difference may reflect their respective design priorities. UniVTAC emphasizes evaluating the utility of touch and restricts certain visual cues to reduce opportunities for solving tasks through vision alone; most tasks, for example, omit the wrist camera. OpenViTac places greater emphasis on alignment with real-world manipulation, providing both fixed and wrist cameras across all tasks and preserving richer visual information. For Astra, these cues may partially compensate for missing tactile information and support judgments otherwise associated with touch, reducing the additional benefit of tactile input.",
         "Grasp Classify, Roughness Classify and Roughness-Guided Regrasp illustrate this effect: vision-only success is 100% on all three. Audited Grasp Classify frames show visible surface texture on the rough cylinder. In Roughness Classify, the wrist camera reveals ridges and a jagged silhouette on rough objects. In Roughness-Guided Regrasp, surface ridges are discernible even from the fixed camera, allowing Astra to select the rough object before contact. The policy’s action notes also refer to these visual differences.",
-        "Astra uses fine-grained visual cues to solve some tasks considered touch-dependent, demonstrating a capacity for vision-only substitution not evident in previously reported specialist-model results. A “tactile task” therefore does not necessarily require touch. As several tasks approach perfect scores, future benchmarks should control visual cues that can substitute for touch and introduce visually unobservable physical properties, tighter manipulation tolerances, and more complex contact and recovery sequences to distinguish models’ tactile understanding and manipulation capabilities.",
+        "Astra demonstrates visual discrimination not evident in previously reported specialist-model results, uncovering subtle texture, contour and motion cues that human observers may overlook. These cues partially compensate for missing tactile information. The examples suggest that its sensitivity to particular visual details may even exceed that of human observers. Designing “tactile tasks” therefore requires more than judging whether their visual cues are readily apparent to people. As several tasks approach perfect scores, future benchmarks should control visual cues that can compensate for missing tactile information and introduce visually unobservable physical properties, tighter manipulation tolerances, and more complex contact and recovery sequences to distinguish models’ tactile understanding and manipulation capabilities.",
         "Analysis of tasks whose success rates decreased with tactile input reveals misinterpretation of weak load cues and repeated probing that consumed the action budget, alongside possible stochastic variation. In the three paired Weight Classify cases where vision alone succeeded and visuo-tactile input failed, Astra interpreted small tactile shear or contact patterns resembling the light-object reference as evidence of a light load, misclassifying heavy objects. The vision-only runs instead reached the correct judgment from visible slip after relaxing the grasp. In Empty-Can Selection, subtle tactile changes likewise led to incorrect weight judgments, while repeated comparisons consumed the action budget and left some transfers incomplete. These cases identify the interpretation of weak tactile cues and the efficiency of probing as important factors in performance."
       ],
       "costTitle": "Inference overhead and response latency",
@@ -507,8 +507,8 @@
           "body": "Without task-specific training, Astra directly interprets and uses tactile images, achieving better overall performance than the reported specialist VTLA baselines in our comparison."
         },
         {
-          "title": "Vision can replace some tactile judgments.",
-          "body": "Vision-only Astra achieves 100% on three texture-related tasks, revealing visual cues previously overlooked by specialist models."
+          "title": "Vision can partially compensate for missing tactile information.",
+          "body": "Vision-only Astra achieves 100% on three texture-related tasks, revealing subtle visual cues underused by specialist models and easily overlooked by human observers."
         },
         {
           "title": "Vision-based tactile sensing is a promising direction.",
@@ -519,7 +519,7 @@
           "body": "More challenging contact-rich evaluations should control visual shortcuts and better distinguish the capabilities of general-purpose models."
         }
       ],
-      "conclusionSummary": "Contact-rich manipulation and tactile perception are not inherent moats for specialist policies. With only a few demonstrations, GPT-6 Astra directly uses vision-based tactile images to outperform the reported specialist baselines in our comparison across two benchmarks, while exhibiting active probing, fine adjustment and manipulation recovery. Its vision-only performance also reveals cues that can substitute for touch in existing evaluations. Yet interpreting tangential motion and forces, estimating spatial relationships and correcting motion under contact constraints remain inconsistent. Future work should incorporate vision-based tactile sensing into joint pretraining with visual inputs and explore how these capabilities scale alongside foundation models. Tasks involving physical properties that cannot be distinguished visually, tighter manipulation tolerances and real-robot experiments will help establish whether these capabilities translate into reliable physical interaction.",
+      "conclusionSummary": "Contact-rich manipulation and tactile perception are not inherent moats for specialist policies. With only a few demonstrations, GPT-6 Astra directly uses vision-based tactile images to outperform the reported specialist baselines in our comparison across two benchmarks, while exhibiting active probing, fine adjustment and manipulation recovery. Its vision-only performance also reveals subtle cues that human observers may overlook, demonstrating how vision can partially compensate for missing tactile information. Yet interpreting tangential motion and forces, estimating spatial relationships and correcting motion under contact constraints remain inconsistent. Future work should incorporate vision-based tactile sensing into joint pretraining with visual inputs and explore how these capabilities scale alongside foundation models. Tasks involving physical properties that cannot be distinguished visually, tighter manipulation tolerances and real-robot experiments will help establish whether these capabilities translate into reliable physical interaction.",
       "mainResultTitle": "Astra outperforms specialist policies by a wide margin on contact-rich tasks",
       "tactileTitle": "Astra demonstrates strong capabilities in interpreting and using tactile information",
       "mainResults": [
@@ -545,7 +545,7 @@
       "kicker": "TACTALENT / 技术报告 / 2026 年 10 月",
       "title": "GPT-6 Astra：适用于接触密集型操作的原生视觉—触觉策略",
       "deck": "Few-shot 闭环控制 · 19 项接触密集型操作任务 · UniVTAC 与 OpenViTac",
-      "abstract": "GPT-6 Astra 能否直接胜任接触密集型操作，并利用触觉这一额外模态？在 UniVTAC 与 OpenViTac 的 19 项仿真任务中，Astra 仅凭少量示范，在视觉与触觉输入下达到 93.8% 和 81.8% 的平均成功率。纯视觉表现同样超过所比较的已报告基线；触觉进一步改善多项接触决策，而强大的视觉能力也揭示了部分任务中可替代触觉的线索。",
+      "abstract": "GPT-6 Astra 能否直接胜任接触密集型操作，并利用触觉这一额外模态？在 UniVTAC 与 OpenViTac 的 19 项仿真任务中，Astra 仅凭少量示范，在视觉与触觉输入下达到 93.8% 和 81.8% 的平均成功率。纯视觉表现同样超过所比较的已报告基线；触觉进一步改善多项接触决策，而强大的视觉能力也揭示了人眼容易忽略、可部分弥补触觉信息缺失的隐蔽线索。",
       "introTitle": "接触密集型操作，是否仍是专用策略的护城河？",
       "intro": [
         "GPT-as-Policy、RoboProbe、RoboDawn 和 RoboICL 等工作[1–7]探索了通用多模态模型作为机器人策略的能力：模型直接根据观测、指令与示范生成动作，并在交互过程中持续修正决策。这类方法为机器人操作提供了不同于任务专用策略训练的路径，也促使我们重新审视专用模型的优势究竟来自哪里。",
@@ -565,11 +565,11 @@
         "在视觉—触觉输入下，Astra 在 UniVTAC 与 OpenViTac 上的平均成功率分别为 93.8% 和 81.8%，较表中最强的已报告基线 SimpleTouch（70.9%）与 OpenVTLA（68.7%）分别高出 22.9 和 13.1 个百分点。纯视觉 Astra 也达到 76.3% 和 80.6%，超过两组基线的最高平均值。接触密集型操作并未构成专用模型不可替代的能力边界。",
         "触觉的价值在部分任务中较为明确：Pull-out Key 的成功率由 30% 提升至 90%，Insert Hole 由 60% 提升至 100%，Hardness Classify 由 70% 提升至 90%。这些任务分别涉及接触约束、精细插入与材料属性判断，结果表明触觉图像能够为 Astra 提供有效的决策信息。"
       ],
-      "visionTitle": "Astra 的视觉感知能力可部分替代触觉判断",
+      "visionTitle": "Astra 的视觉感知能力可部分弥补触觉信息的缺失",
       "vision": [
-        "两个 benchmark 呈现出不同的触觉收益：UniVTAC 中，加入触觉使平均成功率提高 17.5 个百分点；OpenViTac 中则提高 1.2 个百分点。这一差异可能与二者的设计侧重点有关。UniVTAC 注重验证触觉信息的有效性，通过限制部分视觉线索，减少仅凭视觉完成任务的可能，例如多数任务不提供腕相机。OpenViTac 则更强调与真实操作场景的对齐，所有任务均提供固定相机与腕相机，保留了较为充分的视觉信息。对于具备强大视觉感知能力的 Astra，这些线索可能支持部分原本依赖触觉的判断，从而减小触觉带来的额外收益。",
+        "两个 benchmark 呈现出不同的触觉收益：UniVTAC 中，加入触觉使平均成功率提高 17.5 个百分点；OpenViTac 中则提高 1.2 个百分点。这一差异可能与二者的设计侧重点有关。UniVTAC 注重验证触觉信息的有效性，通过限制部分视觉线索，减少仅凭视觉完成任务的可能，例如多数任务不提供腕相机。OpenViTac 则更强调与真实操作场景的对齐，所有任务均提供固定相机与腕相机，保留了较为充分的视觉信息。对于具备强大视觉感知能力的 Astra，这些线索可能部分弥补触觉信息的缺失，支持原本被视为依赖触觉的判断，从而减小触觉带来的额外收益。",
         "Grasp Classify、Roughness Classify 与 Roughness-Guided Regrasp 提供了直观例证：三项任务的纯视觉成功率均为 100%。在已审查的图像中，Grasp Classify 的粗糙圆柱具有可见表面纹理；Roughness Classify 的腕相机能呈现粗糙物体的棱纹与锯齿状轮廓；Roughness-Guided Regrasp 中，物体表面的棱纹在固定相机下也可辨识，Astra 在接触前便据此选择粗糙物体。策略输出的动作说明也提到了这些视觉差异。",
-        "Astra 能够利用细粒度视觉线索完成部分原本被视为依赖触觉的任务，展现出此前专用模型的已报告结果尚未体现的纯视觉替代能力。这也说明，“触觉任务”并不必然需要触觉。随着多项任务接近满分，未来的 benchmark 应控制可替代触觉的视觉线索，并引入视觉不可辨识的物理属性、更严格的操作公差及更复杂的接触与恢复过程，以区分模型的触觉理解与操作能力。",
+        "Astra 不仅展现出此前专用模型的已报告结果尚未体现的视觉辨识能力，还能从细微纹理、轮廓和运动差异中发掘人眼容易忽略的隐蔽线索，部分弥补触觉信息的缺失。这些案例提示，其对特定视觉细节的敏感性甚至可能超过人类观察者。“触觉任务”的设计因而不能仅以人眼是否容易辨识为依据。随着多项任务接近满分，未来的 benchmark 应控制能够弥补触觉信息缺失的视觉线索，并引入视觉不可辨识的物理属性、更严格的操作公差及更复杂的接触与恢复过程，以区分模型的触觉理解与操作能力。",
         "对加入触觉后成功率下降的任务进行分析发现，除可能的随机波动外，还存在对微弱载荷线索的误读和反复探测消耗操作预算的问题。在 Weight Classify 的三组纯视觉成功、视觉—触觉失败的配对案例中，Astra 将触觉图像中较小的剪切形变或类似轻物体的接触图案解释为轻载，误判了重物体；纯视觉版本则通过松夹后的可见滑移作出正确判断。Empty-Can Selection 中，细微触觉变化同样导致了错误的重量判断，反复比较两罐也消耗了操作预算，使部分案例未能完成转移。这些案例反映出，弱触觉线索的辨识与探测效率仍是影响表现的重要因素。"
       ],
       "costTitle": "推理开销与响应延时",
@@ -599,8 +599,8 @@
           "body": "无需任务专用训练，Astra 即可直接理解并利用触觉图像，整体表现超过所比较的已报告专用 VTLA 基线。"
         },
         {
-          "title": "视觉可以替代部分触觉判断。",
-          "body": "纯视觉 Astra 在三项纹理相关任务中均达到 100%，揭示了原本被专用模型忽略的视觉线索。"
+          "title": "视觉可以部分弥补触觉信息的缺失。",
+          "body": "纯视觉 Astra 在三项纹理相关任务中均达到 100%，揭示了专用模型未能充分利用、人眼也容易忽略的隐蔽视觉线索。"
         },
         {
           "title": "视触觉值得进一步发展。",
@@ -611,7 +611,7 @@
           "body": "需要更具挑战性、能控制视觉捷径且对通用模型更有区分度的接触密集型评测。"
         }
       ],
-      "conclusionSummary": "接触密集型操作与触觉感知并非专用策略的固有护城河。GPT-6 Astra 仅凭少量示范，即可直接利用视触觉图像，在两个 benchmark 上超过所比较的已报告专用模型基线，并展现出主动探测、精细调整和操作恢复能力；其纯视觉表现也揭示了现有评测中可替代触觉的线索。与此同时，切向运动与受力的辨识、空间估计和接触修正仍不稳定。未来应将视触觉与视觉一同纳入通用模型的联合预训练，探索其随基础模型共同扩展的潜力，并通过涉及视觉不可辨识物理属性的任务、更严格的操作公差及真实机器人实验，检验这些能力能否转化为可靠的物理交互。",
+      "conclusionSummary": "接触密集型操作与触觉感知并非专用策略的固有护城河。GPT-6 Astra 仅凭少量示范，即可直接利用视触觉图像，在两个 benchmark 上超过所比较的已报告专用模型基线，并展现出主动探测、精细调整和操作恢复能力；其纯视觉表现还揭示了人眼容易忽略的隐蔽线索，展现出以视觉部分弥补触觉信息缺失的能力。与此同时，切向运动与受力的辨识、空间估计和接触修正仍不稳定。未来应将视触觉与视觉一同纳入通用模型的联合预训练，探索其随基础模型共同扩展的潜力，并通过涉及视觉不可辨识物理属性的任务、更严格的操作公差及真实机器人实验，检验这些能力能否转化为可靠的物理交互。",
       "mainResultTitle": "Astra 在接触密集型任务中断崖式领先",
       "tactileTitle": "Astra 具备强大的触觉理解与利用能力",
       "mainResults": [
