@@ -450,7 +450,7 @@
   ],
   "text": {
     "en": {
-      "kicker": "TACTALENT / TECHNICAL REPORT / OCTOBER 2026",
+      "kicker": "TACTALENT / TECHNICAL REPORT / OCTOBER 17, 2026",
       "title": "GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation",
       "deck": "Few-shot closed-loop control · 19 contact-rich tasks · UniVTAC & OpenViTac",
       "abstract": "Can GPT-6 Astra perform contact-rich manipulation and directly use touch as an additional modality? Across 19 simulated tasks in UniVTAC and OpenViTac, Astra achieves mean success rates of 93.8% and 81.8% with a few demonstrations and visual-tactile input. Vision-only performance also exceeds the reported baselines in our comparison. Touch improves several contact decisions, while strong vision reveals subtle cues that human observers may overlook and that can partially compensate for missing tactile information.",
@@ -542,7 +542,7 @@
       ]
     },
     "zh": {
-      "kicker": "TACTALENT / 技术报告 / 2026 年 10 月",
+      "kicker": "TACTALENT / 技术报告 / 2026 年 10 月 17 日",
       "title": "GPT-6 Astra：适用于接触密集型操作的原生视觉—触觉策略",
       "deck": "Few-shot 闭环控制 · 19 项接触密集型操作任务 · UniVTAC 与 OpenViTac",
       "abstract": "GPT-6 Astra 能否直接胜任接触密集型操作，并利用触觉这一额外模态？在 UniVTAC 与 OpenViTac 的 19 项仿真任务中，Astra 仅凭少量示范，在视觉与触觉输入下达到 93.8% 和 81.8% 的平均成功率。纯视觉表现同样超过所比较的已报告基线；触觉进一步改善多项接触决策，而强大的视觉能力也揭示了人眼容易忽略、可部分弥补触觉信息缺失的隐蔽线索。",
