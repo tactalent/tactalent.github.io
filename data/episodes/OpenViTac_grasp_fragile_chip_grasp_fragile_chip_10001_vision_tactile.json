@@ -5,7 +5,7 @@
   "status": "success",
   "raw_status": "success",
   "steps": 176,
-  "decisions": 0,
+  "decisions": 18,
   "termination": "verified_saved_action_reassessment",
   "available": true,
   "id": "OpenViTac_grasp_fragile_chip_grasp_fragile_chip_10001_vision_tactile",
