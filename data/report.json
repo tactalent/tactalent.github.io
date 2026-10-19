@@ -47920,8 +47920,8 @@
       },
       "category": "alignment-control",
       "categoryTitle": {
-        "zh": "空间估计与动作修正的偏差",
-        "en": "Errors in spatial estimation and corrective control"
+        "zh": "精细动作调整仍有困难",
+        "en": "Fine adjustments remain challenging"
       }
     },
     {
