@@ -153,3 +153,8 @@
 
 
 .toc a.toc-top{color:var(--blue);font-weight:600;margin-bottom:10px;padding-bottom:12px;border-bottom:1px solid var(--line)}.toc-top span{display:inline-block;margin-right:6px}.toc a.toc-top:hover{color:var(--red)}
+
+/* Paper citation */
+.citation-section pre{margin:0;padding:20px 24px;border:1px solid var(--line);border-radius:8px;background:#f6f5fa;color:var(--ink);font:13px/1.7 ui-monospace,SFMono-Regular,Consolas,monospace;white-space:pre-wrap;overflow-wrap:break-word;tab-size:2}
+.citation-section code{font:inherit}
+@media(max-width:700px){.citation-section pre{padding:16px;font-size:12px}}
